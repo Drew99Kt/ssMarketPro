@@ -47,31 +47,31 @@
     methods: {
       parseData() {
         const lines = this.inputData.split('\n').filter(line => line.trim() !== '' && !line.startsWith('(Empty'));
-        const lines2=[];
-        lines.forEach(line => {
-            console.log("Before");
-            console.log(line);
-            line = line.split('\t');
 
-            if (line.length >= 3) {
-                line.splice(0, 1);
-                lines2.push(line);
-            }else{
-                lines2.push(line);
-            }
 
-            line = line.join('\t');
-            
-            console.log("After");
-            console.log(line);
-        });
-        lines2.forEach(line => {
-            console.log(line);
-        });
+
+        const modifiedLines = lines.map(line => {
+        const groups = line.match(/\d+/g);
+        console.log("Before");
+        console.log(line);
+        // this will removed the modded text from the end of the line
+        //not sure how to implement this yet. 
+        //line = line.replace(/\[.*\]$/, '').trim();
+        console.log("After");
+        if (groups && groups.length >= 2) {
+          line = line.replace(groups[0], '').trim();
+          console.log(line);
+          console.log("Qty amount");
+          console.log(groups[1]);
+        }
+        
+        return line;
+      });
+
         
         
-        const shuffledLines = this.shuffleArray(lines);
-        const boxSize = Math.ceil(lines.length / this.numberOfBoxes);
+        const shuffledLines = this.shuffleArray(modifiedLines);
+        const boxSize = Math.ceil(modifiedLines.length / this.numberOfBoxes);
         const slicedLines = [];
         let startIndex = 0;
        
@@ -102,7 +102,13 @@
     flex-direction: column;
     align-items: center;
   }
+  .wip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
   
+  }
   .output-box {
     display: flex;
     flex-direction: column;
