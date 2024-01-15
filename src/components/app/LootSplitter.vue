@@ -17,41 +17,61 @@
   
   <script>
   export default {
+   
+
     data() {
       return {
+        inputData: `1 Hanukkah Menorah
+4 Perilium
+1 Shrinkonium
+13 Ace Pest Control Crate
+2 Ammo Crate - Corrupted Missile
+3 Corrupted Locker
+6 Promethium Matrix Crystal
+22 1 Hazardous Ruthless Burst[Overclocked]
+22 1 Corrupted Cyborg Reach[Superconducting]
+22 1 Corrupted Cyborg Reach[Evil]
+22 1 Hazardous PUT-TY Burst
+23 1 The Five Piece
+22 4 Corrupted Conversion Ray
+22 1 Corrupted Conversion Ray[Reinforced]
+22 3 Gargantuan Gigo Laser
+22 1 Hazardous Oomping Burst
+23 2 M51 Benefactor
+23 1 Paradox Shield`,
         numberOfBoxes: 0,
-        inputData: '',
+ 
         outputData: [],
       };
     },
     methods: {
       parseData() {
         const lines = this.inputData.split('\n').filter(line => line.trim() !== '' && !line.startsWith('(Empty'));
-        const lines2=[];
-        lines.forEach(line => {
-            console.log("Before");
-            console.log(line);
-            line = line.split('\t');
 
-            if (line.length >= 3) {
-                line.splice(0, 1);
-                lines2.push(line);
-            }else{
-                lines2.push(line);
-            }
 
-            line = line.join('\t');
-            
-            console.log("After");
-            console.log(line);
-        });
-        lines2.forEach(line => {
-            console.log(line);
-        });
+
+        const modifiedLines = lines.map(line => {
+        const groups = line.match(/\d+/g);
+        console.log("Before");
+        console.log(line);
+        // this will removed the modded text from the end of the line
+        //not sure how to implement this yet. 
+        //line = line.replace(/\[.*\]$/, '').trim();
+        console.log("After");
+        if (groups && groups.length >= 2) {
+          line = line.replace(groups[0], '').trim();
+          console.log(line);
+          console.log("Qty amount");
+          console.log(groups[1]);
+        }
+        
+        return line;
+      });
+
         
         
-        const shuffledLines = this.shuffleArray(lines);
-        const boxSize = Math.ceil(lines.length / this.numberOfBoxes);
+        const shuffledLines = this.shuffleArray(modifiedLines);
+        const boxSize = Math.ceil(modifiedLines.length / this.numberOfBoxes);
         const slicedLines = [];
         let startIndex = 0;
        
@@ -82,14 +102,18 @@
     flex-direction: column;
     align-items: center;
   }
-  .wip {
+  .wip{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 40px;
-  }
+    color: red;
   
+  }
   .output-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 10px;
+    width: 75%;
   }
   </style>
