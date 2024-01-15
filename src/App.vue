@@ -1,138 +1,90 @@
 <template>
-  <div class="container">
-    <textarea v-model="textInput" placeholder="Enter text separated by |"></textarea>
-    <button @click="resetNumbers">Reset Numbers</button>
-    <table>
-      <thead class="sticky-header">
-        <tr>
-          <th v-for="(header, index) in headers" :key="index">{{ header }}</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(row, rowIndex) in rows" :key="rowIndex" :class="{ 'greyed-row': rowIndex % 2 === 0 }">
-          <td v-for="(cell, cellIndex) in row" :key="cellIndex" contenteditable @input="updateCell(rowIndex, cellIndex, $event.target.innerText)">{{ cell }}</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="output">
-      <h3>Output:</h3>
-      <textarea v-model="outputText" readonly></textarea>
+
+  <div>
+    
+    
+
+    <div>
+      <router-link to="/app/Market" tag="button" class="button-style">Market Tool</router-link>
+      <router-link to="/app/TechStripper" tag="button" class="button-style">TechStripper Tool</router-link>
+      <router-link to="/app/SquadDamageDisplay" tag="button" class="button-style">Squad Damage Display</router-link>
+      <router-link to="/app/LootSplitter" tag="button" class="button-style">Loot Splitter</router-link>
     </div>
+  
+
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-      textInput: `sellprice | buyprice | maxbuy | maxsell | maxmake | name
-500 | 200 | 200 | 100 | 0 | Workers
-100 | 88 | 10011 | 0 | 0 | Peasants
-1500 | 1250 | 2000 | 1000 | 0 | Nuclear Waste`,
-      headers: [],
-      rows: [],
-      outputText: ''
-    };
-  },
-  mounted() {
-    this.parseShopData();
-    this.updateOutputText();
-  },
-  watch: {
-    textInput() {
-      this.parseShopData();
-      this.updateOutputText();
-    },
-    rows: {
-      deep: true,
-      handler() {
-        this.updateOutputText();
-      }
-    }
-  },
-  methods: {
-    parseShopData() {
-      const lines = this.textInput.split('\n').filter(line => line.trim() !== '');
-      if (lines.length > 1) {
-        this.headers = lines[0].split('|').map(header => header.trim());
-        this.rows = lines.slice(1).map(line => line.split('|').map(cell => cell.trim()));
-      } else {
-        this.headers = [];
-        this.rows = [];
-      }
-    },
-    resetNumbers() {
-  this.rows.forEach((row, rowIndex) => { // Add rowIndex parameter
-    row.forEach((cell, cellIndex) => {
-      if (!isNaN(cell)) {
-        this.rows[rowIndex][cellIndex] = 0;
-      }
-    });
-  });
-  this.updateOutputText();
-},
-    updateOutputText() {
-      const outputRows = [this.headers, ...this.rows];
-      this.outputText = outputRows.map(row => row.join(' | ')).join('\n');
-    }, 
+import Market from './components/app/Market.vue';
+import TechStripper from './components/app/TechStripper.vue';
+import SquadDamageDisplay from './components/app/SquadDamageDisplay.vue';
+import LootSplitter from './components/app/LootSplitter.vue';
+import router  from './router';
 
-    updateCell(rowIndex, cellIndex, value) {
-    if (!isNaN(value)) {
-      value = Number(value);
+
+export default {
+  // ...
+
+  beforeRouteLeave(to, from, next) {
+    if (to.path === '/') {
+      next('/app/TechStripper');
+    } else {
+      next();
     }
-    this.rows[rowIndex][cellIndex] = value;
-    this.updateOutputText();
   },
-    updateCell(rowIndex, cellIndex, value) {
-      this.rows[rowIndex][cellIndex] = value;
-      this.updateOutputText();
-    }
-  }
+  created() {
+    window.addEventListener('beforeunload', this.handleBeforeUnload);
+  },
+
+  beforeUnmount() {
+    window.removeEventListener('beforeunload', this.handleBeforeUnload);
+  },
+
+  methods: {
+    handleBeforeUnload(event) {
+      // Check if the user is refreshing the page
+      if (event.clientY < 0) {
+        // User is refreshing the page
+        // Perform any necessary actions here
+        console.log('User pressed refresh');
+      }
+    },
+  },
+  components: {
+    '/app/TechStripper': Market, 
+    '/app/Market': TechStripper,
+    '/app/SquadDamageDisplay': SquadDamageDisplay,
+    '/app/LootSplitter': LootSplitter,
+    
+  },
+  // ...
 };
 </script>
 
 <style>
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.button-style {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  flex: auto;
+  margin: 10px;
 }
 
-textarea {
-  width: 100%;
-  height: 200px;
-  padding: 10px;
-  margin-bottom: 10px;
+.button-style:hover {
+  background-color: #8398af;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  padding: 8px;
-  border: 1px solid black;
-}
-
-.greyed-row {
-  background-color: #f2f2f2;
-}
-
-.output {
-  margin-top: 20px;
-}
-
-.output textarea {
-  width: 300%;
-
- 
-
-}
-
-.sticky-header {
-  position: sticky;
-  top: 0;
-  background-color: white;
+.button-style:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(179, 185, 192, 0.5);
 }
 </style>
