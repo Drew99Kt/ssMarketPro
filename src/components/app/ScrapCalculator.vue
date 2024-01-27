@@ -58,7 +58,6 @@
     </div>
 </div>
 </template>
-
 <script>
 import scrap_values from './data/scrap_values.json'
 import numberFormatter from 'number-formatter'
@@ -90,22 +89,19 @@ export default {
             var outputMap = new Map();
             var rawScrapValues = this.rawScrapValues; // TODO: Push to API?
             var unknownData = [];
+            const regexp = /([0-9]+\t)?([0-9]+)\t(.+)/;
 
             // Preprocess inventory rows
             // Strip mods, ignore tech column, handle commodities, combine mutliple rows into one.
             this.inputData.split("\n").forEach(function (rawInventoryLine) {
                 rawInventoryLine = rawInventoryLine.trim();
-                if (rawInventoryLine.split('\t').length == 2) {
-                    rawInventoryLine = "\t0" + rawInventoryLine;
-                }
-                var lastDelim = rawInventoryLine.lastIndexOf('\t');
-                if (lastDelim != -1) {
-                    var name = rawInventoryLine.substring(lastDelim).trim();
+                var matches = rawInventoryLine.match(regexp);
+                if (matches.length == 4) {
+                    var name = matches[3];
                     if (name.includes('[')) {
                         name = name.substring(0, name.lastIndexOf('['));
                     }
-                    rawInventoryLine = rawInventoryLine.substring(0, lastDelim);
-                    var count = parseInt(rawInventoryLine.substring(rawInventoryLine.lastIndexOf('\t')));
+                    var count = parseInt(matches[2]);
                     if (outputMap.has(name)) {
                         outputMap.set(name, outputMap.get(name) + count);
                     } else {
@@ -144,17 +140,13 @@ export default {
             this.unknownData = unknownData;
         }
     }
-
 }
-
 </script>
-
 <style>
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .wip {
@@ -166,5 +158,4 @@ export default {
 
 table td:nth-child(1) { text-align: left; }
 table td:nth-child(2) { text-align: right; }
-
 </style>
