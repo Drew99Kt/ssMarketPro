@@ -52,7 +52,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: routes,
   mode: 'hash',
-  base: '/app/ssMarketPro/'
+  base: '/app/'
 });
 
 export default router;
