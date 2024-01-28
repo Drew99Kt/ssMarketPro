@@ -62,14 +62,9 @@
 
       const outputLines = lines.filter(line => {
         const cells = line.split(/\s+/).filter(cell => cell.trim() !== '');
-        
         return cells;
       }).map(line => {
-       
-
         const cells = line.split(/\s+/).filter(cell => cell.trim() !== '');
-        console.log(cells);
-        console.log(cells.length);
         if(parseInt(cells[0]) && parseInt(cells[1])){
           cells.shift();
         }
