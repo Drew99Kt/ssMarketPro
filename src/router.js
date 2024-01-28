@@ -9,39 +9,27 @@ import App from './App.vue';
 
 const routes = [
   {
-    path: '/app/Market',
+    path: '/',
     component: Market
   },
   {
-    path: '/app/SquadDamageDisplay',
+    path: '/market',
+    component: Market
+  },
+  {
+    path: '/squadDamageDisplay',
     component: SquadDamageDisplay
   },
   {
-    path: '/app/LootSplitter',
+    path: '/lootSplitter',
     component: LootSplitter
   },
   {
-    path: '/ssMarketPro/Market',
-    component: Market
-  },
-  {
-    path: '/ssMarketPro/Market',
-    component: App
-  },
-  {
-    path: '/app/TechStripper',
+    path: '/techStripper',
     component: TechStripper
   },
   {
-    path: '/app/tech-stripper',
-    component: TechStripper
-  },
-  {
-    path: '/app/market-page',
-    component: Market
-  },
-  {
-    path: '/app/ScrapCalculator',
+    path: '/scrapCalculator',
     component: ScrapCalculator
   },
 
@@ -51,8 +39,6 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes: routes,
-  mode: 'hash',
-  base: '/app/'
 });
 
 export default router;

@@ -1,4 +1,5 @@
 <template>
+  <TopNavBar />
   <div class="container">
     <textarea v-model="textInput" placeholder="Enter text separated by |"></textarea>
     <button @click="resetNumbers">Reset Numbers</button>
@@ -22,8 +23,13 @@
   </template>
   
   <script>
+import TopNavBar from './../TopNavBar.vue';
 
 export default {
+  name: 'Market',
+  components: {
+    TopNavBar,
+  },
   data () {
     return {
       textInput: `sellprice | buyprice | maxbuy | maxsell | maxmake | name

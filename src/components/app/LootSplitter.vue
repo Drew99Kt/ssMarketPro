@@ -1,4 +1,5 @@
 <template>
+    <TopNavBar />
     <div class="wip">WIP</div>
     <div class="container">Currently this will only split the items randomly</div>
     <br>
@@ -16,8 +17,12 @@
   </template>
   
   <script>
+  import TopNavBar from './../TopNavBar.vue';
   export default {
-   
+    name: 'LootSplitter',
+    components: {
+      TopNavBar,
+    },
 
     data() {
       return {
