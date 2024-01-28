@@ -62,7 +62,7 @@
 
       const outputLines = lines.filter(line => {
         const cells = line.split(/\s+/).filter(cell => cell.trim() !== '');
-        return cells;
+        return cells && !line.includes('(Empty');;
       }).map(line => {
         const cells = line.split(/\s+/).filter(cell => cell.trim() !== '');
         if(parseInt(cells[0]) && parseInt(cells[1])){
