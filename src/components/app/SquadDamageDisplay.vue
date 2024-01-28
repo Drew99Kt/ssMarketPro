@@ -162,6 +162,21 @@
   </script>
   
   <style>
+  textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  border: 1px solid black;
+}
+
   .container {
     display: flex;
     flex-direction: column;
