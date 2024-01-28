@@ -16,7 +16,7 @@
     </div>
   </template>
   
-  <script>
+  <script allowJs:true>
   import TopNavBar from './../TopNavBar.vue';
   export default {
     name: 'LootSplitter',
