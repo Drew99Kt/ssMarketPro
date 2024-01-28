@@ -1,4 +1,5 @@
 <template>
+    <TopNavBar />
     <div class="container">
         <textarea v-model="inputData" placeholder="Enter data" @input="processData"></textarea>
       
@@ -59,7 +60,12 @@
   </template>
   
   <script>
+  import TopNavBar from './../TopNavBar.vue';
   export default {
+    name: 'SquadDamageDisplay',
+    components: {
+      TopNavBar,
+    },
     data() {
       return {
         inputData: [],

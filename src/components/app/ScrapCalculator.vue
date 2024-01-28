@@ -1,4 +1,5 @@
 <template>
+<TopNavBar />
 <div class="wip">WIP</div>
 <div class="container">Currently this will calculate total scrap value of a pasted inventory using a partial (and potentially outdated) scrap database.</div>
 <br>
@@ -61,8 +62,12 @@
 <script>
 import scrap_values from './data/scrap_values.json'
 import numberFormatter from 'number-formatter'
-
+import TopNavBar from './../TopNavBar.vue';
 export default {
+    name: 'ScrapCalculator',
+    components: {
+        TopNavBar,
+    },
     data() {
         return {
             inputData: `22\t1\tHazardous Ruthless Burst[Overclocked]

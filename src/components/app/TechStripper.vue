@@ -1,5 +1,5 @@
 <template>
-
+  <TopNavBar />
     <div class="container">
       <textarea v-model="textInput" placeholder="Enter text separated by |"></textarea>
 
@@ -17,8 +17,12 @@
     </template>
     
     <script>
+    import TopNavBar from './../TopNavBar.vue';
     export default {
-
+      name: 'TechStripper',
+      components: {
+        TopNavBar,
+      },
       data() {
         return {
  

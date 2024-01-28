@@ -1,29 +1,17 @@
 <template>
 
   <div>
-    
-    
-
-    <div>
-      <router-link to="/app/Market" tag="button" class="button-style">Market Tool</router-link>
-      <router-link to="/app/TechStripper" tag="button" class="button-style">TechStripper Tool</router-link>
-      <router-link to="/app/SquadDamageDisplay" tag="button" class="button-style">Squad Damage Display</router-link>
-      <router-link to="/app/LootSplitter" tag="button" class="button-style">Loot Splitter</router-link>
-      <router-link to="/app/ScrapCalculator" tag="button" class="button-style">Scrap Calculator</router-link>
-    </div>
-  
-
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Market from './components/app/Market.vue';
-import TechStripper from './components/app/TechStripper.vue';
-import SquadDamageDisplay from './components/app/SquadDamageDisplay.vue';
-import LootSplitter from './components/app/LootSplitter.vue';
-import ScrapCalculator from './components/app/ScrapCalculator.vue';
-import router  from './router';
+// import Market from './components/app/Market.vue';
+// import TechStripper from './components/app/TechStripper.vue';
+// import SquadDamageDisplay from './components/app/SquadDamageDisplay.vue';
+// import LootSplitter from './components/app/LootSplitter.vue';
+// import ScrapCalculator from './components/app/ScrapCalculator.vue';
+// import router  from './router';
 
 
 export default {
@@ -54,14 +42,14 @@ export default {
       }
     },
   },
-  components: {
-    '/app/TechStripper': Market, 
-    '/app/Market': TechStripper,
-    '/app/SquadDamageDisplay': SquadDamageDisplay,
-    '/app/LootSplitter': LootSplitter,
-    '/app/ScrapCalculator': ScrapCalculator,
+  // components: {
+  //   '/app/TechStripper': Market, 
+  //   '/app/Market': TechStripper,
+  //   '/app/SquadDamageDisplay': SquadDamageDisplay,
+  //   '/app/LootSplitter': LootSplitter,
+  //   '/app/ScrapCalculator': ScrapCalculator,
     
-  },
+  // },
   // ...
 };
 </script>
