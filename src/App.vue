@@ -17,32 +17,8 @@
 export default {
   // ...
 
-  beforeRouteLeave(to, from, next) {
-    if (to.path === '/') {
-      next('/app/TechStripper');
-    } else {
-      next();
-    }
-  },
-  created() {
-    window.addEventListener('beforeunload', this.handleBeforeUnload);
-  },
+  
 
-  beforeUnmount() {
-    window.removeEventListener('beforeunload', this.handleBeforeUnload);
-  },
-
-  methods: {
-    handleBeforeUnload(event) {
-      // Check if the user is refreshing the page
-      if (event.clientY < 0) {
-        // User is refreshing the page
-        // Perform any necessary actions here
-        console.log('User pressed refresh');
-      }
-    },
-  },
-  // components: {
   //   '/app/TechStripper': Market, 
   //   '/app/Market': TechStripper,
   //   '/app/SquadDamageDisplay': SquadDamageDisplay,
