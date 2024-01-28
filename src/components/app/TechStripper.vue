@@ -1,7 +1,7 @@
 <template>
   <TopNavBar />
     <div class="container">
-      <textarea v-model="textInput" placeholder="Enter text separated by |"></textarea>
+      <textarea v-model="textInput" placeholder="Paste items here"></textarea>
 
       
       <table>
@@ -59,12 +59,20 @@
         updateOutputText() {
     const lines = this.textInput.split('\n').filter(line => line.trim() !== '');
     if (lines.length > 1) {
+
       const outputLines = lines.filter(line => {
         const cells = line.split(/\s+/).filter(cell => cell.trim() !== '');
-        return cells.length >= 3 && !isNaN(cells[0]) && !isNaN(cells[1]) && !line.includes('(Empty');
+        
+        return cells;
       }).map(line => {
+       
+
         const cells = line.split(/\s+/).filter(cell => cell.trim() !== '');
-        cells.shift(); // Remove the first index
+        console.log(cells);
+        console.log(cells.length);
+        if(parseInt(cells[0]) && parseInt(cells[1])){
+          cells.shift();
+        }
         cells.forEach((c, index) => {
         if (index === 0) {
             cells[index] = c + '\t'; // Add a tab to the first cell
