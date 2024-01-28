@@ -114,6 +114,12 @@
     color: red;
   
   }
+  textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
   .output-box {
     display: flex;
     flex-direction: column;

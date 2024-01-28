@@ -160,7 +160,17 @@ export default {
     align-items: center;
     color: red;
 }
-
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+th, td {
+  padding: 8px;
+  border: 1px solid black;
+}
 table td:nth-child(1) { text-align: left; }
 table td:nth-child(2) { text-align: right; }
 </style>
+

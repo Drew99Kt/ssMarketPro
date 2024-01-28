@@ -1,44 +1,24 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Market from './components/app/Market.vue';
-import TechStripper from './components/app/TechStripper.vue';
-import SquadDamageDisplay from './components/app/SquadDamageDisplay.vue';
-import LootSplitter from './components/app/LootSplitter.vue';
-import ScrapCalculator from './components/app/ScrapCalculator.vue';
-import App from './App.vue';
+
+
+
 
 
 const routes = [
-  {
-    path: '/',
-    component: Market
-  },
-  {
-    path: '/market',
-    component: Market
-  },
-  {
-    path: '/squadDamageDisplay',
-    component: SquadDamageDisplay
-  },
-  {
-    path: '/lootSplitter',
-    component: LootSplitter
-  },
-  {
-    path: '/techStripper',
-    component: TechStripper
-  },
-  {
-    path: '/scrapCalculator',
-    component: ScrapCalculator
-  },
+  {path: '/', name: 'Home',component:()=> import('./components/TopNavBar.vue')},
+  {path: '/market', name:'market',component:()=> import('./components/app/Market.vue')},
+  {path: '/squadDamageDisplay', name: 'squadDamageDisplay',component:()=> import('./components/app/SquadDamageDisplay.vue')},
+  {path: '/lootsplitter',name: 'lootsplitter',component:()=> import('./components/app/LootSplitter.vue')},
+  {path: '/techStripper',name: 'techStripper',component:()=> import('./components/app/TechStripper.vue')},
+  {path: '/scrapCalculator',name: 'scrapCalculator',component:()=> import('./components/app/ScrapCalculator.vue')},
+
 
   // Add more routes if needed
 ];
 
 const router = createRouter({
+  routes,
   history: createWebHistory(),
-  routes: routes,
 });
 
 export default router;
