@@ -5,6 +5,7 @@
 <br>
 <div class="container">
     <button @click="parseData">Calculate Scrap Value</button>
+    <label>Skip Modded Items:<input type="checkbox" id="considerModdedBox" v-model="considerModded"/></input></label>
     <textarea v-model="inputData" placeholder="Enter your inventory"></textarea>
     <div>
         <br><br>
@@ -75,6 +76,7 @@ export default {
             outputData: [],
             unknownData: [],
             checked: false,
+            considerModded: false,
         };
     },
     methods: {
@@ -84,7 +86,11 @@ export default {
             var outputMap = new Map();
             var rawScrapValues = this.rawScrapValues; // TODO: Push to API?
             var unknownData = [];
+            var considerModded = this.considerModded;
+            const skip_modded_key = 'Skipped Modded';
             const regexp = /([0-9]+\t)?([0-9]+)\t(.+)/;
+
+            rawScrapValues[skip_modded_key] = 1;
 
             // Preprocess inventory rows
             // Strip mods, ignore tech column, handle commodities, combine mutliple rows into one.
@@ -94,7 +100,11 @@ export default {
                 if (matches && matches.length == 4) {
                     var name = matches[3];
                     if (name.includes('[')) {
-                        name = name.substring(0, name.lastIndexOf('['));
+                        if (considerModded) {
+                            name = skip_modded_key;
+                        } else {
+                            name = name.substring(0, name.lastIndexOf('['));
+                        }
                     }
                     var count = parseInt(matches[2]);
                     if (outputMap.has(name)) {
@@ -110,7 +120,9 @@ export default {
             outputMap.forEach(function (value, key, map) {
                 if (rawScrapValues[key] != null) {
                     outputData.push({item: key, value: (value * rawScrapValues[key])});
-                    totalScrapValue += value * rawScrapValues[key];
+                    if (key != skip_modded_key) {
+                        totalScrapValue += value * rawScrapValues[key];
+                    }
                 } else {
                     unknownData.push({item: key});
                 }
