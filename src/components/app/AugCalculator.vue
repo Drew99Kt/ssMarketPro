@@ -93,7 +93,7 @@ Qa'ik Banu Akk'oj`,
                 for (var i = 0; i < keys.length; i++) {
                     var key = keys[i];
                     var value = acc[key];
-                    output_table.push({name: key, value: (value > 0 ? '+' : '') + acc[key] + '%', raw_value: value});
+                    output_table.push({name: key, value: (value > 0 ? '+' : '') + acc[key] + '%', raw_value: key == 'Electric Tempering' ? - value : value});
                 }
                 outputData = output_table;
             });
@@ -114,5 +114,18 @@ Qa'ik Banu Akk'oj`,
     flex-direction: column;
     align-items: center;
     color: red;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+table td:nth-child(1) { text-align: left; }
+table td:nth-child(2) { text-align: right; }
+table tr:nth-child(odd) td{
+    background-color: rgb(245, 245, 245);
 }
 </style>
