@@ -70,17 +70,7 @@ export default {
     },
     data() {
         return {
-            inputData: `22\t1\tHazardous Ruthless Burst[Overclocked]
-22\t1\tCorrupted Cyborg Reach[Superconducting]
-22\t1\tCorrupted Cyborg Reach[Evil]
-22\t1\tHazardous PUT-TY Burst
-23\t1\tThe Five Piece
-22\t4\tCorrupted Conversion Ray
-22\t3\tGargantuan Gigo Laser
-22\t1\tHazardous Oomping Burst
-23\t2\tM51 Benefactor
-23\t1\tParadox Shield
-50\tTitanium`,
+            inputData: ``,
             rawScrapValues: scrap_values,
             outputData: [],
             unknownData: [],
@@ -101,7 +91,7 @@ export default {
             this.inputData.split("\n").forEach(function (rawInventoryLine) {
                 rawInventoryLine = rawInventoryLine.trim();
                 var matches = rawInventoryLine.match(regexp);
-                if (matches.length == 4) {
+                if (matches && matches.length == 4) {
                     var name = matches[3];
                     if (name.includes('[')) {
                         name = name.substring(0, name.lastIndexOf('['));
