@@ -1,0 +1,5192 @@
+[
+  {
+    "name": "Rudimentary Shield Augmenter",
+    "tech": 0,
+    "stats": "Shield Max +30%, Shield Recovery +2%, Energy Max +80%"
+  },
+  {
+    "name": "Rudimentary Electric Augmenter",
+    "tech": 0,
+    "stats": "Energy Max +30%, Energy Charge +20%"
+  },
+  {
+    "name": "Rudimentary Damage Augmenter",
+    "tech": 0,
+    "stats": "Energy Max +80%, Damage +10%"
+  },
+  {
+    "name": "Rudimentary Flight Augmenter",
+    "tech": 3,
+    "stats": "Energy Charge +12%, Speed +25%, Thrust +30%"
+  },
+  {
+    "name": "Rudimentary Power Augmenter",
+    "tech": 3,
+    "stats": "Shield Max +50%, Energy Max +41%, Rate of Fire +24%"
+  },
+  {
+    "name": "Rudimentary Scope Augmenter",
+    "tech": 3,
+    "stats": "Damage +17%, Range +21%, Tracking +19%"
+  },
+  {
+    "name": "Rudimentary Surge Augmenter",
+    "tech": 3,
+    "stats": "Energy Max +50%, Energy Charge +27%, Turning +24%"
+  },
+  {
+    "name": "Minor Aggravation Augmenter",
+    "tech": 0,
+    "stats": "Damage +16%, Hostility +40%"
+  },
+  {
+    "name": "Minor Agility Augmenter",
+    "tech": 0,
+    "stats": "Speed +10%, Docking Speed +50%, Thrust +20%, Turning +80%"
+  },
+  {
+    "name": "Minor Capacity Augmenter",
+    "tech": 0,
+    "stats": "Capacity +40%"
+  },
+  {
+    "name": "Minor Damage Augmenter",
+    "tech": 0,
+    "stats": "Damage +20%"
+  },
+  {
+    "name": "Minor Docking Augmenter",
+    "tech": 0,
+    "stats": "Docking Speed +200%, Capacity +20%"
+  },
+  {
+    "name": "Minor Electric Augmenter",
+    "tech": 0,
+    "stats": "Energy Charge +40%"
+  },
+  {
+    "name": "Minor Energy Augmenter",
+    "tech": 0,
+    "stats": "Energy Max +120%, Energy Charge +12%"
+  },
+  {
+    "name": "Minor Fading Augmenter",
+    "tech": 0,
+    "stats": "Visibility -55%, Hostility -26%"
+  },
+  {
+    "name": "Minor Firing Augmenter",
+    "tech": 0,
+    "stats": "Rate of Fire +40%, Tracking +20%, Radar +20%"
+  },
+  {
+    "name": "Minor Hostile Augmenter",
+    "tech": 0,
+    "stats": "Shield Max -10%, Shield Recovery -33%, Damage +31%, Hostility +30%"
+  },
+  {
+    "name": "Minor Nimbleness Augmenter",
+    "tech": 0,
+    "stats": "Docking Speed +40%, Thrust +80%, Turning +100%"
+  },
+  {
+    "name": "Minor Radar Augmenter",
+    "tech": 0,
+    "stats": "Damage +2%, Tracking +20%, Radar +200%"
+  },
+  {
+    "name": "Minor Range Augmenter",
+    "tech": 0,
+    "stats": "Damage +2%, Range +40%, Hostility -10%"
+  },
+  {
+    "name": "Minor Recovery Augmenter",
+    "tech": 0,
+    "stats": "Shield Recovery +40%, Energy Charge +2%"
+  },
+  {
+    "name": "Minor Resistance Augmenter",
+    "tech": 0,
+    "stats": "Resistance to Damage +20%"
+  },
+  {
+    "name": "Minor Shield Augmenter",
+    "tech": 0,
+    "stats": "Shield Max +60%, Shield Recovery +4%"
+  },
+  {
+    "name": "Minor Speed Augmenter",
+    "tech": 0,
+    "stats": "Rate of Fire +16%, Speed +16%, Thrust +16%"
+  },
+  {
+    "name": "Minor Stealth Augmenter",
+    "tech": 0,
+    "stats": "Shield Max +10%, Visibility -67%"
+  },
+  {
+    "name": "Minor Targeting Augmenter",
+    "tech": 0,
+    "stats": "Damage +6%, Tracking +60%, Radar +20%"
+  },
+  {
+    "name": "Minor Thrust Augmenter",
+    "tech": 0,
+    "stats": "Speed +2%, Thrust +400%, Tractor Power +10%"
+  },
+  {
+    "name": "Minor Traction Augmenter",
+    "tech": 0,
+    "stats": "Energy Max +40%, Energy Charge +10%, Tractor Power +20%"
+  },
+  {
+    "name": "Rudimentary Damage Augmenter",
+    "tech": 0,
+    "stats": "Energy Max +80%, Damage +10%"
+  },
+  {
+    "name": "Rudimentary Electric Augmenter",
+    "tech": 0,
+    "stats": "Energy Max +30%, Energy Charge +20%"
+  },
+  {
+    "name": "Rudimentary Shield Augmenter",
+    "tech": 0,
+    "stats": "Shield Max +30%, Shield Recovery +2%, Energy Max +80%"
+  },
+  {
+    "name": "Spacy Minor Agility Augmenter",
+    "tech": 1,
+    "stats": "Speed +10%, Docking Speed +50%, Thrust +20%, Turning +80%, Capacity +5%"
+  },
+  {
+    "name": "Spacy Minor Capacity Augmenter",
+    "tech": 1,
+    "stats": "Capacity +45%"
+  },
+  {
+    "name": "Spacy Minor Damage Augmenter",
+    "tech": 1,
+    "stats": "Damage +20%, Capacity +5%"
+  },
+  {
+    "name": "Spacy Minor Docking Augmenter",
+    "tech": 1,
+    "stats": "Docking Speed +200%, Capacity +25%"
+  },
+  {
+    "name": "Spacy Minor Electric Augmenter",
+    "tech": 1,
+    "stats": "Energy Charge +40%, Capacity +5%"
+  },
+  {
+    "name": "Spacy Minor Energy Augmenter",
+    "tech": 1,
+    "stats": "Energy Max +120%, Energy Charge +12%, Capacity +5%"
+  },
+  {
+    "name": "Spacy Minor Firing Augmenter",
+    "tech": 1,
+    "stats": "Rate of Fire +40%, Tracking +20%, Capacity +5%, Radar +20%"
+  },
+  {
+    "name": "Spacy Minor Nimbleness Augmenter",
+    "tech": 1,
+    "stats": "Docking Speed +40%, Thrust +80%, Turning +100%, Capacity +5%"
+  },
+  {
+    "name": "Spacy Minor Radar Augmenter",
+    "tech": 1,
+    "stats": "Damage +2%, Tracking +20%, Capacity +5%, Radar +200%"
+  },
+  {
+    "name": "Spacy Minor Range Augmenter",
+    "tech": 1,
+    "stats": "Damage +2%, Range +40%, Capacity +5%, Hostility -10%"
+  },
+  {
+    "name": "Spacy Minor Recovery Augmenter",
+    "tech": 1,
+    "stats": "Shield Recovery +40%, Energy Charge +2%, Capacity +5%"
+  },
+  {
+    "name": "Spacy Minor Shield Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +60%, Shield Recovery +4%, Capacity +5%"
+  },
+  {
+    "name": "Spacy Minor Speed Augmenter",
+    "tech": 1,
+    "stats": "Rate of Fire +16%, Speed +16%, Thrust +16%, Capacity +5%"
+  },
+  {
+    "name": "Spacy Minor Stealth Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +10%, Capacity +5%, Visibility -67%"
+  },
+  {
+    "name": "Spacy Minor Targeting Augmenter",
+    "tech": 1,
+    "stats": "Damage +6%, Tracking +60%, Capacity +5%, Radar +20%"
+  },
+  {
+    "name": "Spacy Minor Thrust Augmenter",
+    "tech": 1,
+    "stats": "Speed +2%, Thrust +400%, Capacity +5%, Tractor Power +10%"
+  },
+  {
+    "name": "Speedy Minor Agility Augmenter",
+    "tech": 1,
+    "stats": "Speed +15%, Docking Speed +50%, Thrust +20%, Turning +80%"
+  },
+  {
+    "name": "Speedy Minor Capacity Augmenter",
+    "tech": 1,
+    "stats": "Speed +5%, Capacity +40%"
+  },
+  {
+    "name": "Speedy Minor Damage Augmenter",
+    "tech": 1,
+    "stats": "Damage +20%, Speed +5%"
+  },
+  {
+    "name": "Speedy Minor Docking Augmenter",
+    "tech": 1,
+    "stats": "Speed +5%, Docking Speed +200%, Capacity +20%"
+  },
+  {
+    "name": "Speedy Minor Electric Augmenter",
+    "tech": 1,
+    "stats": "Energy Charge +40%, Speed +5%"
+  },
+  {
+    "name": "Speedy Minor Energy Augmenter",
+    "tech": 1,
+    "stats": "Energy Max +120%, Energy Charge +12%, Speed +5%"
+  },
+  {
+    "name": "Speedy Minor Firing Augmenter",
+    "tech": 1,
+    "stats": "Rate of Fire +40%, Tracking +20%, Speed +5%, Radar +20%"
+  },
+  {
+    "name": "Speedy Minor Nimbleness Augmenter",
+    "tech": 1,
+    "stats": "Speed +5%, Docking Speed +40%, Thrust +80%, Turning +100%"
+  },
+  {
+    "name": "Speedy Minor Radar Augmenter",
+    "tech": 1,
+    "stats": "Damage +2%, Tracking +20%, Speed +5%, Radar +200%"
+  },
+  {
+    "name": "Speedy Minor Range Augmenter",
+    "tech": 1,
+    "stats": "Damage +2%, Range +40%, Speed +5%, Hostility -10%"
+  },
+  {
+    "name": "Speedy Minor Recovery Augmenter",
+    "tech": 1,
+    "stats": "Shield Recovery +40%, Energy Charge +2%, Speed +5%"
+  },
+  {
+    "name": "Speedy Minor Shield Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +60%, Shield Recovery +4%, Speed +5%"
+  },
+  {
+    "name": "Speedy Minor Speed Augmenter",
+    "tech": 1,
+    "stats": "Rate of Fire +16%, Speed +21%, Thrust +16%"
+  },
+  {
+    "name": "Speedy Minor Stealth Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +10%, Speed +5%, Visibility -67%"
+  },
+  {
+    "name": "Speedy Minor Targeting Augmenter",
+    "tech": 1,
+    "stats": "Damage +6%, Tracking +60%, Speed +5%, Radar +20%"
+  },
+  {
+    "name": "Speedy Minor Thrust Augmenter",
+    "tech": 1,
+    "stats": "Speed +7%, Thrust +400%, Tractor Power +10%"
+  },
+  {
+    "name": "Basic Aggravation Augmenter",
+    "tech": 5,
+    "stats": "Damage +24%, Hostility +45%"
+  },
+  {
+    "name": "Basic Agility Augmenter",
+    "tech": 5,
+    "stats": "Speed +12%, Docking Speed +70%, Thrust +40%, Turning +100%"
+  },
+  {
+    "name": "Basic Capacity Augmenter",
+    "tech": 5,
+    "stats": "Capacity +60%"
+  },
+  {
+    "name": "Basic Damage Augmenter",
+    "tech": 5,
+    "stats": "Damage +30%"
+  },
+  {
+    "name": "Basic Docking Augmenter",
+    "tech": 5,
+    "stats": "Docking Speed +400%, Capacity +26%"
+  },
+  {
+    "name": "Basic Electric Augmenter",
+    "tech": 5,
+    "stats": "Energy Charge +60%"
+  },
+  {
+    "name": "Basic Energy Augmenter",
+    "tech": 5,
+    "stats": "Energy Max +180%, Energy Charge +16%"
+  },
+  {
+    "name": "Basic Fading Augmenter",
+    "tech": 5,
+    "stats": "Visibility -71%, Hostility -37%"
+  },
+  {
+    "name": "Basic Firing Augmenter",
+    "tech": 5,
+    "stats": "Damage +6%, Rate of Fire +50%, Tracking +20%, Radar +20%"
+  },
+  {
+    "name": "Basic Hostile Augmenter",
+    "tech": 5,
+    "stats": "Shield Max -18%, Shield Recovery -40%, Damage +41%, Hostility +41%"
+  },
+  {
+    "name": "Basic Nimbleness Augmenter",
+    "tech": 5,
+    "stats": "Docking Speed +40%, Thrust +120%, Turning +150%"
+  },
+  {
+    "name": "Basic Radar Augmenter",
+    "tech": 5,
+    "stats": "Damage +4%, Tracking +20%, Radar +300%"
+  },
+  {
+    "name": "Basic Range Augmenter",
+    "tech": 5,
+    "stats": "Damage +4%, Range +60%, Hostility -10%"
+  },
+  {
+    "name": "Basic Recovery Augmenter",
+    "tech": 5,
+    "stats": "Shield Recovery +60%, Energy Charge +4%"
+  },
+  {
+    "name": "Basic Resistance Augmenter",
+    "tech": 5,
+    "stats": "Resistance to Damage +30%"
+  },
+  {
+    "name": "Basic Shield Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +90%, Shield Recovery +8%"
+  },
+  {
+    "name": "Basic Speed Augmenter",
+    "tech": 5,
+    "stats": "Rate of Fire +24%, Speed +24%, Thrust +24%"
+  },
+  {
+    "name": "Basic Stealth Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +20%, Visibility -80%"
+  },
+  {
+    "name": "Basic Targeting Augmenter",
+    "tech": 5,
+    "stats": "Damage +10%, Tracking +90%, Radar +30%"
+  },
+  {
+    "name": "Basic Thrust Augmenter",
+    "tech": 5,
+    "stats": "Speed +4%, Thrust +500%, Tractor Power +20%"
+  },
+  {
+    "name": "Basic Traction Augmenter",
+    "tech": 5,
+    "stats": "Energy Max +50%, Energy Charge +14%, Tractor Power +30%"
+  },
+  {
+    "name": "Spacy Basic Agility Augmenter",
+    "tech": 6,
+    "stats": "Speed +12%, Docking Speed +70%, Thrust +40%, Turning +100%, Capacity +10%"
+  },
+  {
+    "name": "Spacy Basic Capacity Augmenter",
+    "tech": 6,
+    "stats": "Capacity +70%"
+  },
+  {
+    "name": "Spacy Basic Damage Augmenter",
+    "tech": 6,
+    "stats": "Damage +30%, Capacity +10%"
+  },
+  {
+    "name": "Spacy Basic Docking Augmenter",
+    "tech": 6,
+    "stats": "Docking Speed +400%, Capacity +36%"
+  },
+  {
+    "name": "Spacy Basic Electric Augmenter",
+    "tech": 6,
+    "stats": "Energy Charge +60%, Capacity +10%"
+  },
+  {
+    "name": "Spacy Basic Energy Augmenter",
+    "tech": 6,
+    "stats": "Energy Max +180%, Energy Charge +16%, Capacity +10%"
+  },
+  {
+    "name": "Spacy Basic Firing Augmenter",
+    "tech": 6,
+    "stats": "Damage +6%, Rate of Fire +50%, Tracking +20%, Capacity +10%, Radar +20%"
+  },
+  {
+    "name": "Spacy Basic Nimbleness Augmenter",
+    "tech": 6,
+    "stats": "Docking Speed +40%, Thrust +120%, Turning +150%, Capacity +10%"
+  },
+  {
+    "name": "Spacy Basic Radar Augmenter",
+    "tech": 6,
+    "stats": "Damage +4%, Tracking +20%, Capacity +10%, Radar +300%"
+  },
+  {
+    "name": "Spacy Basic Range Augmenter",
+    "tech": 6,
+    "stats": "Damage +4%, Range +60%, Capacity +10%, Hostility -10%"
+  },
+  {
+    "name": "Spacy Basic Recovery Augmenter",
+    "tech": 6,
+    "stats": "Shield Recovery +60%, Energy Charge +4%, Capacity +10%"
+  },
+  {
+    "name": "Spacy Basic Shield Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +90%, Shield Recovery +8%, Capacity +10%"
+  },
+  {
+    "name": "Spacy Basic Speed Augmenter",
+    "tech": 6,
+    "stats": "Rate of Fire +24%, Speed +24%, Thrust +24%, Capacity +10%"
+  },
+  {
+    "name": "Spacy Basic Stealth Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +20%, Capacity +10%, Visibility -80%"
+  },
+  {
+    "name": "Spacy Basic Targeting Augmenter",
+    "tech": 6,
+    "stats": "Damage +10%, Tracking +90%, Capacity +10%, Radar +30%"
+  },
+  {
+    "name": "Spacy Basic Thrust Augmenter",
+    "tech": 6,
+    "stats": "Speed +4%, Thrust +500%, Capacity +10%, Tractor Power +20%"
+  },
+  {
+    "name": "Speedy Basic Agility Augmenter",
+    "tech": 6,
+    "stats": "Speed +22%, Docking Speed +70%, Thrust +40%, Turning +100%"
+  },
+  {
+    "name": "Speedy Basic Capacity Augmenter",
+    "tech": 6,
+    "stats": "Speed +10%, Capacity +60%"
+  },
+  {
+    "name": "Speedy Basic Damage Augmenter",
+    "tech": 6,
+    "stats": "Damage +30%, Speed +10%"
+  },
+  {
+    "name": "Speedy Basic Docking Augmenter",
+    "tech": 6,
+    "stats": "Speed +10%, Docking Speed +400%, Capacity +26%"
+  },
+  {
+    "name": "Speedy Basic Electric Augmenter",
+    "tech": 6,
+    "stats": "Energy Charge +60%, Speed +10%"
+  },
+  {
+    "name": "Speedy Basic Energy Augmenter",
+    "tech": 6,
+    "stats": "Energy Max +180%, Energy Charge +16%, Speed +10%"
+  },
+  {
+    "name": "Speedy Basic Firing Augmenter",
+    "tech": 6,
+    "stats": "Damage +6%, Rate of Fire +50%, Tracking +20%, Speed +10%, Radar +20%"
+  },
+  {
+    "name": "Speedy Basic Nimbleness Augmenter",
+    "tech": 6,
+    "stats": "Speed +10%, Docking Speed +40%, Thrust +120%, Turning +150%"
+  },
+  {
+    "name": "Speedy Basic Radar Augmenter",
+    "tech": 6,
+    "stats": "Damage +4%, Tracking +20%, Speed +10%, Radar +300%"
+  },
+  {
+    "name": "Speedy Basic Range Augmenter",
+    "tech": 6,
+    "stats": "Damage +4%, Range +60%, Speed +10%, Hostility -10%"
+  },
+  {
+    "name": "Speedy Basic Recovery Augmenter",
+    "tech": 6,
+    "stats": "Shield Recovery +60%, Energy Charge +4%, Speed +10%"
+  },
+  {
+    "name": "Speedy Basic Shield Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +90%, Shield Recovery +8%, Speed +10%"
+  },
+  {
+    "name": "Speedy Basic Speed Augmenter",
+    "tech": 6,
+    "stats": "Rate of Fire +24%, Speed +34%, Thrust +24%"
+  },
+  {
+    "name": "Speedy Basic Stealth Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +20%, Speed +10%, Visibility -80%"
+  },
+  {
+    "name": "Speedy Basic Targeting Augmenter",
+    "tech": 6,
+    "stats": "Damage +10%, Tracking +90%, Speed +10%, Radar +30%"
+  },
+  {
+    "name": "Speedy Basic Thrust Augmenter",
+    "tech": 6,
+    "stats": "Speed +14%, Thrust +500%, Tractor Power +20%"
+  },
+  {
+    "name": "Std. Aggravation Augmenter",
+    "tech": 10,
+    "stats": "Damage +30%, Hostility +54%"
+  },
+  {
+    "name": "Std. Agility Augmenter",
+    "tech": 10,
+    "stats": "Speed +14%, Docking Speed +100%, Thrust +60%, Turning +140%"
+  },
+  {
+    "name": "Std. Capacity Augmenter",
+    "tech": 10,
+    "stats": "Capacity +73%"
+  },
+  {
+    "name": "Std. Damage Augmenter",
+    "tech": 10,
+    "stats": "Damage +40%"
+  },
+  {
+    "name": "Std. Docking Augmenter",
+    "tech": 10,
+    "stats": "Docking Speed +600%, Capacity +32%"
+  },
+  {
+    "name": "Std. Electric Augmenter",
+    "tech": 10,
+    "stats": "Energy Charge +74%"
+  },
+  {
+    "name": "Std. Energy Augmenter",
+    "tech": 10,
+    "stats": "Energy Max +220%, Energy Charge +22%"
+  },
+  {
+    "name": "Std. Fading Augmenter",
+    "tech": 10,
+    "stats": "Visibility -78%, Hostility -43%"
+  },
+  {
+    "name": "Std. Firing Augmenter",
+    "tech": 10,
+    "stats": "Damage +12%, Rate of Fire +58%, Tracking +20%, Radar +20%"
+  },
+  {
+    "name": "Std. Hostile Augmenter",
+    "tech": 10,
+    "stats": "Shield Max -26%, Shield Recovery -46%, Damage +51%, Hostility +51%"
+  },
+  {
+    "name": "Std. Nimbleness Augmenter",
+    "tech": 10,
+    "stats": "Docking Speed +40%, Thrust +160%, Turning +200%"
+  },
+  {
+    "name": "Std. Radar Augmenter",
+    "tech": 10,
+    "stats": "Damage +6%, Tracking +20%, Radar +400%"
+  },
+  {
+    "name": "Std. Range Augmenter",
+    "tech": 10,
+    "stats": "Damage +6%, Range +74%, Hostility -10%"
+  },
+  {
+    "name": "Std. Recovery Augmenter",
+    "tech": 10,
+    "stats": "Shield Recovery +74%, Energy Charge +6%"
+  },
+  {
+    "name": "Std. Resistance Augmenter",
+    "tech": 10,
+    "stats": "Resistance to Damage +40%"
+  },
+  {
+    "name": "Std. Shield Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +110%, Shield Recovery +12%"
+  },
+  {
+    "name": "Std. Speed Augmenter",
+    "tech": 10,
+    "stats": "Rate of Fire +32%, Speed +32%, Thrust +32%"
+  },
+  {
+    "name": "Std. Stealth Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +30%, Visibility -84%"
+  },
+  {
+    "name": "Std. Targeting Augmenter",
+    "tech": 10,
+    "stats": "Damage +14%, Tracking +110%, Radar +40%"
+  },
+  {
+    "name": "Std. Thrust Augmenter",
+    "tech": 10,
+    "stats": "Speed +6%, Thrust +600%, Tractor Power +30%"
+  },
+  {
+    "name": "Std. Traction Augmenter",
+    "tech": 10,
+    "stats": "Energy Max +60%, Energy Charge +20%, Tractor Power +40%"
+  },
+  {
+    "name": "Spacy Std. Agility Augmenter",
+    "tech": 11,
+    "stats": "Speed +14%, Docking Speed +100%, Thrust +60%, Turning +140%, Capacity +15%"
+  },
+  {
+    "name": "Spacy Std. Capacity Augmenter",
+    "tech": 11,
+    "stats": "Capacity +88%"
+  },
+  {
+    "name": "Spacy Std. Damage Augmenter",
+    "tech": 11,
+    "stats": "Damage +40%, Capacity +15%"
+  },
+  {
+    "name": "Spacy Std. Docking Augmenter",
+    "tech": 11,
+    "stats": "Docking Speed +600%, Capacity +47%"
+  },
+  {
+    "name": "Spacy Std. Electric Augmenter",
+    "tech": 11,
+    "stats": "Energy Charge +74%, Capacity +15%"
+  },
+  {
+    "name": "Spacy Std. Energy Augmenter",
+    "tech": 11,
+    "stats": "Energy Max +220%, Energy Charge +22%, Capacity +15%"
+  },
+  {
+    "name": "Spacy Std. Firing Augmenter",
+    "tech": 11,
+    "stats": "Damage +12%, Rate of Fire +58%, Tracking +20%, Capacity +15%, Radar +20%"
+  },
+  {
+    "name": "Spacy Std. Nimbleness Augmenter",
+    "tech": 11,
+    "stats": "Docking Speed +40%, Thrust +160%, Turning +200%, Capacity +15%"
+  },
+  {
+    "name": "Spacy Std. Radar Augmenter",
+    "tech": 11,
+    "stats": "Damage +6%, Tracking +20%, Capacity +15%, Radar +400%"
+  },
+  {
+    "name": "Spacy Std. Range Augmenter",
+    "tech": 11,
+    "stats": "Damage +6%, Range +74%, Capacity +15%, Hostility -10%"
+  },
+  {
+    "name": "Spacy Std. Recovery Augmenter",
+    "tech": 11,
+    "stats": "Shield Recovery +74%, Energy Charge +6%, Capacity +15%"
+  },
+  {
+    "name": "Spacy Std. Shield Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +110%, Shield Recovery +12%, Capacity +15%"
+  },
+  {
+    "name": "Spacy Std. Speed Augmenter",
+    "tech": 11,
+    "stats": "Rate of Fire +32%, Speed +32%, Thrust +32%, Capacity +15%"
+  },
+  {
+    "name": "Spacy Std. Stealth Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +30%, Capacity +15%, Visibility -84%"
+  },
+  {
+    "name": "Spacy Std. Targeting Augmenter",
+    "tech": 11,
+    "stats": "Damage +14%, Tracking +110%, Capacity +15%, Radar +40%"
+  },
+  {
+    "name": "Spacy Std. Thrust Augmenter",
+    "tech": 11,
+    "stats": "Speed +6%, Thrust +600%, Capacity +15%, Tractor Power +30%"
+  },
+  {
+    "name": "Speedy Std. Agility Augmenter",
+    "tech": 11,
+    "stats": "Speed +29%, Docking Speed +100%, Thrust +60%, Turning +140%"
+  },
+  {
+    "name": "Speedy Std. Capacity Augmenter",
+    "tech": 11,
+    "stats": "Speed +15%, Capacity +73%"
+  },
+  {
+    "name": "Speedy Std. Damage Augmenter",
+    "tech": 11,
+    "stats": "Damage +40%, Speed +15%"
+  },
+  {
+    "name": "Speedy Std. Docking Augmenter",
+    "tech": 11,
+    "stats": "Speed +15%, Docking Speed +600%, Capacity +32%"
+  },
+  {
+    "name": "Speedy Std. Electric Augmenter",
+    "tech": 11,
+    "stats": "Energy Charge +74%, Speed +15%"
+  },
+  {
+    "name": "Speedy Std. Energy Augmenter",
+    "tech": 11,
+    "stats": "Energy Max +220%, Energy Charge +22%, Speed +15%"
+  },
+  {
+    "name": "Speedy Std. Firing Augmenter",
+    "tech": 11,
+    "stats": "Damage +12%, Rate of Fire +58%, Tracking +20%, Speed +15%, Radar +20%"
+  },
+  {
+    "name": "Speedy Std. Nimbleness Augmenter",
+    "tech": 11,
+    "stats": "Speed +15%, Docking Speed +40%, Thrust +160%, Turning +200%"
+  },
+  {
+    "name": "Speedy Std. Radar Augmenter",
+    "tech": 11,
+    "stats": "Damage +6%, Tracking +20%, Speed +15%, Radar +400%"
+  },
+  {
+    "name": "Speedy Std. Range Augmenter",
+    "tech": 11,
+    "stats": "Damage +6%, Range +74%, Speed +15%, Hostility -10%"
+  },
+  {
+    "name": "Speedy Std. Recovery Augmenter",
+    "tech": 11,
+    "stats": "Shield Recovery +74%, Energy Charge +6%, Speed +15%"
+  },
+  {
+    "name": "Speedy Std. Shield Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +110%, Shield Recovery +12%, Speed +15%"
+  },
+  {
+    "name": "Speedy Std. Speed Augmenter",
+    "tech": 11,
+    "stats": "Rate of Fire +32%, Speed +47%, Thrust +32%"
+  },
+  {
+    "name": "Speedy Std. Stealth Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +30%, Speed +15%, Visibility -84%"
+  },
+  {
+    "name": "Speedy Std. Targeting Augmenter",
+    "tech": 11,
+    "stats": "Damage +14%, Tracking +110%, Speed +15%, Radar +40%"
+  },
+  {
+    "name": "Speedy Std. Thrust Augmenter",
+    "tech": 11,
+    "stats": "Speed +21%, Thrust +600%, Tractor Power +30%"
+  },
+  {
+    "name": "Good Aggravation Augmenter",
+    "tech": 13,
+    "stats": "Damage +36%, Hostility +60%"
+  },
+  {
+    "name": "Good Agility Augmenter",
+    "tech": 13,
+    "stats": "Speed +16%, Docking Speed +150%, Thrust +80%, Turning +180%"
+  },
+  {
+    "name": "Good Capacity Augmenter",
+    "tech": 13,
+    "stats": "Capacity +80%"
+  },
+  {
+    "name": "Good Damage Augmenter",
+    "tech": 13,
+    "stats": "Damage +46%"
+  },
+  {
+    "name": "Good Docking Augmenter",
+    "tech": 13,
+    "stats": "Docking Speed +800%, Capacity +38%"
+  },
+  {
+    "name": "Good Electric Augmenter",
+    "tech": 13,
+    "stats": "Energy Charge +80%"
+  },
+  {
+    "name": "Good Energy Augmenter",
+    "tech": 13,
+    "stats": "Energy Max +280%, Energy Charge +26%"
+  },
+  {
+    "name": "Good Fading Augmenter",
+    "tech": 13,
+    "stats": "Visibility -80%, Hostility -46%"
+  },
+  {
+    "name": "Good Firing Augmenter",
+    "tech": 13,
+    "stats": "Damage +16%, Rate of Fire +64%, Tracking +20%, Radar +20%"
+  },
+  {
+    "name": "Good Hostile Augmenter",
+    "tech": 13,
+    "stats": "Shield Max -33%, Shield Recovery -52%, Damage +58%, Hostility +58%"
+  },
+  {
+    "name": "Good Nimbleness Augmenter",
+    "tech": 13,
+    "stats": "Docking Speed +40%, Thrust +200%, Turning +250%"
+  },
+  {
+    "name": "Good Radar Augmenter",
+    "tech": 13,
+    "stats": "Damage +8%, Tracking +20%, Radar +500%"
+  },
+  {
+    "name": "Good Range Augmenter",
+    "tech": 13,
+    "stats": "Damage +8%, Range +80%, Hostility -10%"
+  },
+  {
+    "name": "Good Recovery Augmenter",
+    "tech": 13,
+    "stats": "Shield Recovery +80%, Energy Charge +8%"
+  },
+  {
+    "name": "Good Resistance Augmenter",
+    "tech": 13,
+    "stats": "Resistance to Damage +46%"
+  },
+  {
+    "name": "Good Shield Augmenter",
+    "tech": 13,
+    "stats": "Shield Max +130%, Shield Recovery +16%"
+  },
+  {
+    "name": "Good Speed Augmenter",
+    "tech": 13,
+    "stats": "Rate of Fire +38%, Speed +38%, Thrust +38%"
+  },
+  {
+    "name": "Good Stealth Augmenter",
+    "tech": 13,
+    "stats": "Shield Max +40%, Visibility -86%"
+  },
+  {
+    "name": "Good Targeting Augmenter",
+    "tech": 13,
+    "stats": "Damage +18%, Tracking +120%, Radar +50%"
+  },
+  {
+    "name": "Good Thrust Augmenter",
+    "tech": 13,
+    "stats": "Speed +8%, Thrust +700%, Tractor Power +30%"
+  },
+  {
+    "name": "Good Traction Augmenter",
+    "tech": 13,
+    "stats": "Energy Max +70%, Energy Charge +24%, Tractor Power +50%"
+  },
+  {
+    "name": "Spacy Good Agility Augmenter",
+    "tech": 14,
+    "stats": "Speed +16%, Docking Speed +150%, Thrust +80%, Turning +180%, Capacity +18%"
+  },
+  {
+    "name": "Spacy Good Capacity Augmenter",
+    "tech": 14,
+    "stats": "Capacity +98%"
+  },
+  {
+    "name": "Spacy Good Damage Augmenter",
+    "tech": 14,
+    "stats": "Damage +46%, Capacity +18%"
+  },
+  {
+    "name": "Spacy Good Docking Augmenter",
+    "tech": 14,
+    "stats": "Docking Speed +800%, Capacity +56%"
+  },
+  {
+    "name": "Spacy Good Electric Augmenter",
+    "tech": 14,
+    "stats": "Energy Charge +80%, Capacity +18%"
+  },
+  {
+    "name": "Spacy Good Energy Augmenter",
+    "tech": 14,
+    "stats": "Energy Max +280%, Energy Charge +26%, Capacity +18%"
+  },
+  {
+    "name": "Spacy Good Firing Augmenter",
+    "tech": 14,
+    "stats": "Damage +16%, Rate of Fire +64%, Tracking +20%, Capacity +18%, Radar +20%"
+  },
+  {
+    "name": "Spacy Good Nimbleness Augmenter",
+    "tech": 14,
+    "stats": "Docking Speed +40%, Thrust +200%, Turning +250%, Capacity +18%"
+  },
+  {
+    "name": "Spacy Good Radar Augmenter",
+    "tech": 14,
+    "stats": "Damage +8%, Tracking +20%, Capacity +18%, Radar +500%"
+  },
+  {
+    "name": "Spacy Good Range Augmenter",
+    "tech": 14,
+    "stats": "Damage +8%, Range +80%, Capacity +18%, Hostility -10%"
+  },
+  {
+    "name": "Spacy Good Recovery Augmenter",
+    "tech": 14,
+    "stats": "Shield Recovery +80%, Energy Charge +8%, Capacity +18%"
+  },
+  {
+    "name": "Spacy Good Shield Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +130%, Shield Recovery +16%, Capacity +18%"
+  },
+  {
+    "name": "Spacy Good Speed Augmenter",
+    "tech": 14,
+    "stats": "Rate of Fire +38%, Speed +38%, Thrust +38%, Capacity +18%"
+  },
+  {
+    "name": "Spacy Good Stealth Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +40%, Capacity +18%, Visibility -86%"
+  },
+  {
+    "name": "Spacy Good Targeting Augmenter",
+    "tech": 14,
+    "stats": "Damage +18%, Tracking +120%, Capacity +18%, Radar +50%"
+  },
+  {
+    "name": "Spacy Good Thrust Augmenter",
+    "tech": 14,
+    "stats": "Speed +8%, Thrust +700%, Capacity +18%, Tractor Power +30%"
+  },
+  {
+    "name": "Speedy Good Agility Augmenter",
+    "tech": 14,
+    "stats": "Speed +34%, Docking Speed +150%, Thrust +80%, Turning +180%"
+  },
+  {
+    "name": "Speedy Good Capacity Augmenter",
+    "tech": 14,
+    "stats": "Speed +18%, Capacity +80%"
+  },
+  {
+    "name": "Speedy Good Damage Augmenter",
+    "tech": 14,
+    "stats": "Damage +46%, Speed +18%"
+  },
+  {
+    "name": "Speedy Good Docking Augmenter",
+    "tech": 14,
+    "stats": "Speed +18%, Docking Speed +800%, Capacity +38%"
+  },
+  {
+    "name": "Speedy Good Electric Augmenter",
+    "tech": 14,
+    "stats": "Energy Charge +80%, Speed +18%"
+  },
+  {
+    "name": "Speedy Good Energy Augmenter",
+    "tech": 14,
+    "stats": "Energy Max +280%, Energy Charge +26%, Speed +18%"
+  },
+  {
+    "name": "Speedy Good Firing Augmenter",
+    "tech": 14,
+    "stats": "Damage +16%, Rate of Fire +64%, Tracking +20%, Speed +18%, Radar +20%"
+  },
+  {
+    "name": "Speedy Good Nimbleness Augmenter",
+    "tech": 14,
+    "stats": "Speed +18%, Docking Speed +40%, Thrust +200%, Turning +250%"
+  },
+  {
+    "name": "Speedy Good Radar Augmenter",
+    "tech": 14,
+    "stats": "Damage +8%, Tracking +20%, Speed +18%, Radar +500%"
+  },
+  {
+    "name": "Speedy Good Range Augmenter",
+    "tech": 14,
+    "stats": "Damage +8%, Range +80%, Speed +18%, Hostility -10%"
+  },
+  {
+    "name": "Speedy Good Recovery Augmenter",
+    "tech": 14,
+    "stats": "Shield Recovery +80%, Energy Charge +8%, Speed +18%"
+  },
+  {
+    "name": "Speedy Good Shield Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +130%, Shield Recovery +16%, Speed +18%"
+  },
+  {
+    "name": "Speedy Good Speed Augmenter",
+    "tech": 14,
+    "stats": "Rate of Fire +38%, Speed +56%, Thrust +38%"
+  },
+  {
+    "name": "Speedy Good Stealth Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +40%, Speed +18%, Visibility -86%"
+  },
+  {
+    "name": "Speedy Good Targeting Augmenter",
+    "tech": 14,
+    "stats": "Damage +18%, Tracking +120%, Speed +18%, Radar +50%"
+  },
+  {
+    "name": "Speedy Good Thrust Augmenter",
+    "tech": 14,
+    "stats": "Speed +26%, Thrust +700%, Tractor Power +30%"
+  },
+  {
+    "name": "Exc. Aggravation Augmenter",
+    "tech": 16,
+    "stats": "Damage +40%, Hostility +66%"
+  },
+  {
+    "name": "Exc. Agility Augmenter",
+    "tech": 16,
+    "stats": "Speed +18%, Docking Speed +200%, Thrust +100%, Turning +200%"
+  },
+  {
+    "name": "Exc. Capacity Augmenter",
+    "tech": 16,
+    "stats": "Capacity +90%"
+  },
+  {
+    "name": "Exc. Damage Augmenter",
+    "tech": 16,
+    "stats": "Damage +52%"
+  },
+  {
+    "name": "Exc. Docking Augmenter",
+    "tech": 16,
+    "stats": "Docking Speed +1000%, Capacity +44%"
+  },
+  {
+    "name": "Exc. Electric Augmenter",
+    "tech": 16,
+    "stats": "Energy Charge +90%"
+  },
+  {
+    "name": "Exc. Energy Augmenter",
+    "tech": 16,
+    "stats": "Energy Max +340%, Energy Charge +30%"
+  },
+  {
+    "name": "Exc. Fading Augmenter",
+    "tech": 16,
+    "stats": "Visibility -83%, Hostility -50%"
+  },
+  {
+    "name": "Exc. Firing Augmenter",
+    "tech": 16,
+    "stats": "Damage +20%, Rate of Fire +68%, Tracking +20%, Radar +20%"
+  },
+  {
+    "name": "Exc. Hostile Augmenter",
+    "tech": 16,
+    "stats": "Shield Max -40%, Shield Recovery -57%, Damage +66%, Hostility +66%"
+  },
+  {
+    "name": "Exc. Nimbleness Augmenter",
+    "tech": 16,
+    "stats": "Docking Speed +40%, Thrust +240%, Turning +300%"
+  },
+  {
+    "name": "Exc. Radar Augmenter",
+    "tech": 16,
+    "stats": "Damage +10%, Tracking +20%, Radar +600%"
+  },
+  {
+    "name": "Exc. Range Augmenter",
+    "tech": 16,
+    "stats": "Damage +10%, Range +90%, Hostility -10%"
+  },
+  {
+    "name": "Exc. Recovery Augmenter",
+    "tech": 16,
+    "stats": "Shield Recovery +90%, Energy Charge +10%"
+  },
+  {
+    "name": "Exc. Resistance Augmenter",
+    "tech": 16,
+    "stats": "Resistance to Damage +52%"
+  },
+  {
+    "name": "Exc. Shield Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +150%, Shield Recovery +20%"
+  },
+  {
+    "name": "Exc. Speed Augmenter",
+    "tech": 16,
+    "stats": "Rate of Fire +44%, Speed +44%, Thrust +44%"
+  },
+  {
+    "name": "Exc. Stealth Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +50%, Visibility -87%"
+  },
+  {
+    "name": "Exc. Targeting Augmenter",
+    "tech": 16,
+    "stats": "Damage +22%, Tracking +134%, Radar +60%"
+  },
+  {
+    "name": "Exc. Thrust Augmenter",
+    "tech": 16,
+    "stats": "Speed +10%, Thrust +800%, Tractor Power +30%"
+  },
+  {
+    "name": "Exc. Traction Augmenter",
+    "tech": 16,
+    "stats": "Energy Max +70%, Energy Charge +30%, Tractor Power +60%"
+  },
+  {
+    "name": "Spacy Exc. Agility Augmenter",
+    "tech": 17,
+    "stats": "Speed +18%, Docking Speed +200%, Thrust +100%, Turning +200%, Capacity +21%"
+  },
+  {
+    "name": "Spacy Exc. Capacity Augmenter",
+    "tech": 17,
+    "stats": "Capacity +111%"
+  },
+  {
+    "name": "Spacy Exc. Damage Augmenter",
+    "tech": 17,
+    "stats": "Damage +52%, Capacity +21%"
+  },
+  {
+    "name": "Spacy Exc. Docking Augmenter",
+    "tech": 17,
+    "stats": "Docking Speed +1000%, Capacity +65%"
+  },
+  {
+    "name": "Spacy Exc. Electric Augmenter",
+    "tech": 17,
+    "stats": "Energy Charge +90%, Capacity +21%"
+  },
+  {
+    "name": "Spacy Exc. Energy Augmenter",
+    "tech": 17,
+    "stats": "Energy Max +340%, Energy Charge +30%, Capacity +21%"
+  },
+  {
+    "name": "Spacy Exc. Firing Augmenter",
+    "tech": 17,
+    "stats": "Damage +20%, Rate of Fire +68%, Tracking +20%, Capacity +21%, Radar +20%"
+  },
+  {
+    "name": "Spacy Exc. Nimbleness Augmenter",
+    "tech": 17,
+    "stats": "Docking Speed +40%, Thrust +240%, Turning +300%, Capacity +21%"
+  },
+  {
+    "name": "Spacy Exc. Radar Augmenter",
+    "tech": 17,
+    "stats": "Damage +10%, Tracking +20%, Capacity +21%, Radar +600%"
+  },
+  {
+    "name": "Spacy Exc. Range Augmenter",
+    "tech": 17,
+    "stats": "Damage +10%, Range +90%, Capacity +21%, Hostility -10%"
+  },
+  {
+    "name": "Spacy Exc. Recovery Augmenter",
+    "tech": 17,
+    "stats": "Shield Recovery +90%, Energy Charge +10%, Capacity +21%"
+  },
+  {
+    "name": "Spacy Exc. Shield Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +150%, Shield Recovery +20%, Capacity +21%"
+  },
+  {
+    "name": "Spacy Exc. Speed Augmenter",
+    "tech": 17,
+    "stats": "Rate of Fire +44%, Speed +44%, Thrust +44%, Capacity +21%"
+  },
+  {
+    "name": "Spacy Exc. Stealth Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +50%, Capacity +21%, Visibility -87%"
+  },
+  {
+    "name": "Spacy Exc. Targeting Augmenter",
+    "tech": 17,
+    "stats": "Damage +22%, Tracking +134%, Capacity +21%, Radar +60%"
+  },
+  {
+    "name": "Spacy Exc. Thrust Augmenter",
+    "tech": 17,
+    "stats": "Speed +10%, Thrust +800%, Capacity +21%, Tractor Power +30%"
+  },
+  {
+    "name": "Speedy Exc. Agility Augmenter",
+    "tech": 17,
+    "stats": "Speed +39%, Docking Speed +200%, Thrust +100%, Turning +200%"
+  },
+  {
+    "name": "Speedy Exc. Capacity Augmenter",
+    "tech": 17,
+    "stats": "Speed +21%, Capacity +90%"
+  },
+  {
+    "name": "Speedy Exc. Damage Augmenter",
+    "tech": 17,
+    "stats": "Damage +52%, Speed +21%"
+  },
+  {
+    "name": "Speedy Exc. Docking Augmenter",
+    "tech": 17,
+    "stats": "Speed +21%, Docking Speed +1000%, Capacity +44%"
+  },
+  {
+    "name": "Speedy Exc. Electric Augmenter",
+    "tech": 17,
+    "stats": "Energy Charge +90%, Speed +21%"
+  },
+  {
+    "name": "Speedy Exc. Energy Augmenter",
+    "tech": 17,
+    "stats": "Energy Max +340%, Energy Charge +30%, Speed +21%"
+  },
+  {
+    "name": "Speedy Exc. Firing Augmenter",
+    "tech": 17,
+    "stats": "Damage +20%, Rate of Fire +68%, Tracking +20%, Speed +21%, Radar +20%"
+  },
+  {
+    "name": "Speedy Exc. Nimbleness Augmenter",
+    "tech": 17,
+    "stats": "Speed +21%, Docking Speed +40%, Thrust +240%, Turning +300%"
+  },
+  {
+    "name": "Speedy Exc. Radar Augmenter",
+    "tech": 17,
+    "stats": "Damage +10%, Tracking +20%, Speed +21%, Radar +600%"
+  },
+  {
+    "name": "Speedy Exc. Range Augmenter",
+    "tech": 17,
+    "stats": "Damage +10%, Range +90%, Speed +21%, Hostility -10%"
+  },
+  {
+    "name": "Speedy Exc. Recovery Augmenter",
+    "tech": 17,
+    "stats": "Shield Recovery +90%, Energy Charge +10%, Speed +21%"
+  },
+  {
+    "name": "Speedy Exc. Shield Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +150%, Shield Recovery +20%, Speed +21%"
+  },
+  {
+    "name": "Speedy Exc. Speed Augmenter",
+    "tech": 17,
+    "stats": "Rate of Fire +44%, Speed +65%, Thrust +44%"
+  },
+  {
+    "name": "Speedy Exc. Stealth Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +50%, Speed +21%, Visibility -87%"
+  },
+  {
+    "name": "Speedy Exc. Targeting Augmenter",
+    "tech": 17,
+    "stats": "Damage +22%, Tracking +134%, Speed +21%, Radar +60%"
+  },
+  {
+    "name": "Speedy Exc. Thrust Augmenter",
+    "tech": 17,
+    "stats": "Speed +31%, Thrust +800%, Tractor Power +30%"
+  },
+  {
+    "name": "Sup. Aggravation Augmenter",
+    "tech": 19,
+    "stats": "Damage +44%, Hostility +75%"
+  },
+  {
+    "name": "Sup. Agility Augmenter",
+    "tech": 19,
+    "stats": "Speed +20%, Docking Speed +250%, Thrust +120%, Turning +220%"
+  },
+  {
+    "name": "Sup. Capacity Augmenter",
+    "tech": 19,
+    "stats": "Capacity +100%"
+  },
+  {
+    "name": "Sup. Damage Augmenter",
+    "tech": 19,
+    "stats": "Damage +58%"
+  },
+  {
+    "name": "Sup. Docking Augmenter",
+    "tech": 19,
+    "stats": "Docking Speed +1200%, Capacity +50%"
+  },
+  {
+    "name": "Sup. Electric Augmenter",
+    "tech": 19,
+    "stats": "Energy Charge +100%"
+  },
+  {
+    "name": "Sup. Energy Augmenter",
+    "tech": 19,
+    "stats": "Energy Max +400%, Energy Charge +34%"
+  },
+  {
+    "name": "Sup. Fading Augmenter",
+    "tech": 19,
+    "stats": "Visibility -85%, Hostility -55%"
+  },
+  {
+    "name": "Sup. Firing Augmenter",
+    "tech": 19,
+    "stats": "Damage +24%, Rate of Fire +70%, Tracking +20%, Radar +20%"
+  },
+  {
+    "name": "Sup. Hostile Augmenter",
+    "tech": 19,
+    "stats": "Shield Max -46%, Shield Recovery -62%, Damage +74%, Hostility +75%"
+  },
+  {
+    "name": "Sup. Nimbleness Augmenter",
+    "tech": 19,
+    "stats": "Docking Speed +40%, Thrust +280%, Turning +350%"
+  },
+  {
+    "name": "Sup. Radar Augmenter",
+    "tech": 19,
+    "stats": "Damage +12%, Tracking +20%, Radar +700%"
+  },
+  {
+    "name": "Sup. Range Augmenter",
+    "tech": 19,
+    "stats": "Damage +12%, Range +100%, Hostility -10%"
+  },
+  {
+    "name": "Sup. Recovery Augmenter",
+    "tech": 19,
+    "stats": "Shield Recovery +100%, Energy Charge +12%"
+  },
+  {
+    "name": "Sup. Resistance Augmenter",
+    "tech": 19,
+    "stats": "Resistance to Damage +58%"
+  },
+  {
+    "name": "Sup. Shield Augmenter",
+    "tech": 19,
+    "stats": "Shield Max +170%, Shield Recovery +24%"
+  },
+  {
+    "name": "Sup. Speed Augmenter",
+    "tech": 19,
+    "stats": "Rate of Fire +48%, Speed +48%, Thrust +48%"
+  },
+  {
+    "name": "Sup. Stealth Augmenter",
+    "tech": 19,
+    "stats": "Shield Max +60%, Visibility -89%"
+  },
+  {
+    "name": "Sup. Targeting Augmenter",
+    "tech": 19,
+    "stats": "Damage +26%, Tracking +150%, Radar +70%"
+  },
+  {
+    "name": "Sup. Thrust Augmenter",
+    "tech": 19,
+    "stats": "Speed +12%, Thrust +900%, Tractor Power +30%"
+  },
+  {
+    "name": "Sup. Traction Augmenter",
+    "tech": 19,
+    "stats": "Energy Max +70%, Energy Charge +34%, Tractor Power +70%"
+  },
+  {
+    "name": "Spacy Sup. Agility Augmenter",
+    "tech": 20,
+    "stats": "Speed +20%, Docking Speed +250%, Thrust +120%, Turning +220%, Capacity +24%"
+  },
+  {
+    "name": "Spacy Sup. Capacity Augmenter",
+    "tech": 20,
+    "stats": "Capacity +124%"
+  },
+  {
+    "name": "Spacy Sup. Damage Augmenter",
+    "tech": 20,
+    "stats": "Damage +58%, Capacity +24%"
+  },
+  {
+    "name": "Spacy Sup. Docking Augmenter",
+    "tech": 20,
+    "stats": "Docking Speed +1200%, Capacity +74%"
+  },
+  {
+    "name": "Spacy Sup. Electric Augmenter",
+    "tech": 20,
+    "stats": "Energy Charge +100%, Capacity +24%"
+  },
+  {
+    "name": "Spacy Sup. Energy Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +400%, Energy Charge +34%, Capacity +24%"
+  },
+  {
+    "name": "Spacy Sup. Firing Augmenter",
+    "tech": 20,
+    "stats": "Damage +24%, Rate of Fire +70%, Tracking +20%, Capacity +24%, Radar +20%"
+  },
+  {
+    "name": "Spacy Sup. Nimbleness Augmenter",
+    "tech": 20,
+    "stats": "Docking Speed +40%, Thrust +280%, Turning +350%, Capacity +24%"
+  },
+  {
+    "name": "Spacy Sup. Radar Augmenter",
+    "tech": 20,
+    "stats": "Damage +12%, Tracking +20%, Capacity +24%, Radar +700%"
+  },
+  {
+    "name": "Spacy Sup. Range Augmenter",
+    "tech": 20,
+    "stats": "Damage +12%, Range +100%, Capacity +24%, Hostility -10%"
+  },
+  {
+    "name": "Spacy Sup. Recovery Augmenter",
+    "tech": 20,
+    "stats": "Shield Recovery +100%, Energy Charge +12%, Capacity +24%"
+  },
+  {
+    "name": "Spacy Sup. Shield Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +170%, Shield Recovery +24%, Capacity +24%"
+  },
+  {
+    "name": "Spacy Sup. Speed Augmenter",
+    "tech": 20,
+    "stats": "Rate of Fire +48%, Speed +48%, Thrust +48%, Capacity +24%"
+  },
+  {
+    "name": "Spacy Sup. Stealth Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +60%, Capacity +24%, Visibility -89%"
+  },
+  {
+    "name": "Spacy Sup. Targeting Augmenter",
+    "tech": 20,
+    "stats": "Damage +26%, Tracking +150%, Capacity +24%, Radar +70%"
+  },
+  {
+    "name": "Spacy Sup. Thrust Augmenter",
+    "tech": 20,
+    "stats": "Speed +12%, Thrust +900%, Capacity +24%, Tractor Power +30%"
+  },
+  {
+    "name": "Speedy Sup. Agility Augmenter",
+    "tech": 20,
+    "stats": "Speed +44%, Docking Speed +250%, Thrust +120%, Turning +220%"
+  },
+  {
+    "name": "Speedy Sup. Capacity Augmenter",
+    "tech": 20,
+    "stats": "Speed +24%, Capacity +100%"
+  },
+  {
+    "name": "Speedy Sup. Damage Augmenter",
+    "tech": 20,
+    "stats": "Damage +58%, Speed +24%"
+  },
+  {
+    "name": "Speedy Sup. Docking Augmenter",
+    "tech": 20,
+    "stats": "Speed +24%, Docking Speed +1200%, Capacity +50%"
+  },
+  {
+    "name": "Speedy Sup. Electric Augmenter",
+    "tech": 20,
+    "stats": "Energy Charge +100%, Speed +24%"
+  },
+  {
+    "name": "Speedy Sup. Energy Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +400%, Energy Charge +34%, Speed +24%"
+  },
+  {
+    "name": "Speedy Sup. Firing Augmenter",
+    "tech": 20,
+    "stats": "Damage +24%, Rate of Fire +70%, Tracking +20%, Speed +24%, Radar +20%"
+  },
+  {
+    "name": "Speedy Sup. Nimbleness Augmenter",
+    "tech": 20,
+    "stats": "Speed +24%, Docking Speed +40%, Thrust +280%, Turning +350%"
+  },
+  {
+    "name": "Speedy Sup. Radar Augmenter",
+    "tech": 20,
+    "stats": "Damage +12%, Tracking +20%, Speed +24%, Radar +700%"
+  },
+  {
+    "name": "Speedy Sup. Range Augmenter",
+    "tech": 20,
+    "stats": "Damage +12%, Range +100%, Speed +24%, Hostility -10%"
+  },
+  {
+    "name": "Speedy Sup. Recovery Augmenter",
+    "tech": 20,
+    "stats": "Shield Recovery +100%, Energy Charge +12%, Speed +24%"
+  },
+  {
+    "name": "Speedy Sup. Shield Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +170%, Shield Recovery +24%, Speed +24%"
+  },
+  {
+    "name": "Speedy Sup. Speed Augmenter",
+    "tech": 20,
+    "stats": "Rate of Fire +48%, Speed +72%, Thrust +48%"
+  },
+  {
+    "name": "Speedy Sup. Stealth Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +60%, Speed +24%, Visibility -89%"
+  },
+  {
+    "name": "Speedy Sup. Targeting Augmenter",
+    "tech": 20,
+    "stats": "Damage +26%, Tracking +150%, Speed +24%, Radar +70%"
+  },
+  {
+    "name": "Speedy Sup. Thrust Augmenter",
+    "tech": 20,
+    "stats": "Speed +36%, Thrust +900%, Tractor Power +30%"
+  },
+  {
+    "name": "Ult. Aggravation Augmenter",
+    "tech": 22,
+    "stats": "Damage +56%, Hostility +100%"
+  },
+  {
+    "name": "Ult. Agility Augmenter",
+    "tech": 22,
+    "stats": "Speed +24%, Docking Speed +350%, Thrust +160%, Turning +260%"
+  },
+  {
+    "name": "Ult. Capacity Augmenter",
+    "tech": 22,
+    "stats": "Capacity +120%"
+  },
+  {
+    "name": "Ult. Damage Augmenter",
+    "tech": 22,
+    "stats": "Damage +72%"
+  },
+  {
+    "name": "Ult. Docking Augmenter",
+    "tech": 22,
+    "stats": "Docking Speed +1400%, Capacity +60%"
+  },
+  {
+    "name": "Ult. Electric Augmenter",
+    "tech": 22,
+    "stats": "Energy Charge +120%"
+  },
+  {
+    "name": "Ult. Energy Augmenter",
+    "tech": 22,
+    "stats": "Energy Max +500%, Energy Charge +40%"
+  },
+  {
+    "name": "Ult. Fading Augmenter",
+    "tech": 22,
+    "stats": "Visibility -88%, Hostility -62%"
+  },
+  {
+    "name": "Ult. Firing Augmenter",
+    "tech": 22,
+    "stats": "Electric Tempering -2%, Damage +28%, Rate of Fire +80%, Tracking +20%, Radar +20%"
+  },
+  {
+    "name": "Ult. Hostile Augmenter",
+    "tech": 22,
+    "stats": "Hostility +82%"
+  },
+  {
+    "name": "Ult. Nimbleness Augmenter",
+    "tech": 22,
+    "stats": "Speed +10%, Docking Speed +40%, Thrust +320%, Turning +400%"
+  },
+  {
+    "name": "Ult. Radar Augmenter",
+    "tech": 22,
+    "stats": "Damage +20%, Tracking +20%, Radar +800%"
+  },
+  {
+    "name": "Ult. Range Augmenter",
+    "tech": 22,
+    "stats": "Damage +14%, Range +120%, Hostility -10%"
+  },
+  {
+    "name": "Ult. Recovery Augmenter",
+    "tech": 22,
+    "stats": "Shield Recovery +120%, Energy Charge +14%"
+  },
+  {
+    "name": "Ult. Resistance Augmenter",
+    "tech": 22,
+    "stats": "Resistance to Damage +68%"
+  },
+  {
+    "name": "Ult. Shield Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +200%, Shield Recovery +28%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Ult. Speed Augmenter",
+    "tech": 22,
+    "stats": "Rate of Fire +58%, Speed +58%, Thrust +58%"
+  },
+  {
+    "name": "Ult. Stealth Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +70%, Visibility -91%"
+  },
+  {
+    "name": "Ult. Targeting Augmenter",
+    "tech": 22,
+    "stats": "Damage +30%, Tracking +180%, Radar +80%"
+  },
+  {
+    "name": "Ult. Thrust Augmenter",
+    "tech": 22,
+    "stats": "Speed +14%, Thrust +1100%, Weight +40%, Tractor Power +30%"
+  },
+  {
+    "name": "Ult. Traction Augmenter",
+    "tech": 22,
+    "stats": "Energy Max +70%, Energy Charge +40%, Tractor Power +80%"
+  },
+  {
+    "name": "Adv. Minor Defensive Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +45%, Shield Recovery +38%"
+  },
+  {
+    "name": "Adv. Minor Invigorating Augmenter",
+    "tech": 1,
+    "stats": "Energy Max +120%, Energy Charge +27%"
+  },
+  {
+    "name": "Adv. Minor Marksman Augmenter",
+    "tech": 1,
+    "stats": "Range +52%, Tracking +65%"
+  },
+  {
+    "name": "Adv. Minor Monkey Augmenter",
+    "tech": 1,
+    "stats": "Thrust +620%, Turning +80%"
+  },
+  {
+    "name": "Adv. Minor Patrol Augmenter",
+    "tech": 1,
+    "stats": "Radar +210%, Visibility -63%"
+  },
+  {
+    "name": "Adv. Minor Racer Augmenter",
+    "tech": 1,
+    "stats": "Speed +20%, Docking Speed +400%, Thrust +90%, Turning +28%"
+  },
+  {
+    "name": "Adv. Minor Rage Augmenter",
+    "tech": 1,
+    "stats": "Damage +18%, Rate of Fire +36%"
+  },
+  {
+    "name": "Adv. Minor Sardine Augmenter",
+    "tech": 1,
+    "stats": "Weight -18%, Capacity +40%"
+  },
+  {
+    "name": "Minor Artillery Augmenter",
+    "tech": 1,
+    "stats": "Damage +30%, Rate of Fire -35%, Range +29%, Tracking +20%"
+  },
+  {
+    "name": "Minor Assassin Augmenter",
+    "tech": 1,
+    "stats": "Damage +12%, Speed +6%, Radar +50%, Visibility -33%, Critical Hit Strength +25%"
+  },
+  {
+    "name": "Minor Barrage Augmenter",
+    "tech": 1,
+    "stats": "Energy Max +130%, Rate of Fire +30%, Range +30%, Tracking -20%"
+  },
+  {
+    "name": "Minor Defender Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +40%, Energy Charge +10%, Rate of Fire +5%, Turning +10%, Hostility +20%, Resistance to Damage +6%"
+  },
+  {
+    "name": "Minor Defensive Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +43%, Shield Recovery +34%"
+  },
+  {
+    "name": "Minor Frenzy Augmenter",
+    "tech": 1,
+    "stats": "Shield Max -18%, Shield Recovery -18%, Energy Max +60%, Damage +25%, Rate of Fire +15%, Range -10%, Speed +10%"
+  },
+  {
+    "name": "Minor Harrier Augmenter",
+    "tech": 1,
+    "stats": "Damage +13%, Rate of Fire +20%, Range +20%, Speed +12%, Thrust +160%, Turning -33%, Visibility +100%"
+  },
+  {
+    "name": "Minor Hauling Augmenter",
+    "tech": 1,
+    "stats": "Energy Max +100%, Thrust +200%, Turning +60%, Capacity +30%, Inertial Dampening +100%, Tractor Power +22%"
+  },
+  {
+    "name": "Minor Holding Augmenter",
+    "tech": 1,
+    "stats": "Energy Charge +10%, Weight -10%, Capacity +34%"
+  },
+  {
+    "name": "Minor Insanity Augmenter",
+    "tech": 1,
+    "stats": "Shield Max -18%, Energy Charge +20%, Damage +10%, Rate of Fire +28%, Weight -10%"
+  },
+  {
+    "name": "Minor Interceptor Augmenter",
+    "tech": 1,
+    "stats": "Energy Max +30%, Damage +10%, Tracking +30%, Speed +8%, Thrust +100%, Turning +40%"
+  },
+  {
+    "name": "Minor Invigorating Augmenter",
+    "tech": 1,
+    "stats": "Energy Max +100%, Energy Charge +27%"
+  },
+  {
+    "name": "Minor Madness Augmenter",
+    "tech": 1,
+    "stats": "Shield Max -10%, Electric Tempering -10%, Rate of Fire +60%, Speed +6%, Thrust +60%, Turning +60%, Visibility +200%"
+  },
+  {
+    "name": "Minor Marauder Augmenter",
+    "tech": 1,
+    "stats": "Damage +25%, Speed +10%, Thrust +60%, Turning +50%, Capacity +5%, Visibility -33%, Resistance to Damage -18%"
+  },
+  {
+    "name": "Minor Marksman Augmenter",
+    "tech": 1,
+    "stats": "Range +48%, Tracking +60%"
+  },
+  {
+    "name": "Minor Messenger Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +20%, Energy Max +15%, Speed +30%, Docking Speed +50%, Thrust +20%, Turning +10%, Weight -7%"
+  },
+  {
+    "name": "Minor Monkey Augmenter",
+    "tech": 1,
+    "stats": "Thrust +590%, Turning +70%"
+  },
+  {
+    "name": "Minor Obliteration Augmenter",
+    "tech": 1,
+    "stats": "Damage +10%, Rate of Fire +10%, Range +25%, Critical Hit Strength +30%"
+  },
+  {
+    "name": "Minor Patrol Augmenter",
+    "tech": 1,
+    "stats": "Radar +210%, Visibility -59%"
+  },
+  {
+    "name": "Minor Racer Augmenter",
+    "tech": 1,
+    "stats": "Speed +19%, Docking Speed +400%, Thrust +80%, Turning +18%"
+  },
+  {
+    "name": "Minor Rage Augmenter",
+    "tech": 1,
+    "stats": "Damage +17%, Rate of Fire +34%"
+  },
+  {
+    "name": "Minor Rejuvenating Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +20%, Shield Recovery +15%, Energy Charge +15%, Resistance to Damage +2%, Transference Power +19%"
+  },
+  {
+    "name": "Minor Reviving Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +25%, Shield Recovery +20%, Rate of Fire +25%, Transference Power +20%"
+  },
+  {
+    "name": "Minor Sardine Augmenter",
+    "tech": 1,
+    "stats": "Weight -15%, Capacity +38%"
+  },
+  {
+    "name": "Minor Scoundrel Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +20%, Damage +20%, Rate of Fire +20%, Range -25%, Visibility -12%, Resistance to Damage +2%, Critical Hit Chance +3%"
+  },
+  {
+    "name": "Minor Smuggling Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +40%, Thrust +50%, Turning +40%, Capacity +19%"
+  },
+  {
+    "name": "Minor Stimulating Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +10%, Shield Recovery +10%, Energy Max +20%, Energy Charge +10%, Damage +3%, Range +10%, Tracking +20%, Capacity +4%, Transference Power +8%"
+  },
+  {
+    "name": "Minor Vanguard Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +20%, Energy Charge +10%, Damage +7%, Speed +5%, Thrust +20%, Hostility +30%, Resistance to Damage +4%"
+  },
+  {
+    "name": "Minor Warrior Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +20%, Electric Tempering -8%, Damage +16%, Hostility +20%, Resistance to Damage +3%"
+  },
+  {
+    "name": "Adv. Basic Defensive Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +110%, Shield Recovery +53%"
+  },
+  {
+    "name": "Adv. Basic Invigorating Augmenter",
+    "tech": 6,
+    "stats": "Energy Max +195%, Energy Charge +53%"
+  },
+  {
+    "name": "Adv. Basic Marksman Augmenter",
+    "tech": 6,
+    "stats": "Range +115%, Tracking +80%"
+  },
+  {
+    "name": "Adv. Basic Monkey Augmenter",
+    "tech": 6,
+    "stats": "Thrust +940%, Turning +190%"
+  },
+  {
+    "name": "Adv. Basic Patrol Augmenter",
+    "tech": 6,
+    "stats": "Radar +370%, Visibility -76%"
+  },
+  {
+    "name": "Adv. Basic Racer Augmenter",
+    "tech": 6,
+    "stats": "Speed +51%, Docking Speed +500%, Thrust +110%, Turning +32%"
+  },
+  {
+    "name": "Adv. Basic Rage Augmenter",
+    "tech": 6,
+    "stats": "Damage +33%, Rate of Fire +66%"
+  },
+  {
+    "name": "Adv. Basic Sardine Augmenter",
+    "tech": 6,
+    "stats": "Weight -26%, Capacity +74%"
+  },
+  {
+    "name": "Basic Artillery Augmenter",
+    "tech": 6,
+    "stats": "Damage +50%, Rate of Fire -32%, Range +35%, Tracking +40%, Critical Hit Chance +1%"
+  },
+  {
+    "name": "Basic Assassin Augmenter",
+    "tech": 6,
+    "stats": "Damage +18%, Speed +20%, Radar +100%, Visibility -33%, Critical Hit Strength +50%"
+  },
+  {
+    "name": "Basic Barrage Augmenter",
+    "tech": 6,
+    "stats": "Energy Max +150%, Damage +10%, Rate of Fire +60%, Range +40%, Tracking -20%"
+  },
+  {
+    "name": "Basic Defender Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +50%, Energy Charge +20%, Rate of Fire +13%, Turning +20%, Hostility +30%, Resistance to Damage +14%"
+  },
+  {
+    "name": "Basic Defensive Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +105%, Shield Recovery +47%"
+  },
+  {
+    "name": "Basic Frenzy Augmenter",
+    "tech": 6,
+    "stats": "Shield Max -18%, Shield Recovery -18%, Energy Max +60%, Damage +40%, Rate of Fire +25%, Range -18%, Speed +26%"
+  },
+  {
+    "name": "Basic Harrier Augmenter",
+    "tech": 6,
+    "stats": "Damage +20%, Rate of Fire +30%, Range +50%, Speed +20%, Thrust +160%, Turning -33%, Visibility +100%"
+  },
+  {
+    "name": "Basic Hauling Augmenter",
+    "tech": 6,
+    "stats": "Energy Max +100%, Thrust +200%, Turning +60%, Capacity +40%, Inertial Dampening +40%, Tractor Power +35%"
+  },
+  {
+    "name": "Basic Holding Augmenter",
+    "tech": 6,
+    "stats": "Energy Charge +30%, Weight -18%, Capacity +50%"
+  },
+  {
+    "name": "Basic Insanity Augmenter",
+    "tech": 6,
+    "stats": "Shield Max -18%, Energy Charge +20%, Damage +20%, Rate of Fire +70%, Weight -18%"
+  },
+  {
+    "name": "Basic Interceptor Augmenter",
+    "tech": 6,
+    "stats": "Energy Max +60%, Damage +25%, Tracking +40%, Speed +10%, Thrust +200%, Turning +60%"
+  },
+  {
+    "name": "Basic Invigorating Augmenter",
+    "tech": 6,
+    "stats": "Energy Max +150%, Energy Charge +53%"
+  },
+  {
+    "name": "Basic Madness Augmenter",
+    "tech": 6,
+    "stats": "Shield Max -10%, Electric Tempering -13%, Rate of Fire +115%, Speed +10%, Thrust +60%, Turning +60%, Visibility +200%"
+  },
+  {
+    "name": "Basic Marauder Augmenter",
+    "tech": 6,
+    "stats": "Damage +41%, Speed +16%, Thrust +75%, Turning +75%, Capacity +10%, Visibility -33%, Resistance to Damage -18%"
+  },
+  {
+    "name": "Basic Marksman Augmenter",
+    "tech": 6,
+    "stats": "Range +106%, Tracking +75%"
+  },
+  {
+    "name": "Basic Messenger Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +40%, Energy Max +40%, Speed +36%, Docking Speed +200%, Thrust +100%, Turning +60%, Weight -18%"
+  },
+  {
+    "name": "Basic Monkey Augmenter",
+    "tech": 6,
+    "stats": "Thrust +850%, Turning +180%"
+  },
+  {
+    "name": "Basic Obliteration Augmenter",
+    "tech": 6,
+    "stats": "Damage +20%, Rate of Fire +20%, Range +45%, Critical Hit Strength +50%"
+  },
+  {
+    "name": "Basic Patrol Augmenter",
+    "tech": 6,
+    "stats": "Radar +370%, Visibility -73%"
+  },
+  {
+    "name": "Basic Racer Augmenter",
+    "tech": 6,
+    "stats": "Speed +48%, Docking Speed +500%, Thrust +100%, Turning +20%"
+  },
+  {
+    "name": "Basic Rage Augmenter",
+    "tech": 6,
+    "stats": "Damage +31%, Rate of Fire +62%"
+  },
+  {
+    "name": "Basic Rejuvenating Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +30%, Shield Recovery +30%, Energy Charge +30%, Resistance to Damage +3%, Transference Power +35%"
+  },
+  {
+    "name": "Basic Reviving Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +25%, Shield Recovery +45%, Rate of Fire +50%, Speed +5%, Hostility -18%, Transference Power +20%"
+  },
+  {
+    "name": "Basic Sardine Augmenter",
+    "tech": 6,
+    "stats": "Weight -23%, Capacity +69%"
+  },
+  {
+    "name": "Basic Scoundrel Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +25%, Damage +32%, Rate of Fire +32%, Range -25%, Visibility -25%, Resistance to Damage +7%, Critical Hit Chance +4%"
+  },
+  {
+    "name": "Basic Smuggling Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +40%, Speed +17%, Thrust +100%, Turning +80%, Capacity +30%"
+  },
+  {
+    "name": "Basic Stimulating Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +20%, Shield Recovery +30%, Energy Max +40%, Energy Charge +20%, Damage +4%, Range +20%, Tracking +20%, Capacity +5%, Transference Power +9%"
+  },
+  {
+    "name": "Basic Vanguard Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +30%, Energy Charge +20%, Damage +16%, Speed +5%, Thrust +20%, Hostility +30%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Basic Warrior Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +30%, Electric Tempering -10%, Damage +37%, Hostility +20%, Resistance to Damage +5%"
+  },
+  {
+    "name": "Adv. Std. Defensive Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +178%, Shield Recovery +66%"
+  },
+  {
+    "name": "Adv. Std. Invigorating Augmenter",
+    "tech": 11,
+    "stats": "Energy Max +320%, Energy Charge +73%"
+  },
+  {
+    "name": "Adv. Std. Marksman Augmenter",
+    "tech": 11,
+    "stats": "Range +180%, Tracking +95%"
+  },
+  {
+    "name": "Adv. Std. Monkey Augmenter",
+    "tech": 11,
+    "stats": "Thrust +1450%, Turning +255%"
+  },
+  {
+    "name": "Adv. Std. Patrol Augmenter",
+    "tech": 11,
+    "stats": "Radar +580%, Visibility -81%"
+  },
+  {
+    "name": "Adv. Std. Racer Augmenter",
+    "tech": 11,
+    "stats": "Speed +83%, Docking Speed +600%, Thrust +130%, Turning +34%"
+  },
+  {
+    "name": "Adv. Std. Rage Augmenter",
+    "tech": 11,
+    "stats": "Damage +48%, Rate of Fire +96%"
+  },
+  {
+    "name": "Adv. Std. Sardine Augmenter",
+    "tech": 11,
+    "stats": "Weight -33%, Capacity +110%"
+  },
+  {
+    "name": "Std. Artillery Augmenter",
+    "tech": 11,
+    "stats": "Damage +60%, Rate of Fire -31%, Range +70%, Tracking +60%, Critical Hit Chance +3%"
+  },
+  {
+    "name": "Std. Assassin Augmenter",
+    "tech": 11,
+    "stats": "Damage +23%, Speed +25%, Radar +100%, Visibility -40%, Critical Hit Strength +100%"
+  },
+  {
+    "name": "Std. Barrage Augmenter",
+    "tech": 11,
+    "stats": "Energy Max +180%, Damage +20%, Rate of Fire +80%, Range +65%, Tracking -20%"
+  },
+  {
+    "name": "Std. Defender Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +80%, Energy Charge +30%, Rate of Fire +22%, Turning +30%, Hostility +40%, Resistance to Damage +18%"
+  },
+  {
+    "name": "Std. Defensive Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +173%, Shield Recovery +57%"
+  },
+  {
+    "name": "Std. Frenzy Augmenter",
+    "tech": 11,
+    "stats": "Shield Max -18%, Shield Recovery -18%, Energy Max +60%, Damage +55%, Rate of Fire +55%, Range -26%, Speed +30%"
+  },
+  {
+    "name": "Std. Harrier Augmenter",
+    "tech": 11,
+    "stats": "Damage +39%, Rate of Fire +35%, Range +50%, Speed +30%, Thrust +160%, Turning -33%, Visibility +100%"
+  },
+  {
+    "name": "Std. Hauling Augmenter",
+    "tech": 11,
+    "stats": "Energy Max +100%, Thrust +200%, Turning +60%, Capacity +60%, Inertial Dampening +40%, Tractor Power +60%"
+  },
+  {
+    "name": "Std. Holding Augmenter",
+    "tech": 11,
+    "stats": "Energy Charge +55%, Weight -33%, Capacity +60%"
+  },
+  {
+    "name": "Std. Insanity Augmenter",
+    "tech": 11,
+    "stats": "Shield Max -18%, Energy Charge +40%, Damage +20%, Rate of Fire +105%, Weight -18%"
+  },
+  {
+    "name": "Std. Interceptor Augmenter",
+    "tech": 11,
+    "stats": "Energy Max +60%, Damage +34%, Tracking +50%, Speed +30%, Thrust +200%, Turning +60%, Critical Hit Chance +5%"
+  },
+  {
+    "name": "Std. Invigorating Augmenter",
+    "tech": 11,
+    "stats": "Energy Max +250%, Energy Charge +73%"
+  },
+  {
+    "name": "Std. Madness Augmenter",
+    "tech": 11,
+    "stats": "Shield Max -10%, Electric Tempering -17%, Damage +5%, Rate of Fire +140%, Speed +24%, Thrust +60%, Turning +60%, Visibility +200%"
+  },
+  {
+    "name": "Std. Marauder Augmenter",
+    "tech": 11,
+    "stats": "Damage +57%, Speed +22%, Thrust +100%, Turning +100%, Capacity +14%, Visibility -33%, Resistance to Damage -18%"
+  },
+  {
+    "name": "Std. Marksman Augmenter",
+    "tech": 11,
+    "stats": "Range +166%, Tracking +90%"
+  },
+  {
+    "name": "Std. Messenger Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +60%, Energy Max +60%, Speed +60%, Docking Speed +260%, Thrust +100%, Turning +60%, Weight -26%"
+  },
+  {
+    "name": "Std. Monkey Augmenter",
+    "tech": 11,
+    "stats": "Thrust +1300%, Turning +245%"
+  },
+  {
+    "name": "Std. Obliteration Augmenter",
+    "tech": 11,
+    "stats": "Damage +35%, Rate of Fire +35%, Range +55%, Critical Hit Strength +60%"
+  },
+  {
+    "name": "Std. Patrol Augmenter",
+    "tech": 11,
+    "stats": "Radar +580%, Visibility -79%"
+  },
+  {
+    "name": "Std. Racer Augmenter",
+    "tech": 11,
+    "stats": "Speed +77%, Docking Speed +600%, Thrust +120%, Turning +22%"
+  },
+  {
+    "name": "Std. Rage Augmenter",
+    "tech": 11,
+    "stats": "Damage +45%, Rate of Fire +89%"
+  },
+  {
+    "name": "Std. Rejuvenating Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +40%, Shield Recovery +40%, Energy Charge +40%, Resistance to Damage +6%, Transference Power +60%"
+  },
+  {
+    "name": "Std. Reviving Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +30%, Shield Recovery +70%, Rate of Fire +60%, Speed +10%, Hostility -33%, Transference Power +30%"
+  },
+  {
+    "name": "Std. Sardine Augmenter",
+    "tech": 11,
+    "stats": "Weight -31%, Capacity +100%"
+  },
+  {
+    "name": "Std. Scoundrel Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +25%, Damage +44%, Rate of Fire +44%, Range -25%, Visibility -26%, Resistance to Damage +14%, Critical Hit Chance +6%"
+  },
+  {
+    "name": "Std. Smuggling Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +40%, Speed +44%, Thrust +100%, Turning +80%, Capacity +40%"
+  },
+  {
+    "name": "Std. Stimulating Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +30%, Shield Recovery +40%, Energy Max +60%, Energy Charge +30%, Damage +10%, Range +20%, Tracking +20%, Capacity +9%, Transference Power +15%"
+  },
+  {
+    "name": "Std. Vanguard Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +30%, Energy Charge +30%, Damage +24%, Speed +10%, Thrust +20%, Hostility +30%, Resistance to Damage +16%"
+  },
+  {
+    "name": "Std. Warrior Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +45%, Electric Tempering -12%, Damage +57%, Hostility +20%, Resistance to Damage +7%"
+  },
+  {
+    "name": "Adv. Good Defensive Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +220%, Shield Recovery +73%"
+  },
+  {
+    "name": "Adv. Good Invigorating Augmenter",
+    "tech": 14,
+    "stats": "Energy Max +440%, Energy Charge +78%"
+  },
+  {
+    "name": "Adv. Good Marksman Augmenter",
+    "tech": 14,
+    "stats": "Range +218%, Tracking +105%"
+  },
+  {
+    "name": "Adv. Good Monkey Augmenter",
+    "tech": 14,
+    "stats": "Thrust +1800%, Turning +290%"
+  },
+  {
+    "name": "Adv. Good Patrol Augmenter",
+    "tech": 14,
+    "stats": "Radar +690%, Visibility -84%"
+  },
+  {
+    "name": "Adv. Good Racer Augmenter",
+    "tech": 14,
+    "stats": "Speed +99%, Docking Speed +700%, Thrust +150%, Turning +36%"
+  },
+  {
+    "name": "Adv. Good Rage Augmenter",
+    "tech": 14,
+    "stats": "Damage +57%, Rate of Fire +114%"
+  },
+  {
+    "name": "Adv. Good Sardine Augmenter",
+    "tech": 14,
+    "stats": "Weight -40%, Capacity +128%"
+  },
+  {
+    "name": "Good Artillery Augmenter",
+    "tech": 14,
+    "stats": "Damage +70%, Rate of Fire -30%, Range +80%, Tracking +60%, Critical Hit Chance +7%"
+  },
+  {
+    "name": "Good Assassin Augmenter",
+    "tech": 14,
+    "stats": "Damage +30%, Speed +28%, Radar +200%, Visibility -40%, Critical Hit Strength +100%"
+  },
+  {
+    "name": "Good Barrage Augmenter",
+    "tech": 14,
+    "stats": "Energy Max +200%, Damage +30%, Rate of Fire +95%, Range +65%, Tracking -33%"
+  },
+  {
+    "name": "Good Defender Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +80%, Energy Charge +30%, Rate of Fire +35%, Turning +40%, Hostility +80%, Resistance to Damage +22%"
+  },
+  {
+    "name": "Good Defensive Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +213%, Shield Recovery +63%"
+  },
+  {
+    "name": "Good Frenzy Augmenter",
+    "tech": 14,
+    "stats": "Shield Max -18%, Shield Recovery -18%, Energy Max +60%, Damage +65%, Rate of Fire +70%, Range -26%, Speed +32%"
+  },
+  {
+    "name": "Good Harrier Augmenter",
+    "tech": 14,
+    "stats": "Damage +46%, Rate of Fire +40%, Range +50%, Speed +40%, Thrust +160%, Turning -33%, Visibility +100%"
+  },
+  {
+    "name": "Good Hauling Augmenter",
+    "tech": 14,
+    "stats": "Energy Max +100%, Thrust +200%, Turning +60%, Capacity +70%, Inertial Dampening +40%, Tractor Power +80%"
+  },
+  {
+    "name": "Good Holding Augmenter",
+    "tech": 14,
+    "stats": "Energy Charge +57%, Weight -33%, Capacity +80%"
+  },
+  {
+    "name": "Good Insanity Augmenter",
+    "tech": 14,
+    "stats": "Shield Max -18%, Energy Charge +45%, Damage +25%, Rate of Fire +125%, Weight -18%"
+  },
+  {
+    "name": "Good Interceptor Augmenter",
+    "tech": 14,
+    "stats": "Energy Max +60%, Damage +40%, Tracking +60%, Speed +38%, Thrust +200%, Turning +60%, Critical Hit Chance +8%"
+  },
+  {
+    "name": "Good Invigorating Augmenter",
+    "tech": 14,
+    "stats": "Energy Max +365%, Energy Charge +78%"
+  },
+  {
+    "name": "Good Madness Augmenter",
+    "tech": 14,
+    "stats": "Shield Max -10%, Electric Tempering -20%, Damage +5%, Rate of Fire +170%, Speed +28%, Thrust +60%, Turning +60%, Visibility +200%"
+  },
+  {
+    "name": "Good Marauder Augmenter",
+    "tech": 14,
+    "stats": "Damage +70%, Speed +26%, Thrust +100%, Turning +100%, Capacity +16%, Visibility -33%, Resistance to Damage -18%"
+  },
+  {
+    "name": "Good Marksman Augmenter",
+    "tech": 14,
+    "stats": "Range +200%, Tracking +100%"
+  },
+  {
+    "name": "Good Messenger Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +60%, Energy Max +60%, Speed +80%, Docking Speed +300%, Thrust +100%, Turning +60%, Weight -26%"
+  },
+  {
+    "name": "Good Monkey Augmenter",
+    "tech": 14,
+    "stats": "Thrust +1600%, Turning +280%"
+  },
+  {
+    "name": "Good Obliteration Augmenter",
+    "tech": 14,
+    "stats": "Damage +40%, Rate of Fire +40%, Range +72%, Critical Hit Strength +70%"
+  },
+  {
+    "name": "Good Patrol Augmenter",
+    "tech": 14,
+    "stats": "Radar +690%, Visibility -81%"
+  },
+  {
+    "name": "Good Racer Augmenter",
+    "tech": 14,
+    "stats": "Speed +92%, Docking Speed +700%, Thrust +140%, Turning +24%"
+  },
+  {
+    "name": "Good Rage Augmenter",
+    "tech": 14,
+    "stats": "Damage +53%, Rate of Fire +106%"
+  },
+  {
+    "name": "Good Rejuvenating Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +50%, Shield Recovery +60%, Energy Charge +40%, Resistance to Damage +7%, Transference Power +68%"
+  },
+  {
+    "name": "Good Reviving Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +30%, Shield Recovery +85%, Rate of Fire +70%, Speed +13%, Hostility -33%, Transference Power +40%"
+  },
+  {
+    "name": "Good Sardine Augmenter",
+    "tech": 14,
+    "stats": "Weight -37%, Capacity +120%"
+  },
+  {
+    "name": "Good Scoundrel Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +25%, Damage +54%, Rate of Fire +54%, Range -25%, Visibility -29%, Resistance to Damage +15%, Critical Hit Chance +8%"
+  },
+  {
+    "name": "Good Smuggling Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +40%, Speed +57%, Thrust +100%, Turning +80%, Capacity +50%"
+  },
+  {
+    "name": "Good Stimulating Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +30%, Shield Recovery +60%, Energy Max +60%, Energy Charge +30%, Damage +15%, Range +20%, Tracking +20%, Capacity +11%, Transference Power +18%"
+  },
+  {
+    "name": "Good Vanguard Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +40%, Energy Charge +30%, Damage +34%, Speed +14%, Thrust +40%, Hostility +30%, Resistance to Damage +16%"
+  },
+  {
+    "name": "Good Warrior Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +55%, Electric Tempering -14%, Damage +62%, Hostility +40%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Adv. Exc. Defensive Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +260%, Shield Recovery +82%"
+  },
+  {
+    "name": "Adv. Exc. Invigorating Augmenter",
+    "tech": 17,
+    "stats": "Energy Max +560%, Energy Charge +83%"
+  },
+  {
+    "name": "Adv. Exc. Marksman Augmenter",
+    "tech": 17,
+    "stats": "Range +254%, Tracking +120%"
+  },
+  {
+    "name": "Adv. Exc. Monkey Augmenter",
+    "tech": 17,
+    "stats": "Thrust +2100%, Turning +330%"
+  },
+  {
+    "name": "Adv. Exc. Patrol Augmenter",
+    "tech": 17,
+    "stats": "Radar +800%, Visibility -86%"
+  },
+  {
+    "name": "Adv. Exc. Racer Augmenter",
+    "tech": 17,
+    "stats": "Speed +110%, Docking Speed +1000%, Thrust +170%, Turning +38%"
+  },
+  {
+    "name": "Adv. Exc. Rage Augmenter",
+    "tech": 17,
+    "stats": "Damage +66%, Rate of Fire +132%"
+  },
+  {
+    "name": "Adv. Exc. Sardine Augmenter",
+    "tech": 17,
+    "stats": "Weight -46%, Capacity +147%"
+  },
+  {
+    "name": "Exc. Artillery Augmenter",
+    "tech": 17,
+    "stats": "Damage +75%, Rate of Fire -29%, Range +95%, Tracking +80%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Exc. Assassin Augmenter",
+    "tech": 17,
+    "stats": "Damage +40%, Speed +29%, Radar +200%, Visibility -57%, Critical Hit Strength +100%"
+  },
+  {
+    "name": "Exc. Barrage Augmenter",
+    "tech": 17,
+    "stats": "Energy Max +220%, Damage +40%, Rate of Fire +110%, Range +65%, Tracking -33%"
+  },
+  {
+    "name": "Exc. Defender Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +100%, Energy Charge +30%, Rate of Fire +47%, Turning +40%, Hostility +80%, Resistance to Damage +26%"
+  },
+  {
+    "name": "Exc. Defensive Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +250%, Shield Recovery +70%"
+  },
+  {
+    "name": "Exc. Frenzy Augmenter",
+    "tech": 17,
+    "stats": "Shield Max -18%, Shield Recovery -18%, Energy Max +60%, Damage +75%, Rate of Fire +85%, Range -33%, Speed +36%"
+  },
+  {
+    "name": "Exc. Harrier Augmenter",
+    "tech": 17,
+    "stats": "Damage +60%, Rate of Fire +50%, Range +50%, Speed +40%, Thrust +160%, Turning -33%, Visibility +100%"
+  },
+  {
+    "name": "Exc. Hauling Augmenter",
+    "tech": 17,
+    "stats": "Energy Max +100%, Thrust +200%, Turning +60%, Capacity +80%, Inertial Dampening +40%, Tractor Power +100%"
+  },
+  {
+    "name": "Exc. Holding Augmenter",
+    "tech": 17,
+    "stats": "Energy Charge +63%, Weight -40%, Capacity +90%, Inertial Dampening -18%"
+  },
+  {
+    "name": "Exc. Insanity Augmenter",
+    "tech": 17,
+    "stats": "Shield Max -18%, Energy Charge +50%, Damage +30%, Rate of Fire +145%, Weight -18%"
+  },
+  {
+    "name": "Exc. Interceptor Augmenter",
+    "tech": 17,
+    "stats": "Energy Max +60%, Damage +40%, Tracking +70%, Speed +60%, Thrust +200%, Turning +60%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Exc. Invigorating Augmenter",
+    "tech": 17,
+    "stats": "Energy Max +480%, Energy Charge +83%"
+  },
+  {
+    "name": "Exc. Madness Augmenter",
+    "tech": 17,
+    "stats": "Shield Max -15%, Electric Tempering -23%, Damage +10%, Rate of Fire +185%, Speed +32%, Thrust +60%, Turning +60%, Visibility +200%"
+  },
+  {
+    "name": "Exc. Marauder Augmenter",
+    "tech": 17,
+    "stats": "Damage +80%, Speed +30%, Thrust +100%, Turning +100%, Capacity +20%, Visibility -33%, Resistance to Damage -18%"
+  },
+  {
+    "name": "Exc. Marksman Augmenter",
+    "tech": 17,
+    "stats": "Range +233%, Tracking +115%"
+  },
+  {
+    "name": "Exc. Messenger Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +80%, Energy Max +60%, Speed +90%, Docking Speed +360%, Thrust +100%, Turning +60%, Weight -33%"
+  },
+  {
+    "name": "Exc. Monkey Augmenter",
+    "tech": 17,
+    "stats": "Thrust +1880%, Turning +320%"
+  },
+  {
+    "name": "Exc. Obliteration Augmenter",
+    "tech": 17,
+    "stats": "Damage +45%, Rate of Fire +45%, Range +90%, Critical Hit Strength +80%"
+  },
+  {
+    "name": "Exc. Patrol Augmenter",
+    "tech": 17,
+    "stats": "Radar +800%, Visibility -83%"
+  },
+  {
+    "name": "Exc. Racer Augmenter",
+    "tech": 17,
+    "stats": "Speed +101%, Docking Speed +1000%, Thrust +160%, Turning +26%"
+  },
+  {
+    "name": "Exc. Rage Augmenter",
+    "tech": 17,
+    "stats": "Damage +61%, Rate of Fire +122%"
+  },
+  {
+    "name": "Exc. Rejuvenating Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +60%, Shield Recovery +60%, Energy Charge +50%, Resistance to Damage +9%, Transference Power +79%"
+  },
+  {
+    "name": "Exc. Reviving Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +30%, Shield Recovery +90%, Rate of Fire +80%, Speed +18%, Hostility -33%, Transference Power +60%"
+  },
+  {
+    "name": "Exc. Sardine Augmenter",
+    "tech": 17,
+    "stats": "Weight -44%, Capacity +136%"
+  },
+  {
+    "name": "Exc. Scoundrel Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +25%, Damage +62%, Rate of Fire +62%, Range -25%, Visibility -32%, Resistance to Damage +17%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Exc. Smuggling Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +40%, Speed +60%, Thrust +100%, Turning +80%, Capacity +50%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Exc. Stimulating Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +40%, Shield Recovery +60%, Energy Max +60%, Energy Charge +40%, Damage +17%, Range +20%, Tracking +20%, Capacity +15%, Transference Power +20%"
+  },
+  {
+    "name": "Exc. Vanguard Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +45%, Energy Charge +30%, Damage +38%, Speed +20%, Thrust +50%, Hostility +40%, Resistance to Damage +20%"
+  },
+  {
+    "name": "Exc. Warrior Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +60%, Electric Tempering -16%, Damage +71%, Hostility +60%, Resistance to Damage +12%"
+  },
+  {
+    "name": "Adamanturized Defensive Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +290%, Shield Recovery +80%, Resistance to Damage +5%, Transference Power +30%"
+  },
+  {
+    "name": "Adamanturized Invigorating Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +590%, Energy Charge +88%, Electric Tempering -5%, Transference Power +50%"
+  },
+  {
+    "name": "Adamanturized Marksman Augmenter",
+    "tech": 20,
+    "stats": "Damage +46%, Range +200%, Tracking +100%, Radar +50%"
+  },
+  {
+    "name": "Adamanturized Monkey Augmenter",
+    "tech": 20,
+    "stats": "Speed +40%, Docking Speed +400%, Thrust +1800%, Turning +290%"
+  },
+  {
+    "name": "Adamanturized Patrol Augmenter",
+    "tech": 20,
+    "stats": "Radar +400%, Visibility -87%, Tractor Power +95%"
+  },
+  {
+    "name": "Adamanturized Racer Augmenter",
+    "tech": 20,
+    "stats": "Speed +142%, Docking Speed +1100%, Thrust +190%, Turning +30%"
+  },
+  {
+    "name": "Adamanturized Rage Augmenter",
+    "tech": 20,
+    "stats": "Electric Tempering -15%, Damage +75%, Rate of Fire +150%"
+  },
+  {
+    "name": "Adamanturized Sardine Augmenter",
+    "tech": 20,
+    "stats": "Weight -55%, Capacity +178%"
+  },
+  {
+    "name": "Adv. Sup. Defensive Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +300%, Shield Recovery +90%"
+  },
+  {
+    "name": "Adv. Sup. Invigorating Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +690%, Energy Charge +88%"
+  },
+  {
+    "name": "Adv. Sup. Marksman Augmenter",
+    "tech": 20,
+    "stats": "Range +289%, Tracking +135%"
+  },
+  {
+    "name": "Adv. Sup. Monkey Augmenter",
+    "tech": 20,
+    "stats": "Thrust +2450%, Turning +360%"
+  },
+  {
+    "name": "Adv. Sup. Patrol Augmenter",
+    "tech": 20,
+    "stats": "Radar +900%, Visibility -87%"
+  },
+  {
+    "name": "Adv. Sup. Racer Augmenter",
+    "tech": 20,
+    "stats": "Speed +127%, Docking Speed +1100%, Thrust +190%, Turning +40%"
+  },
+  {
+    "name": "Adv. Sup. Rage Augmenter",
+    "tech": 20,
+    "stats": "Damage +75%, Rate of Fire +150%"
+  },
+  {
+    "name": "Adv. Sup. Sardine Augmenter",
+    "tech": 20,
+    "stats": "Weight -52%, Capacity +165%"
+  },
+  {
+    "name": "Demented Defensive Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +285%, Shield Recovery +78%, Transference Power +30%"
+  },
+  {
+    "name": "Demented Invigorating Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +590%, Energy Charge +88%, Transference Power +32%"
+  },
+  {
+    "name": "Demented Marksman Augmenter",
+    "tech": 20,
+    "stats": "Damage +36%, Range +200%, Tracking +100%, Radar +50%"
+  },
+  {
+    "name": "Demented Monkey Augmenter",
+    "tech": 20,
+    "stats": "Speed +30%, Docking Speed +300%, Thrust +1800%, Turning +290%"
+  },
+  {
+    "name": "Demented Patrol Augmenter",
+    "tech": 20,
+    "stats": "Radar +400%, Visibility -87%, Tractor Power +75%"
+  },
+  {
+    "name": "Demented Racer Augmenter",
+    "tech": 20,
+    "stats": "Speed +129%, Docking Speed +1100%, Thrust +190%, Turning +30%"
+  },
+  {
+    "name": "Demented Rage Augmenter",
+    "tech": 20,
+    "stats": "Electric Tempering -15%, Damage +69%, Rate of Fire +138%"
+  },
+  {
+    "name": "Demented Sardine Augmenter",
+    "tech": 20,
+    "stats": "Weight -55%, Capacity +165%"
+  },
+  {
+    "name": "Sup. Artillery Augmenter",
+    "tech": 20,
+    "stats": "Damage +80%, Rate of Fire -25%, Range +110%, Tracking +100%, Critical Hit Chance +13%"
+  },
+  {
+    "name": "Sup. Assassin Augmenter",
+    "tech": 20,
+    "stats": "Damage +45%, Speed +30%, Radar +200%, Visibility -71%, Critical Hit Strength +100%"
+  },
+  {
+    "name": "Sup. Barrage Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +250%, Damage +50%, Rate of Fire +120%, Range +65%, Tracking -33%"
+  },
+  {
+    "name": "Sup. Defender Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +100%, Energy Charge +36%, Rate of Fire +60%, Turning +40%, Hostility +100%, Resistance to Damage +30%"
+  },
+  {
+    "name": "Sup. Defensive Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +285%, Shield Recovery +78%"
+  },
+  {
+    "name": "Sup. Frenzy Augmenter",
+    "tech": 20,
+    "stats": "Shield Max -18%, Shield Recovery -18%, Energy Max +100%, Damage +85%, Rate of Fire +90%, Range -33%, Speed +38%"
+  },
+  {
+    "name": "Sup. Harrier Augmenter",
+    "tech": 20,
+    "stats": "Damage +67%, Rate of Fire +55%, Range +50%, Speed +50%, Thrust +160%, Turning -33%, Visibility +100%"
+  },
+  {
+    "name": "Sup. Hauling Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +100%, Thrust +200%, Turning +60%, Capacity +90%, Inertial Dampening +40%, Tractor Power +115%"
+  },
+  {
+    "name": "Sup. Holding Augmenter",
+    "tech": 20,
+    "stats": "Energy Charge +65%, Weight -46%, Capacity +110%, Inertial Dampening -18%"
+  },
+  {
+    "name": "Sup. Insanity Augmenter",
+    "tech": 20,
+    "stats": "Shield Max -26%, Energy Charge +55%, Damage +35%, Rate of Fire +170%, Weight -18%"
+  },
+  {
+    "name": "Sup. Interceptor Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +60%, Damage +40%, Tracking +80%, Speed +70%, Thrust +200%, Turning +60%, Critical Hit Chance +20%"
+  },
+  {
+    "name": "Sup. Invigorating Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +590%, Energy Charge +88%"
+  },
+  {
+    "name": "Sup. Madness Augmenter",
+    "tech": 20,
+    "stats": "Shield Max -20%, Electric Tempering -26%, Damage +15%, Rate of Fire +200%, Speed +36%, Thrust +60%, Turning +60%, Visibility +200%"
+  },
+  {
+    "name": "Sup. Marauder Augmenter",
+    "tech": 20,
+    "stats": "Damage +90%, Speed +40%, Thrust +100%, Turning +100%, Capacity +20%, Visibility -33%, Resistance to Damage -18%"
+  },
+  {
+    "name": "Sup. Marksman Augmenter",
+    "tech": 20,
+    "stats": "Range +265%, Tracking +130%"
+  },
+  {
+    "name": "Sup. Messenger Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +80%, Energy Max +60%, Speed +110%, Docking Speed +400%, Thrust +100%, Turning +60%, Weight -33%"
+  },
+  {
+    "name": "Sup. Monkey Augmenter",
+    "tech": 20,
+    "stats": "Thrust +2200%, Turning +350%"
+  },
+  {
+    "name": "Sup. Obliteration Augmenter",
+    "tech": 20,
+    "stats": "Damage +50%, Rate of Fire +50%, Range +107%, Critical Hit Strength +90%"
+  },
+  {
+    "name": "Sup. Patrol Augmenter",
+    "tech": 20,
+    "stats": "Radar +900%, Visibility -85%"
+  },
+  {
+    "name": "Sup. Racer Augmenter",
+    "tech": 20,
+    "stats": "Speed +117%, Docking Speed +1100%, Thrust +180%, Turning +28%"
+  },
+  {
+    "name": "Sup. Rage Augmenter",
+    "tech": 20,
+    "stats": "Damage +70%, Rate of Fire +139%"
+  },
+  {
+    "name": "Sup. Rejuvenating Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +70%, Shield Recovery +70%, Energy Charge +50%, Resistance to Damage +13%, Transference Power +88%"
+  },
+  {
+    "name": "Sup. Reviving Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +35%, Shield Recovery +90%, Rate of Fire +90%, Speed +20%, Hostility -33%, Transference Power +90%"
+  },
+  {
+    "name": "Sup. Sardine Augmenter",
+    "tech": 20,
+    "stats": "Weight -50%, Capacity +154%"
+  },
+  {
+    "name": "Sup. Scoundrel Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +25%, Damage +70%, Rate of Fire +70%, Range -25%, Visibility -35%, Resistance to Damage +21%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Sup. Smuggling Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +40%, Speed +78%, Thrust +100%, Turning +80%, Capacity +55%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Sup. Stimulating Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +50%, Shield Recovery +60%, Energy Max +60%, Energy Charge +50%, Damage +18%, Range +30%, Tracking +30%, Capacity +15%, Transference Power +20%"
+  },
+  {
+    "name": "Sup. Vanguard Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +50%, Energy Charge +36%, Damage +48%, Speed +20%, Thrust +60%, Hostility +50%, Resistance to Damage +20%"
+  },
+  {
+    "name": "Sup. Warrior Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +70%, Electric Tempering -18%, Damage +80%, Hostility +70%, Resistance to Damage +14%"
+  },
+  {
+    "name": "Ult. Artillery Augmenter",
+    "tech": 22,
+    "stats": "Damage +90%, Rate of Fire -25%, Range +110%, Tracking +100%, Critical Hit Chance +15%"
+  },
+  {
+    "name": "Ult. Assassin Augmenter",
+    "tech": 22,
+    "stats": "Damage +50%, Speed +31%, Radar +200%, Visibility -75%, Critical Hit Strength +100%"
+  },
+  {
+    "name": "Ult. Barrage Augmenter",
+    "tech": 22,
+    "stats": "Energy Max +250%, Damage +60%, Rate of Fire +120%, Range +65%, Tracking -25%"
+  },
+  {
+    "name": "Ult. Defender Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +100%, Energy Charge +40%, Rate of Fire +60%, Turning +40%, Hostility +120%, Resistance to Damage +34%"
+  },
+  {
+    "name": "Ult. Frenzy Augmenter",
+    "tech": 22,
+    "stats": "Shield Max -26%, Shield Recovery -26%, Energy Max +100%, Damage +100%, Rate of Fire +100%, Range -40%, Speed +40%"
+  },
+  {
+    "name": "Ult. Harrier Augmenter",
+    "tech": 22,
+    "stats": "Damage +69%, Rate of Fire +60%, Range +50%, Speed +60%, Thrust +160%, Turning -33%, Visibility +100%"
+  },
+  {
+    "name": "Ult. Hauling Augmenter",
+    "tech": 22,
+    "stats": "Energy Max +100%, Thrust +200%, Turning +60%, Capacity +100%, Inertial Dampening +40%, Tractor Power +125%"
+  },
+  {
+    "name": "Ult. Holding Augmenter",
+    "tech": 22,
+    "stats": "Energy Charge +65%, Weight -46%, Capacity +120%, Inertial Dampening -33%"
+  },
+  {
+    "name": "Ult. Insanity Augmenter",
+    "tech": 22,
+    "stats": "Shield Max -33%, Energy Charge +60%, Damage +50%, Rate of Fire +170%, Weight -18%, Resistance to Damage -5%"
+  },
+  {
+    "name": "Ult. Interceptor Augmenter",
+    "tech": 22,
+    "stats": "Energy Max +100%, Damage +45%, Tracking +100%, Speed +70%, Thrust +200%, Turning +60%, Critical Hit Chance +20%"
+  },
+  {
+    "name": "Ult. Madness Augmenter",
+    "tech": 22,
+    "stats": "Shield Max -33%, Electric Tempering -33%, Damage +20%, Rate of Fire +200%, Speed +40%, Thrust +60%, Turning +60%, Visibility +200%"
+  },
+  {
+    "name": "Ult. Marauder Augmenter",
+    "tech": 22,
+    "stats": "Damage +100%, Speed +42%, Thrust +100%, Turning +100%, Capacity +20%, Visibility -33%, Resistance to Damage -18%"
+  },
+  {
+    "name": "Ult. Messenger Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +80%, Energy Max +80%, Speed +115%, Docking Speed +600%, Thrust +100%, Turning +60%, Weight -46%"
+  },
+  {
+    "name": "Ult. Obliteration Augmenter",
+    "tech": 22,
+    "stats": "Damage +55%, Rate of Fire +55%, Range +110%, Critical Hit Strength +100%"
+  },
+  {
+    "name": "Ult. Rejuvenating Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +80%, Shield Recovery +80%, Energy Charge +50%, Resistance to Damage +15%, Transference Power +89%"
+  },
+  {
+    "name": "Ult. Reviving Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +35%, Shield Recovery +100%, Rate of Fire +100%, Speed +20%, Hostility -33%, Transference Power +100%"
+  },
+  {
+    "name": "Ult. Scoundrel Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +25%, Damage +74%, Rate of Fire +74%, Range -25%, Visibility -40%, Resistance to Damage +24%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Ult. Smuggling Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +40%, Speed +87%, Thrust +100%, Turning +80%, Capacity +60%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Ult. Stimulating Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +60%, Shield Recovery +60%, Energy Max +60%, Energy Charge +60%, Damage +18%, Range +30%, Tracking +30%, Capacity +15%, Transference Power +25%"
+  },
+  {
+    "name": "Ult. Vanguard Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +60%, Energy Charge +40%, Damage +49%, Speed +20%, Thrust +60%, Hostility +60%, Resistance to Damage +22%"
+  },
+  {
+    "name": "Ult. Warrior Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +80%, Electric Tempering -20%, Damage +82%, Hostility +80%, Resistance to Damage +16%"
+  },
+  {
+    "name": "Ship Mastery Augmenter 0",
+    "tech": 0,
+    "stats": "Shield Max +1%, Shield Recovery +1%, Energy Max +1%, Energy Charge +1%, Electric Tempering -1%, Damage +1%, Rate of Fire +1%, Range +1%, Tracking +1%, Speed +1%, Docking Speed +1%, Thrust +1%, Turning +1%, Capacity +1%, Radar +1%, Visibility -1%, Resistance to Damage +1%, Transference Power +1%, Tractor Power +1%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 1",
+    "tech": 1,
+    "stats": "Shield Max +1%, Shield Recovery +1%, Energy Max +1%, Energy Charge +1%, Electric Tempering -1%, Damage +1%, Rate of Fire +1%, Range +1%, Tracking +1%, Speed +1%, Docking Speed +1%, Thrust +1%, Turning +1%, Capacity +1%, Radar +1%, Visibility -1%, Resistance to Damage +1%, Transference Power +1%, Tractor Power +1%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 2",
+    "tech": 2,
+    "stats": "Shield Max +2%, Shield Recovery +2%, Energy Max +2%, Energy Charge +2%, Electric Tempering -2%, Damage +2%, Rate of Fire +2%, Range +2%, Tracking +2%, Speed +2%, Docking Speed +2%, Thrust +2%, Turning +2%, Capacity +2%, Radar +2%, Visibility -2%, Resistance to Damage +2%, Transference Power +2%, Tractor Power +2%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 3",
+    "tech": 3,
+    "stats": "Shield Max +3%, Shield Recovery +3%, Energy Max +3%, Energy Charge +3%, Electric Tempering -3%, Damage +3%, Rate of Fire +3%, Range +3%, Tracking +3%, Speed +3%, Docking Speed +3%, Thrust +3%, Turning +3%, Capacity +3%, Radar +3%, Visibility -3%, Resistance to Damage +3%, Transference Power +3%, Tractor Power +3%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 4",
+    "tech": 4,
+    "stats": "Shield Max +4%, Shield Recovery +4%, Energy Max +4%, Energy Charge +4%, Electric Tempering -4%, Damage +4%, Rate of Fire +4%, Range +4%, Tracking +4%, Speed +4%, Docking Speed +4%, Thrust +4%, Turning +4%, Capacity +4%, Radar +4%, Visibility -4%, Resistance to Damage +4%, Transference Power +4%, Tractor Power +4%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 5",
+    "tech": 5,
+    "stats": "Shield Max +5%, Shield Recovery +5%, Energy Max +5%, Energy Charge +5%, Electric Tempering -5%, Damage +5%, Rate of Fire +5%, Range +5%, Tracking +5%, Speed +5%, Docking Speed +5%, Thrust +5%, Turning +5%, Capacity +5%, Radar +5%, Visibility -5%, Resistance to Damage +5%, Transference Power +5%, Tractor Power +5%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 6",
+    "tech": 6,
+    "stats": "Shield Max +6%, Shield Recovery +6%, Energy Max +6%, Energy Charge +6%, Electric Tempering -6%, Damage +6%, Rate of Fire +6%, Range +6%, Tracking +6%, Speed +6%, Docking Speed +6%, Thrust +6%, Turning +6%, Capacity +6%, Radar +6%, Visibility -6%, Resistance to Damage +6%, Transference Power +6%, Tractor Power +6%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 7",
+    "tech": 7,
+    "stats": "Shield Max +7%, Shield Recovery +7%, Energy Max +7%, Energy Charge +7%, Electric Tempering -7%, Damage +7%, Rate of Fire +7%, Range +7%, Tracking +7%, Speed +7%, Docking Speed +7%, Thrust +7%, Turning +7%, Capacity +7%, Radar +7%, Visibility -7%, Resistance to Damage +7%, Transference Power +7%, Tractor Power +7%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 8",
+    "tech": 8,
+    "stats": "Shield Max +8%, Shield Recovery +8%, Energy Max +8%, Energy Charge +8%, Electric Tempering -8%, Damage +8%, Rate of Fire +8%, Range +8%, Tracking +8%, Speed +8%, Docking Speed +8%, Thrust +8%, Turning +8%, Capacity +8%, Radar +8%, Visibility -8%, Resistance to Damage +8%, Transference Power +8%, Tractor Power +8%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 9",
+    "tech": 9,
+    "stats": "Shield Max +9%, Shield Recovery +9%, Energy Max +9%, Energy Charge +9%, Electric Tempering -9%, Damage +9%, Rate of Fire +9%, Range +9%, Tracking +9%, Speed +9%, Docking Speed +9%, Thrust +9%, Turning +9%, Capacity +9%, Radar +9%, Visibility -9%, Resistance to Damage +9%, Transference Power +9%, Tractor Power +9%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 10",
+    "tech": 10,
+    "stats": "Shield Max +10%, Shield Recovery +10%, Energy Max +10%, Energy Charge +10%, Electric Tempering -10%, Damage +10%, Rate of Fire +10%, Range +10%, Tracking +10%, Speed +10%, Docking Speed +10%, Thrust +10%, Turning +10%, Capacity +10%, Radar +10%, Visibility -10%, Resistance to Damage +10%, Transference Power +10%, Tractor Power +10%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 11",
+    "tech": 11,
+    "stats": "Shield Max +11%, Shield Recovery +11%, Energy Max +11%, Energy Charge +11%, Electric Tempering -11%, Damage +11%, Rate of Fire +11%, Range +11%, Tracking +11%, Speed +11%, Docking Speed +11%, Thrust +11%, Turning +11%, Capacity +11%, Radar +11%, Visibility -11%, Resistance to Damage +11%, Transference Power +11%, Tractor Power +11%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 12",
+    "tech": 12,
+    "stats": "Shield Max +12%, Shield Recovery +12%, Energy Max +12%, Energy Charge +12%, Electric Tempering -12%, Damage +12%, Rate of Fire +12%, Range +12%, Tracking +12%, Speed +12%, Docking Speed +12%, Thrust +12%, Turning +12%, Capacity +12%, Radar +12%, Visibility -12%, Resistance to Damage +12%, Transference Power +12%, Tractor Power +12%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 13",
+    "tech": 13,
+    "stats": "Shield Max +13%, Shield Recovery +13%, Energy Max +13%, Energy Charge +13%, Electric Tempering -13%, Damage +13%, Rate of Fire +13%, Range +13%, Tracking +13%, Speed +13%, Docking Speed +13%, Thrust +13%, Turning +13%, Capacity +13%, Radar +13%, Visibility -13%, Resistance to Damage +13%, Transference Power +13%, Tractor Power +13%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 14",
+    "tech": 14,
+    "stats": "Shield Max +14%, Shield Recovery +14%, Energy Max +14%, Energy Charge +14%, Electric Tempering -14%, Damage +14%, Rate of Fire +14%, Range +14%, Tracking +14%, Speed +14%, Docking Speed +14%, Thrust +14%, Turning +14%, Capacity +14%, Radar +14%, Visibility -14%, Resistance to Damage +14%, Transference Power +14%, Tractor Power +14%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 15",
+    "tech": 15,
+    "stats": "Shield Max +15%, Shield Recovery +15%, Energy Max +15%, Energy Charge +15%, Electric Tempering -15%, Damage +15%, Rate of Fire +15%, Range +15%, Tracking +15%, Speed +15%, Docking Speed +15%, Thrust +15%, Turning +15%, Capacity +15%, Radar +15%, Visibility -15%, Resistance to Damage +15%, Transference Power +15%, Tractor Power +15%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 16",
+    "tech": 16,
+    "stats": "Shield Max +16%, Shield Recovery +16%, Energy Max +16%, Energy Charge +16%, Electric Tempering -16%, Damage +16%, Rate of Fire +16%, Range +16%, Tracking +16%, Speed +16%, Docking Speed +16%, Thrust +16%, Turning +16%, Capacity +16%, Radar +16%, Visibility -16%, Resistance to Damage +16%, Transference Power +16%, Tractor Power +16%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 17",
+    "tech": 17,
+    "stats": "Shield Max +17%, Shield Recovery +17%, Energy Max +17%, Energy Charge +17%, Electric Tempering -17%, Damage +17%, Rate of Fire +17%, Range +17%, Tracking +17%, Speed +17%, Docking Speed +17%, Thrust +17%, Turning +17%, Capacity +17%, Radar +17%, Visibility -17%, Resistance to Damage +17%, Transference Power +17%, Tractor Power +17%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 18",
+    "tech": 18,
+    "stats": "Shield Max +18%, Shield Recovery +18%, Energy Max +18%, Energy Charge +18%, Electric Tempering -18%, Damage +18%, Rate of Fire +18%, Range +18%, Tracking +18%, Speed +18%, Docking Speed +18%, Thrust +18%, Turning +18%, Capacity +18%, Radar +18%, Visibility -18%, Resistance to Damage +18%, Transference Power +18%, Tractor Power +18%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 19",
+    "tech": 19,
+    "stats": "Shield Max +19%, Shield Recovery +19%, Energy Max +19%, Energy Charge +19%, Electric Tempering -19%, Damage +19%, Rate of Fire +19%, Range +19%, Tracking +19%, Speed +19%, Docking Speed +19%, Thrust +19%, Turning +19%, Capacity +19%, Radar +19%, Visibility -19%, Resistance to Damage +19%, Transference Power +19%, Tractor Power +19%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 20",
+    "tech": 20,
+    "stats": "Shield Max +20%, Shield Recovery +20%, Energy Max +20%, Energy Charge +20%, Electric Tempering -20%, Damage +20%, Rate of Fire +20%, Range +20%, Tracking +20%, Speed +20%, Docking Speed +20%, Thrust +20%, Turning +20%, Capacity +20%, Radar +20%, Visibility -20%, Resistance to Damage +20%, Transference Power +20%, Tractor Power +20%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 21",
+    "tech": 21,
+    "stats": "Shield Max +21%, Shield Recovery +21%, Energy Max +21%, Energy Charge +21%, Electric Tempering -21%, Damage +21%, Rate of Fire +21%, Range +21%, Tracking +21%, Speed +21%, Docking Speed +21%, Thrust +21%, Turning +21%, Capacity +21%, Radar +21%, Visibility -21%, Resistance to Damage +21%, Transference Power +21%, Tractor Power +21%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Ship Mastery Augmenter 22",
+    "tech": 22,
+    "stats": "Shield Max +22%, Shield Recovery +22%, Energy Max +22%, Energy Charge +22%, Electric Tempering -22%, Damage +22%, Rate of Fire +22%, Range +22%, Tracking +22%, Speed +22%, Docking Speed +22%, Thrust +22%, Turning +22%, Capacity +22%, Radar +22%, Visibility -22%, Resistance to Damage +22%, Transference Power +22%, Tractor Power +22%, Multifiring +10, Weapons Slots +1"
+  },
+  {
+    "name": "Apollo Augmenter",
+    "tech": 0,
+    "stats": "Shield Recovery +15%, Energy Charge +15%, Turning +40%"
+  },
+  {
+    "name": "Apollo+ Augmenter",
+    "tech": 0,
+    "stats": "Shield Recovery +17%, Energy Charge +17%, Turning +40%"
+  },
+  {
+    "name": "Hestia Augmenter",
+    "tech": 0,
+    "stats": "Shield Max +70%, Energy Max +90%, Visibility +100%"
+  },
+  {
+    "name": "Hestia+ Augmenter",
+    "tech": 0,
+    "stats": "Shield Max +75%, Energy Max +100%, Visibility +110%"
+  },
+  {
+    "name": "Aphrodite Augmenter",
+    "tech": 5,
+    "stats": "Damage +36%, Docking Speed +200%, Thrust +50%, Turning +50%"
+  },
+  {
+    "name": "Aphrodite+ Augmenter",
+    "tech": 5,
+    "stats": "Damage +40%, Docking Speed +200%, Thrust +50%, Turning +50%"
+  },
+  {
+    "name": "Artemis Augmenter",
+    "tech": 5,
+    "stats": "Range +79%, Tracking +77%, Visibility -33%"
+  },
+  {
+    "name": "Artemis+ Augmenter",
+    "tech": 5,
+    "stats": "Range +88%, Tracking +80%, Visibility -33%"
+  },
+  {
+    "name": "Dionysis Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +100%, Damage +42%, Docking Speed +200%, Thrust -26%, Turning -10%"
+  },
+  {
+    "name": "Dionysis+ Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +100%, Damage +48%, Docking Speed +200%, Thrust -26%, Turning -10%"
+  },
+  {
+    "name": "Hermes Augmenter",
+    "tech": 10,
+    "stats": "Shield Recovery +40%, Speed +36%, Docking Speed +200%, Thrust +100%, Visibility -67%"
+  },
+  {
+    "name": "Hermes+ Augmenter",
+    "tech": 10,
+    "stats": "Shield Recovery +40%, Speed +39%, Docking Speed +200%, Thrust +100%, Visibility -70%"
+  },
+  {
+    "name": "Hephaestus Augmenter",
+    "tech": 13,
+    "stats": "Energy Max +160%, Damage +20%, Rate of Fire -33%, Tracking +60%, Speed -26%, Capacity +87%"
+  },
+  {
+    "name": "Hephaestus+ Augmenter",
+    "tech": 13,
+    "stats": "Energy Max +160%, Damage +22%, Rate of Fire -33%, Tracking +65%, Speed -26%, Capacity +92%"
+  },
+  {
+    "name": "Poseidon Augmenter",
+    "tech": 13,
+    "stats": "Shield Max +100%, Shield Recovery +70%, Damage +28%, Range -15%"
+  },
+  {
+    "name": "Poseidon+ Augmenter",
+    "tech": 13,
+    "stats": "Shield Max +100%, Shield Recovery +80%, Damage +30%, Range -11%"
+  },
+  {
+    "name": "Ares Augmenter",
+    "tech": 16,
+    "stats": "Shield Recovery +50%, Energy Charge +50%, Rate of Fire +90%, Turning +40%"
+  },
+  {
+    "name": "Ares+ Augmenter",
+    "tech": 16,
+    "stats": "Shield Recovery +50%, Energy Charge +50%, Rate of Fire +110%, Turning +45%"
+  },
+  {
+    "name": "Athena Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +100%, Damage +45%, Radar +400%"
+  },
+  {
+    "name": "Athena+ Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +100%, Damage +53%, Radar +400%"
+  },
+  {
+    "name": "Zeus- Augmenter",
+    "tech": 18,
+    "stats": "Energy Charge +67%, Electric Tempering -10%, Damage +60%, Range +10%"
+  },
+  {
+    "name": "Hera Augmenter",
+    "tech": 19,
+    "stats": "Energy Max +100%, Tracking +90%, Speed +80%, Thrust +100%, Turning +60%, Capacity +30%, Radar -40%"
+  },
+  {
+    "name": "Hera+ Augmenter",
+    "tech": 19,
+    "stats": "Energy Max +120%, Tracking +100%, Speed +80%, Thrust +100%, Turning +70%, Capacity +35%, Radar -35%"
+  },
+  {
+    "name": "Zeus Augmenter",
+    "tech": 19,
+    "stats": "Energy Charge +75%, Damage +60%, Range +10%"
+  },
+  {
+    "name": "Zeus+ Augmenter",
+    "tech": 19,
+    "stats": "Energy Charge +75%, Damage +60%, Range +35%"
+  },
+  {
+    "name": "Demeter Augmenter",
+    "tech": 0,
+    "stats": "Shield Recovery +25%, Damage +9%, Range +15%"
+  },
+  {
+    "name": "Persephone Augmenter",
+    "tech": 5,
+    "stats": "Energy Max +50%, Rate of Fire +22%, Speed +10%, Thrust +100%, Turning +50%, Capacity +10%, Radar +50%, Critical Hit Chance +18%"
+  },
+  {
+    "name": "Hebe Augmenter",
+    "tech": 10,
+    "stats": "Shield Recovery +24%, Energy Max +200%, Rate of Fire +70%, Speed +24%, Thrust +20%, Turning +20%"
+  },
+  {
+    "name": "Helios Augmenter",
+    "tech": 13,
+    "stats": "Energy Charge +70%, Damage +41%, Weapon Hold +40%"
+  },
+  {
+    "name": "Heracles Augmenter",
+    "tech": 16,
+    "stats": "Electric Tempering -14%, Damage +60%, Rate of Fire +50%, Range +46%, Hostility +66%"
+  },
+  {
+    "name": "Hades Augmenter",
+    "tech": 19,
+    "stats": "Shield Max -10%, Shield Recovery +60%, Damage +48%, Visibility -40%, Critical Hit Chance +10%, Critical Hit Strength +90%"
+  },
+  {
+    "name": "Minor Combined Augmenter",
+    "tech": 0,
+    "stats": "Shield Max +30%, Energy Max +40%, Rate of Fire +15%, Thrust +35%, Capacity +5%, Visibility -10%"
+  },
+  {
+    "name": "Spacy Minor Combined Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +30%, Energy Max +40%, Rate of Fire +15%, Thrust +35%, Capacity +10%, Visibility -10%"
+  },
+  {
+    "name": "Speedy Minor Combined Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +30%, Energy Max +40%, Rate of Fire +15%, Speed +5%, Thrust +35%, Capacity +5%, Visibility -10%"
+  },
+  {
+    "name": "Basic Combined Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +20%, Energy Max +30%, Damage +10%, Rate of Fire +15%, Range +30%, Tracking +30%, Docking Speed +100%, Thrust +50%, Turning +25%"
+  },
+  {
+    "name": "Spacy Basic Combined Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +20%, Energy Max +30%, Damage +10%, Rate of Fire +15%, Range +30%, Tracking +30%, Docking Speed +100%, Thrust +50%, Turning +25%, Capacity +10%"
+  },
+  {
+    "name": "Speedy Basic Combined Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +20%, Energy Max +30%, Damage +10%, Rate of Fire +15%, Range +30%, Tracking +30%, Speed +10%, Docking Speed +100%, Thrust +50%, Turning +25%"
+  },
+  {
+    "name": "Std. Combined Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +64%, Energy Max +60%, Damage +20%, Rate of Fire +25%, Speed +15%, Docking Speed +100%, Thrust +40%, Visibility -33%"
+  },
+  {
+    "name": "Spacy Std. Combined Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +64%, Energy Max +60%, Damage +20%, Rate of Fire +25%, Speed +15%, Docking Speed +100%, Thrust +40%, Capacity +15%, Visibility -33%"
+  },
+  {
+    "name": "Speedy Std. Combined Augmenter",
+    "tech": 11,
+    "stats": "Shield Max +64%, Energy Max +60%, Damage +20%, Rate of Fire +25%, Speed +30%, Docking Speed +100%, Thrust +40%, Visibility -33%"
+  },
+  {
+    "name": "Good Combined Augmenter",
+    "tech": 13,
+    "stats": "Shield Max +80%, Shield Recovery +40%, Energy Max +55%, Damage +30%, Rate of Fire +25%, Range -25%, Speed -10%, Capacity +15%"
+  },
+  {
+    "name": "Spacy Good Combined Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +80%, Shield Recovery +40%, Energy Max +55%, Damage +30%, Rate of Fire +25%, Range -25%, Speed -10%, Capacity +33%"
+  },
+  {
+    "name": "Speedy Good Combined Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +80%, Shield Recovery +40%, Energy Max +55%, Damage +30%, Rate of Fire +25%, Range -25%, Speed +8%, Capacity +15%"
+  },
+  {
+    "name": "Exc. Combined Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +50%, Shield Recovery +30%, Energy Max +30%, Energy Charge +40%, Damage +10%, Rate of Fire +55%, Docking Speed +50%, Turning +30%, Radar +50%"
+  },
+  {
+    "name": "Spacy Exc. Combined Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +50%, Shield Recovery +30%, Energy Max +30%, Energy Charge +40%, Damage +10%, Rate of Fire +55%, Docking Speed +50%, Turning +30%, Capacity +21%, Radar +50%"
+  },
+  {
+    "name": "Speedy Exc. Combined Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +50%, Shield Recovery +30%, Energy Max +30%, Energy Charge +40%, Damage +10%, Rate of Fire +55%, Speed +21%, Docking Speed +50%, Turning +30%, Radar +50%"
+  },
+  {
+    "name": "Sup. Combined Augmenter",
+    "tech": 19,
+    "stats": "Shield Max +40%, Energy Max +35%, Energy Charge +30%, Damage +50%, Tracking +25%, Speed +16%, Thrust +20%, Turning +20%, Capacity +20%, Radar -50%"
+  },
+  {
+    "name": "Spacy Sup. Combined Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +40%, Energy Max +35%, Energy Charge +30%, Damage +50%, Tracking +25%, Speed +16%, Thrust +20%, Turning +20%, Capacity +44%, Radar -50%"
+  },
+  {
+    "name": "Speedy Sup. Combined Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +40%, Energy Max +35%, Energy Charge +30%, Damage +50%, Tracking +25%, Speed +40%, Thrust +20%, Turning +20%, Capacity +20%, Radar -50%"
+  },
+  {
+    "name": "Ult. Combined Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +40%, Energy Max +40%, Electric Tempering -5%, Damage +40%, Speed +40%, Turning +40%, Capacity +40%, Radar +40%, Tractor Power +40%"
+  },
+  {
+    "name": "Berserker Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +30%, Energy Max +40%, Electric Tempering -10%, Damage +19%, Thrust +20%, Hostility +25%, Resistance to Damage +4%, Weapon Hold +50%"
+  },
+  {
+    "name": "Defensive Ops Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +42%, Shield Recovery +45%, Radar +20%, Resistance to Damage +5%, Transference Power +25%"
+  },
+  {
+    "name": "Engineer Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +10%, Shield Recovery +20%, Energy Max +20%, Energy Charge +15%, Damage +15%, Range +20%, Capacity +5%"
+  },
+  {
+    "name": "Everlasting Ops Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Energy Max +95%, Energy Charge +30%, Electric Tempering -3%, Range +50%"
+  },
+  {
+    "name": "Fleet Commander Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +40%, Shield Recovery +10%, Energy Max +60%, Energy Charge +20%, Speed +4%, Capacity +10%, Visibility +40%, Resistance to Damage +4%"
+  },
+  {
+    "name": "General Ops Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +70%, Shield Recovery +12%, Energy Max +60%, Energy Charge +10%, Speed +11%, Capacity +5%"
+  },
+  {
+    "name": "Gunner Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Energy Charge +10%, Electric Tempering -5%, Damage +20%, Range +20%, Capacity +10%, Hostility +20%, Weapon Hold +50%"
+  },
+  {
+    "name": "Offensive Ops Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Energy Max +100%, Damage +19%, Rate of Fire +33%, Tracking +10%, Speed +9%, Turning +10%"
+  },
+  {
+    "name": "Seer Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Damage +20%, Range +10%, Radar +80%, Visibility -46%, Critical Hit Chance +6%, Critical Hit Strength +30%"
+  },
+  {
+    "name": "Shield Monkey Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +20%, Shield Recovery +30%, Energy Charge +10%, Damage +16%, Hostility -10%, Transference Power +20%"
+  },
+  {
+    "name": "Sniper Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Energy Charge +10%, Damage +31%, Range +20%, Radar +20%, Visibility -33%"
+  },
+  {
+    "name": "Speed Demon Proficiency Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +20%, Energy Max +40%, Energy Charge +10%, Electric Tempering -6%, Damage +16%, Rate of Fire +15%, Tracking +15%, Speed +8%"
+  },
+  {
+    "name": "Berserker Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +55%, Energy Max +60%, Electric Tempering -18%, Damage +24%, Thrust +30%, Hostility +40%, Resistance to Damage +6%, Weapon Hold +50%"
+  },
+  {
+    "name": "Defensive Ops Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +70%, Shield Recovery +65%, Radar +40%, Resistance to Damage +8%, Transference Power +30%"
+  },
+  {
+    "name": "Engineer Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +15%, Shield Recovery +30%, Energy Max +50%, Energy Charge +25%, Damage +20%, Range +25%, Capacity +8%"
+  },
+  {
+    "name": "Everlasting Ops Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Energy Max +100%, Energy Charge +45%, Electric Tempering -8%, Range +80%"
+  },
+  {
+    "name": "Fleet Commander Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +60%, Shield Recovery +20%, Energy Max +60%, Energy Charge +20%, Speed +10%, Capacity +20%, Visibility +40%, Resistance to Damage +6%"
+  },
+  {
+    "name": "General Ops Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +90%, Shield Recovery +24%, Energy Max +75%, Energy Charge +20%, Speed +13%, Capacity +10%"
+  },
+  {
+    "name": "Gunner Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Energy Charge +16%, Electric Tempering -13%, Damage +30%, Range +20%, Speed +2%, Capacity +16%, Hostility +20%, Weapon Hold +50%"
+  },
+  {
+    "name": "Offensive Ops Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Energy Max +130%, Damage +26%, Rate of Fire +52%, Tracking +12%, Speed +20%, Turning +12%"
+  },
+  {
+    "name": "Seer Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Damage +34%, Range +10%, Radar +100%, Visibility -57%, Critical Hit Chance +10%, Critical Hit Strength +40%"
+  },
+  {
+    "name": "Shield Monkey Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +60%, Shield Recovery +30%, Energy Charge +10%, Damage +21%, Capacity +10%, Hostility -10%, Transference Power +25%"
+  },
+  {
+    "name": "Sniper Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Energy Charge +20%, Damage +41%, Range +30%, Radar +40%, Visibility -46%"
+  },
+  {
+    "name": "Speed Demon Aptitude Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +20%, Energy Max +50%, Energy Charge +20%, Electric Tempering -10%, Damage +20%, Rate of Fire +30%, Tracking +20%, Speed +14%"
+  },
+  {
+    "name": "Berserker Prowess Augmenter",
+    "tech": 15,
+    "stats": "Shield Max +75%, Energy Max +80%, Electric Tempering -25%, Damage +30%, Thrust +40%, Hostility +50%, Resistance to Damage +8%, Weapon Hold +60%"
+  },
+  {
+    "name": "Defensive Ops Prowess Augmenter",
+    "tech": 15,
+    "stats": "Shield Max +80%, Shield Recovery +90%, Radar +60%, Resistance to Damage +12%, Transference Power +39%"
+  },
+  {
+    "name": "Engineer Prowess Augmenter",
+    "tech": 15,
+    "stats": "Shield Max +20%, Shield Recovery +30%, Energy Max +50%, Energy Charge +40%, Damage +25%, Range +25%, Speed +5%, Capacity +15%"
+  },
+  {
+    "name": "Everlasting Ops Prowess Augmenter",
+    "tech": 15,
+    "stats": "Energy Max +130%, Energy Charge +55%, Electric Tempering -14%, Range +110%"
+  },
+  {
+    "name": "Fleet Commander Prowess Augmenter",
+    "tech": 15,
+    "stats": "Shield Max +75%, Shield Recovery +30%, Energy Max +70%, Energy Charge +40%, Capacity +20%, Visibility +40%, Resistance to Damage +12%"
+  },
+  {
+    "name": "General Ops Prowess Augmenter",
+    "tech": 15,
+    "stats": "Shield Max +100%, Shield Recovery +30%, Energy Max +80%, Energy Charge +30%, Damage +5%, Rate of Fire +5%, Speed +15%, Capacity +15%"
+  },
+  {
+    "name": "Gunner Prowess Augmenter",
+    "tech": 15,
+    "stats": "Energy Charge +20%, Electric Tempering -18%, Damage +40%, Range +30%, Speed +5%, Capacity +18%, Hostility +30%, Weapon Hold +50%"
+  },
+  {
+    "name": "Offensive Ops Prowess Augmenter",
+    "tech": 15,
+    "stats": "Energy Max +150%, Damage +39%, Rate of Fire +66%, Tracking +15%, Speed +25%, Turning +17%"
+  },
+  {
+    "name": "Seer Prowess Augmenter",
+    "tech": 15,
+    "stats": "Damage +45%, Range +20%, Radar +120%, Visibility -67%, Critical Hit Chance +10%, Critical Hit Strength +50%"
+  },
+  {
+    "name": "Shield Monkey Prowess Augmenter",
+    "tech": 15,
+    "stats": "Shield Max +100%, Shield Recovery +30%, Energy Charge +15%, Damage +23%, Capacity +15%, Hostility -10%, Transference Power +40%"
+  },
+  {
+    "name": "Sniper Prowess Augmenter",
+    "tech": 15,
+    "stats": "Energy Charge +30%, Damage +54%, Range +40%, Radar +40%, Visibility -52%"
+  },
+  {
+    "name": "Speed Demon Prowess Augmenter",
+    "tech": 15,
+    "stats": "Shield Max +30%, Energy Max +70%, Energy Charge +20%, Electric Tempering -13%, Damage +30%, Rate of Fire +40%, Tracking +20%, Speed +20%"
+  },
+  {
+    "name": "Berserker Mastery Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +95%, Energy Max +100%, Electric Tempering -33%, Damage +35%, Thrust +50%, Hostility +60%, Resistance to Damage +10%, Weapon Hold +60%"
+  },
+  {
+    "name": "Defensive Ops Mastery Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +100%, Shield Recovery +120%, Radar +70%, Resistance to Damage +15%, Transference Power +42%"
+  },
+  {
+    "name": "Engineer Mastery Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +25%, Shield Recovery +40%, Energy Max +50%, Energy Charge +50%, Damage +30%, Range +25%, Speed +10%, Capacity +20%"
+  },
+  {
+    "name": "Everlasting Ops Mastery Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +160%, Energy Charge +66%, Electric Tempering -18%, Range +140%"
+  },
+  {
+    "name": "Fleet Commander Mastery Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +85%, Shield Recovery +40%, Energy Max +80%, Energy Charge +50%, Capacity +20%, Visibility +40%, Resistance to Damage +18%"
+  },
+  {
+    "name": "General Ops Mastery Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +100%, Shield Recovery +40%, Energy Max +90%, Energy Charge +40%, Damage +10%, Rate of Fire +10%, Speed +20%, Capacity +17%"
+  },
+  {
+    "name": "Gunner Mastery Augmenter",
+    "tech": 20,
+    "stats": "Energy Charge +20%, Electric Tempering -23%, Damage +50%, Range +40%, Speed +8%, Capacity +22%, Hostility +40%, Weapon Hold +66%"
+  },
+  {
+    "name": "Offensive Ops Mastery Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +200%, Damage +50%, Rate of Fire +80%, Tracking +20%, Speed +30%, Turning +20%"
+  },
+  {
+    "name": "Seer Mastery Augmenter",
+    "tech": 20,
+    "stats": "Damage +51%, Range +30%, Radar +130%, Visibility -75%, Critical Hit Chance +14%, Critical Hit Strength +60%"
+  },
+  {
+    "name": "Shield Monkey Mastery Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +140%, Shield Recovery +30%, Energy Charge +20%, Damage +26%, Capacity +18%, Hostility -10%, Transference Power +55%"
+  },
+  {
+    "name": "Sniper Mastery Augmenter",
+    "tech": 20,
+    "stats": "Energy Charge +40%, Damage +70%, Range +40%, Radar +40%, Visibility -57%"
+  },
+  {
+    "name": "Speed Demon Mastery Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +40%, Energy Max +100%, Energy Charge +30%, Electric Tempering -17%, Damage +30%, Rate of Fire +40%, Tracking +30%, Speed +30%"
+  },
+  {
+    "name": "The Art of Commanding Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +90%, Energy Max +100%, Energy Charge +60%, Thrust +40%, Capacity +30%, Radar +60%, Resistance to Damage +21%"
+  },
+  {
+    "name": "The Art of Destruction Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +90%, Energy Max +80%, Electric Tempering -35%, Damage +30%, Rate of Fire +20%, Hostility +100%, Resistance to Damage +14%, Weapon Hold +60%"
+  },
+  {
+    "name": "The Art of Engineering Augmenter",
+    "tech": 20,
+    "stats": "Shield Recovery +40%, Energy Max +50%, Energy Charge +50%, Electric Tempering -5%, Damage +30%, Rate of Fire +5%, Range +25%, Speed +10%, Capacity +10%, Resistance to Damage +10%, Tractor Range +10%"
+  },
+  {
+    "name": "The Art of Fast Killing Augmenter",
+    "tech": 20,
+    "stats": "Energy Charge +50%, Electric Tempering -11%, Damage +40%, Rate of Fire +40%, Speed +40%, Critical Hit Chance +6%, Critical Hit Strength +20%"
+  },
+  {
+    "name": "The Art of Gunnery Augmenter",
+    "tech": 20,
+    "stats": "Energy Charge +30%, Electric Tempering -20%, Damage +75%, Range +60%, Capacity +9%"
+  },
+  {
+    "name": "The Art of Healing Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +70%, Shield Recovery +75%, Energy Charge +40%, Rate of Fire +40%, Range +15%, Resistance to Damage +10%, Transference Power +50%"
+  },
+  {
+    "name": "The Art of Sharpshooting Augmenter",
+    "tech": 20,
+    "stats": "Damage +80%, Rate of Fire +20%, Range +80%, Tracking +50%, Radar +80%, Visibility -33%, Hostility -5%, Critical Hit Chance +5%"
+  },
+  {
+    "name": "The Art of Stealth Augmenter",
+    "tech": 20,
+    "stats": "Electric Tempering -5%, Damage +75%, Speed +5%, Radar +100%, Visibility -62%, Critical Hit Chance +14%, Critical Hit Strength +80%"
+  },
+  {
+    "name": "Ultimate Art of Commanding Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +100%, Energy Max +120%, Energy Charge +70%, Thrust +60%, Capacity +40%, Radar +80%, Resistance to Damage +21%"
+  },
+  {
+    "name": "Ultimate Art of Destruction Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +90%, Energy Max +80%, Electric Tempering -35%, Damage +45%, Rate of Fire +30%, Hostility +110%, Resistance to Damage +16%, Weapon Hold +50%"
+  },
+  {
+    "name": "Ultimate Art of Engineering Augmenter",
+    "tech": 22,
+    "stats": "Shield Recovery +50%, Energy Max +70%, Energy Charge +50%, Electric Tempering -5%, Damage +35%, Rate of Fire +10%, Range +35%, Speed +10%, Capacity +10%, Resistance to Damage +10%, Tractor Range +20%"
+  },
+  {
+    "name": "Ultimate Art of Fast Killing Augmenter",
+    "tech": 22,
+    "stats": "Energy Charge +50%, Electric Tempering -15%, Damage +50%, Rate of Fire +40%, Speed +40%, Critical Hit Chance +10%, Critical Hit Strength +40%"
+  },
+  {
+    "name": "Ultimate Art of Gunnery Augmenter",
+    "tech": 22,
+    "stats": "Energy Charge +30%, Electric Tempering -24%, Damage +90%, Range +70%, Capacity +10%"
+  },
+  {
+    "name": "Ultimate Art of Healing Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +70%, Shield Recovery +90%, Energy Charge +40%, Rate of Fire +40%, Range +25%, Resistance to Damage +15%, Transference Power +60%"
+  },
+  {
+    "name": "Ultimate Art of Sharpshooting Augmenter",
+    "tech": 22,
+    "stats": "Damage +90%, Rate of Fire +20%, Range +90%, Tracking +50%, Radar +80%, Visibility -50%, Hostility -10%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Ultimate Art of Stealth Augmenter",
+    "tech": 22,
+    "stats": "Electric Tempering -5%, Damage +80%, Speed +9%, Radar +100%, Visibility -67%, Critical Hit Chance +20%, Critical Hit Strength +100%"
+  },
+  {
+    "name": "Aspect of the Bear",
+    "tech": 12,
+    "stats": "Shield Max +44%, Energy Charge +33%, Damage +20%, Resistance to Damage +21%"
+  },
+  {
+    "name": "Aspect of the Elephant",
+    "tech": 12,
+    "stats": "Shield Max +40%, Energy Charge +30%, Damage +20%, Rate of Fire +70%, Transference Power +20%"
+  },
+  {
+    "name": "Aspect of the Leopard",
+    "tech": 12,
+    "stats": "Shield Max +40%, Energy Charge +30%, Damage +18%, Rate of Fire +60%, Speed +10%, Hostility -33%"
+  },
+  {
+    "name": "Aspect of the Monkey",
+    "tech": 12,
+    "stats": "Shield Max +40%, Energy Charge +30%, Electric Tempering -10%, Damage +40%, Rate of Fire +20%"
+  },
+  {
+    "name": "Aspect of the Tiger",
+    "tech": 12,
+    "stats": "Shield Max +40%, Energy Charge +30%, Electric Tempering -5%, Damage +40%, Rate of Fire +10%, Resistance to Damage +5%"
+  },
+  {
+    "name": "Aspect of the Jungle",
+    "tech": 14,
+    "stats": "Shield Max +50%, Shield Recovery +40%, Energy Charge +20%, Capacity +30%, Resistance to Damage +20%"
+  },
+  {
+    "name": "Aspect of the Lion",
+    "tech": 20,
+    "stats": "Damage +100%"
+  },
+  {
+    "name": "Aspect of the Mastodon",
+    "tech": 20,
+    "stats": "Energy Max +700%, Capacity +50%"
+  },
+  {
+    "name": "Aspect of the Panther",
+    "tech": 20,
+    "stats": "Rate of Fire +250%"
+  },
+  {
+    "name": "Aspect of the Rhino",
+    "tech": 20,
+    "stats": "Shield Max +300%, Transference Power +125%"
+  },
+  {
+    "name": "Aspect of the Zebra",
+    "tech": 20,
+    "stats": "Energy Charge +140%"
+  },
+  {
+    "name": "Combined Aspect of the Lion",
+    "tech": 20,
+    "stats": "Shield Max +88%, Energy Charge +44%, Electric Tempering -5%, Damage +41%, Rate of Fire +66%, Resistance to Damage +8%"
+  },
+  {
+    "name": "Combined Aspect of the Mastodon",
+    "tech": 20,
+    "stats": "Shield Max +88%, Energy Max +106%, Energy Charge +44%, Damage +31%, Rate of Fire +66%, Range +40%"
+  },
+  {
+    "name": "Combined Aspect of the Panther",
+    "tech": 20,
+    "stats": "Shield Max +88%, Energy Charge +44%, Damage +31%, Rate of Fire +95%, Speed +12%, Hostility -33%"
+  },
+  {
+    "name": "Combined Aspect of the Rhino",
+    "tech": 20,
+    "stats": "Shield Max +93%, Energy Charge +44%, Damage +46%, Rate of Fire +66%, Transference Power +25%"
+  },
+  {
+    "name": "Combined Aspect of the Zebra",
+    "tech": 20,
+    "stats": "Shield Max +88%, Energy Charge +64%, Electric Tempering -10%, Damage +31%, Rate of Fire +66%, Hostility +40%"
+  },
+  {
+    "name": "The Emperor's Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +50%, Energy Max +45%, Energy Charge +25%, Electric Tempering -26%, Damage +30%, Rate of Fire +60%, Range +50%, Resistance to Damage +5%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Ares Offensive Mode Augmenter",
+    "tech": 21,
+    "stats": "Energy Max +200%, Damage +51%, Rate of Fire +87%, Tracking +24%, Speed +35%, Turning +22%, Critical Hit Chance +8%, Critical Hit Strength +40%"
+  },
+  {
+    "name": "Ares' Rage Augmenter",
+    "tech": 21,
+    "stats": "Damage +120%"
+  },
+  {
+    "name": "Cunning of Hermes Augmenter",
+    "tech": 21,
+    "stats": "Damage +40%, Speed +20%, Radar +200%, Visibility -56%, Critical Hit Chance -16%, Critical Hit Strength +150%"
+  },
+  {
+    "name": "Cunning of Hermes+ Augmenter",
+    "tech": 21,
+    "stats": "Damage +45%, Speed +20%, Radar +200%, Visibility -56%, Critical Hit Chance -11%, Critical Hit Strength +160%"
+  },
+  {
+    "name": "Cyclops Augmenter",
+    "tech": 21,
+    "stats": "Energy Max +50%, Damage +44%, Tracking -30%, Capacity +50%, Resistance to Damage +32%"
+  },
+  {
+    "name": "Deimos Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +100%, Rate of Fire +130%, Range +60%, Visibility -72%"
+  },
+  {
+    "name": "Hephaestus General Mode Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +100%, Shield Recovery +40%, Energy Max +100%, Energy Charge +40%, Damage +14%, Rate of Fire +15%, Range +50%, Speed +20%, Capacity +20%"
+  },
+  {
+    "name": "Hephaestus' Skin Augmenter",
+    "tech": 21,
+    "stats": "Capacity +20%, Resistance to Damage +70%"
+  },
+  {
+    "name": "Hermes Swiftness Augmenter",
+    "tech": 21,
+    "stats": "Speed +150%, Visibility -40%"
+  },
+  {
+    "name": "Jovian Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +50%, Shield Recovery +50%, Energy Max +50%, Visibility -79%, Resistance to Damage +32%"
+  },
+  {
+    "name": "Molten Fires of Hephaestus Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +110%, Energy Max +200%, Rate of Fire +25%, Speed -20%, Capacity +40%, Hostility +100%, Resistance to Damage +24%"
+  },
+  {
+    "name": "Molten Fires of Hephaestus+ Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +110%, Energy Max +200%, Rate of Fire +45%, Speed -22%, Capacity +45%, Hostility +100%, Resistance to Damage +24%"
+  },
+  {
+    "name": "Phobos Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +100%, Electric Tempering -20%, Damage +60%, Visibility -72%"
+  },
+  {
+    "name": "Poseidon's Defensive Mode Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +130%, Shield Recovery +120%, Radar +70%, Resistance to Damage +18%, Transference Power +80%"
+  },
+  {
+    "name": "Poseidon's Reserve Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +200%, Energy Max +600%"
+  },
+  {
+    "name": "Poseidon's Tsunami Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +70%, Energy Max +100%, Energy Charge -20%, Electric Tempering -20%, Damage +72%, Thrust +40%, Tractor Power +40%"
+  },
+  {
+    "name": "Poseidon's Tsunami+ Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +70%, Energy Max +100%, Energy Charge -25%, Electric Tempering -25%, Damage +80%, Thrust +40%, Tractor Power +40%"
+  },
+  {
+    "name": "War Chant of Ares Augmenter",
+    "tech": 21,
+    "stats": "Energy Charge +45%, Damage +90%, Range +20%, Speed +20%, Resistance to Damage -25%, Critical Hit Chance +15%"
+  },
+  {
+    "name": "War Chant of Ares+ Augmenter",
+    "tech": 21,
+    "stats": "Energy Charge +45%, Damage +90%, Range +20%, Speed +33%, Resistance to Damage -25%, Critical Hit Chance +15%"
+  },
+  {
+    "name": "Zeus Everlasting Mode Augmenter",
+    "tech": 21,
+    "stats": "Energy Max +190%, Energy Charge +77%, Electric Tempering -23%, Range +170%"
+  },
+  {
+    "name": "Zeus' Lightning Source Augmenter",
+    "tech": 21,
+    "stats": "Energy Charge +160%"
+  },
+  {
+    "name": "Zeus' Planar Field Augmenter",
+    "tech": 21,
+    "stats": "Shield Recovery +50%, Energy Charge +20%, Electric Tempering +30%, Damage +40%, Range +20%, Capacity +30%, Resistance to Damage +19%"
+  },
+  {
+    "name": "Zeus' Planar Field+ Augmenter",
+    "tech": 21,
+    "stats": "Shield Recovery +50%, Energy Charge +20%, Electric Tempering +30%, Damage +40%, Range +50%, Capacity +30%, Resistance to Damage +19%"
+  },
+  {
+    "name": "Baby Troll Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +50%, Shield Recovery +30%, Energy Max +50%, Energy Charge +20%, Resistance to Damage +17%"
+  },
+  {
+    "name": "Troll Augmenter",
+    "tech": 12,
+    "stats": "Shield Max +60%, Shield Recovery +40%, Energy Max +50%, Energy Charge +20%, Resistance to Damage +18%"
+  },
+  {
+    "name": "Gnarly Troll Augmenter",
+    "tech": 14,
+    "stats": "Shield Max +70%, Shield Recovery +50%, Energy Max +50%, Energy Charge +20%, Resistance to Damage +20%"
+  },
+  {
+    "name": "Rock Troll Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +80%, Energy Max +50%, Energy Charge +20%, Resistance to Damage +41%"
+  },
+  {
+    "name": "Trick Troll Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +80%, Shield Recovery +60%, Energy Max +50%, Energy Charge +20%, Resistance to Damage +21%"
+  },
+  {
+    "name": "Vampyre Augmenter",
+    "tech": 18,
+    "stats": "Shield Recovery +44%, Energy Charge +30%, Damage +38%, Speed +44%"
+  },
+  {
+    "name": "Undead Narwhal Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +30%, Shield Recovery +15%, Energy Charge +20%, Electric Tempering -12%, Damage +40%, Rate of Fire +20%, Range +25%, Speed +30%, Resistance to Damage +7%"
+  },
+  {
+    "name": "Bunny Augmenter",
+    "tech": 18,
+    "stats": "Shield Recovery +34%, Energy Charge +34%, Damage +34%, Thrust +34%, Turning +34%, Resistance to Damage +34%"
+  },
+  {
+    "name": "Zombie Bunny Augmenter",
+    "tech": 21,
+    "stats": "Shield Recovery +44%, Damage +44%, Thrust +44%, Turning +44%, Resistance to Damage +44%"
+  },
+  {
+    "name": "Antulaghu Zavas",
+    "tech": 7,
+    "stats": "Shield Recovery +20%, Energy Charge +20%, Electric Tempering -22%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Ayudhinlaghu Sattva",
+    "tech": 7,
+    "stats": "Shield Recovery +20%, Energy Charge +20%, Damage +20%, Speed +14%"
+  },
+  {
+    "name": "Caralaghu Psu",
+    "tech": 7,
+    "stats": "Shield Recovery +20%, Energy Charge +20%, Rate of Fire +50%, Range +30%"
+  },
+  {
+    "name": "Dhatrilaghu Bhava",
+    "tech": 7,
+    "stats": "Shield Recovery +20%, Energy Charge +20%, Range +40%, Transference Power +45%"
+  },
+  {
+    "name": "Antuaguru Zavas",
+    "tech": 11,
+    "stats": "Shield Recovery +40%, Energy Charge +30%, Electric Tempering -22%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Ayudhinaguru Sattva",
+    "tech": 11,
+    "stats": "Shield Recovery +40%, Energy Charge +30%, Damage +20%, Speed +14%"
+  },
+  {
+    "name": "Caraaguru Psu",
+    "tech": 11,
+    "stats": "Shield Recovery +40%, Energy Charge +30%, Rate of Fire +50%, Range +30%"
+  },
+  {
+    "name": "Dhatriaguru Bhava",
+    "tech": 11,
+    "stats": "Shield Recovery +40%, Energy Charge +30%, Range +40%, Transference Power +50%"
+  },
+  {
+    "name": "Antuguruka Zavas",
+    "tech": 15,
+    "stats": "Shield Recovery +50%, Energy Charge +40%, Electric Tempering -28%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Ayudhinguruka Sattva",
+    "tech": 15,
+    "stats": "Shield Recovery +50%, Energy Charge +40%, Damage +30%, Speed +14%"
+  },
+  {
+    "name": "Caraguruka Psu",
+    "tech": 15,
+    "stats": "Shield Recovery +50%, Energy Charge +40%, Rate of Fire +70%, Range +30%"
+  },
+  {
+    "name": "Dhatriguruka Bhava",
+    "tech": 15,
+    "stats": "Shield Recovery +50%, Energy Charge +40%, Range +40%, Transference Power +65%"
+  },
+  {
+    "name": "Antualasa Zavas",
+    "tech": 19,
+    "stats": "Shield Recovery +60%, Energy Charge +50%, Electric Tempering -32%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Ayudhinalasa Sattva",
+    "tech": 19,
+    "stats": "Shield Recovery +60%, Energy Charge +50%, Damage +30%, Speed +18%"
+  },
+  {
+    "name": "Caraalasa Psu",
+    "tech": 19,
+    "stats": "Shield Recovery +60%, Energy Charge +50%, Rate of Fire +70%, Range +40%"
+  },
+  {
+    "name": "Dhatrialasa Bhava",
+    "tech": 19,
+    "stats": "Shield Recovery +60%, Energy Charge +50%, Range +40%, Transference Power +80%"
+  },
+  {
+    "name": "Antu Zavas",
+    "tech": 20,
+    "stats": "Shield Recovery +60%, Energy Charge +60%, Electric Tempering -32%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Ayudhin Sattva",
+    "tech": 20,
+    "stats": "Shield Recovery +60%, Energy Charge +60%, Damage +30%, Speed +18%"
+  },
+  {
+    "name": "Cara Psu",
+    "tech": 20,
+    "stats": "Shield Recovery +60%, Energy Charge +60%, Rate of Fire +70%, Range +40%"
+  },
+  {
+    "name": "Dhatri Bhava",
+    "tech": 20,
+    "stats": "Shield Recovery +60%, Energy Charge +60%, Range +40%, Transference Power +80%"
+  },
+  {
+    "name": "Antuatiguru Zavas",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Electric Tempering -36%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Ayudhinatiguru Sattva",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Damage +30%, Speed +18%"
+  },
+  {
+    "name": "Bhisaj Bhava",
+    "tech": 22,
+    "stats": "Shield Max +55%, Shield Recovery +75%, Energy Charge +75%, Range +25%, Speed +25%, Hostility -10%, Transference Power +20%"
+  },
+  {
+    "name": "Caraatiguru Psu",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Rate of Fire +80%, Range +40%"
+  },
+  {
+    "name": "Dhatriatiguru Bhava",
+    "tech": 22,
+    "stats": "Shield Recovery +75%, Energy Charge +75%, Range +40%, Transference Power +80%"
+  },
+  {
+    "name": "Hantr Psu",
+    "tech": 22,
+    "stats": "Shield Max -30%, Range +35%, Tracking +100%, Speed +25%, Thrust +150%, Turning +100%, Visibility -75%, Critical Hit Chance +15%, Critical Hit Strength +120%, Weapon Hold +100%"
+  },
+  {
+    "name": "Isvasa Sattva",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Electric Tempering -10%, Tracking -60%, Radar +200%, Visibility +200%, Multifiring +100"
+  },
+  {
+    "name": "Janayitri Zavas",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Range +80%, Speed +8%, Resistance to Damage +8%"
+  },
+  {
+    "name": "Rajanicara Psu",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Damage +20%, Range +40%, Speed +8%, Visibility -34%"
+  },
+  {
+    "name": "Raurava Bhava",
+    "tech": 22,
+    "stats": "Shield Max +200%, Damage +100%, Rate of Fire -40%, Speed -10%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Saluna Psu",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Damage -11%, Speed +10%, Thrust +70%, Resistance to Damage +15%, Tractor Power +40%"
+  },
+  {
+    "name": "Samdita Sattva",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Damage +25%, Speed +12%, Visibility -56%"
+  },
+  {
+    "name": "Samgrahaka Bhava",
+    "tech": 22,
+    "stats": "Shield Recovery +60%, Energy Charge +60%, Range +60%, Speed +6%, Capacity +6%, Resistance to Damage +20%, Critical Hit Chance +16%"
+  },
+  {
+    "name": "Subhatta Sattva",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Damage +30%, Speed +10%, Hostility +20%, Resistance to Damage +5%"
+  },
+  {
+    "name": "Vacohara Psu",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Electric Tempering -13%, Rate of Fire +50%, Range +30%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Vaidya Bhava",
+    "tech": 22,
+    "stats": "Shield Max +100%, Shield Recovery +70%, Electric Tempering -15%, Damage +35%, Rate of Fire +10%, Resistance to Damage +10%, Critical Hit Strength +30%, Transference Power +50%"
+  },
+  {
+    "name": "Vazi Zavas",
+    "tech": 22,
+    "stats": "Shield Recovery +80%, Energy Charge +80%, Capacity +43%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Zarkara Sattva",
+    "tech": 22,
+    "stats": "Damage +70%, Rate of Fire +80%, Thrust +100%, Turning +40%, Hostility +80%, Resistance to Damage +25%"
+  },
+  {
+    "name": "Mechanical Hound Augmenter",
+    "tech": 22,
+    "stats": "Shield Recovery +90%, Damage +80%, Speed +10%, Thrust +50%, Turning +50%, Transference Power +75%"
+  },
+  {
+    "name": "Twisted Death Augmenter",
+    "tech": 22,
+    "stats": "Damage +15%, Range +40%, Speed +30%, Weight -40%, Capacity +8%, Radar +80%, Visibility -85%, Resistance to Damage -10%, Critical Hit Chance +20%, Critical Hit Strength +90%, Weapon Hold +50%"
+  },
+  {
+    "name": "Twisted Tesla Augmenter",
+    "tech": 22,
+    "stats": "Energy Max +75%, Energy Charge +60%, Electric Tempering -10%, Damage +90%, Rate of Fire +30%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Celeste Mark Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +100%, Damage +65%, Rate of Fire +65%, Range +50%, Thrust +50%, Critical Hit Strength +30%"
+  },
+  {
+    "name": "Celestial Angel Augmenter",
+    "tech": 23,
+    "stats": "Shield Recovery +100%, Energy Charge +40%, Hostility -80%, Resistance to Damage +7%, Transference Power +60%"
+  },
+  {
+    "name": "Celestial Bolt Augmenter",
+    "tech": 23,
+    "stats": "Energy Charge +60%, Rate of Fire +50%, Range +30%, Tracking +30%, Speed +70%, Thrust +100%, Turning +30%, Critical Hit Chance +14%"
+  },
+  {
+    "name": "Celestial Burst Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +50%, Electric Tempering +20%, Damage +82%, Rate of Fire +100%, Speed +25%, Thrust +50%"
+  },
+  {
+    "name": "Celestial Command Augmenter",
+    "tech": 23,
+    "stats": "Shield Max -20%, Energy Charge +50%, Speed +50%, Thrust +150%, Resistance to Damage +50%"
+  },
+  {
+    "name": "Celestial Enduring Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +30%, Shield Recovery +100%, Energy Max +100%, Rate of Fire +75%, Range +50%, Speed +38%, Thrust +20%, Radar +50%"
+  },
+  {
+    "name": "Celestial Focus Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +100%, Energy Charge +70%, Electrical Tempering -10%, Damage -9%, Rate of Fire +120%, Tracking +40%, Speed +5%, Capacity +10%"
+  },
+  {
+    "name": "Celestial Forge Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +265%, Energy Max -45%, Electrical Tempering +58%, Speed +13%, Docking Speed +100%, Thrust +50%, Turning +20%, Resistance to Damage +51%"
+  },
+  {
+    "name": "Celestial Nebulae Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +60%, Damage +50%, Rate of Fire +50%, Visibility -37%, Resistance to Damage +30%, Critical Hit Chance +20%"
+  },
+  {
+    "name": "Celestial Rage Augmenter",
+    "tech": 23,
+    "stats": "Rate of Fire +75%, Range -25%, Speed +36%, Resistance to Damage +40%, Critical Hit Chance +20%, Critical Hit Strength +80%"
+  },
+  {
+    "name": "Celestial Reach Augmenter",
+    "tech": 23,
+    "stats": "Energy Charge +75%, Electric Tempering -10%, Damage +75%, Range +35%, Capacity +6%, Weapons Slots -1"
+  },
+  {
+    "name": "Celestial Restoration Augmenter",
+    "tech": 23,
+    "stats": "Energy Max +100%, Energy Charge +60%, Range +50%, Turning +30%, Resistance to Damage +30%, Transference Power +38%, Tractor Range +30%"
+  },
+  {
+    "name": "Celestial Warden Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +40%, Energy Charge +60%, Electric Tempering -34%, Damage -10%, Tracking +20%, Radar +200%, Resistance to Damage +33%"
+  },
+  {
+    "name": "Crescent Augmenter",
+    "tech": 23,
+    "stats": "Energy Charge +22%, Damage +99%, Range +22%, Tracking -50%, Turning +22%, Capacity +22%, Visibility +122%, Hostility +100%, Resistance to Damage -11%, Critical Hit Strength +99%"
+  },
+  {
+    "name": "Eclipse Augmenter",
+    "tech": 23,
+    "stats": "Shield Max -33%, Energy Max -25%, Electric Tempering -30%, Damage +125%, Capacity -10%, Hostility +50%, Resistance to Damage +20%, Weapons Slots -2"
+  },
+  {
+    "name": "Empyreal Analemma Augmenter",
+    "tech": 23,
+    "stats": "Energy Max -25%, Energy Charge +34%, Speed +28%, Thrust +400%, Turning +75%, Resistance to Damage +47%"
+  },
+  {
+    "name": "Empyreal Ascension Augmenter",
+    "tech": 23,
+    "stats": "Shield Recovery +50%, Energy Max +200%, Energy Charge +46%, Range +85%, Tracking +50%, Thrust -16%, Turning -30%, Capacity -25%, Visibility -30%, Transference Power +30%, Tractor Power +30%, Weapons Slots +1"
+  },
+  {
+    "name": "Empyreal Discord Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +130%, Energy Charge +25%, Damage +15%, Rate of Fire +35%, Range +20%, Tracking +33%, Speed +30%, Radar +50%, Projectile Velocity +33%"
+  },
+  {
+    "name": "Empyreal Equinox Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +60%, Shield Recovery +100%, Energy Max +50%, Range -10%, Speed +70%, Thrust +75%, Capacity +19%, Radar +50%, Visibility +75%"
+  },
+  {
+    "name": "Empyreal Estelle Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +200%, Shield Recovery +15%, Range +46%, Thrust +200%, Turning -10%, Weight -50%, Resistance to Damage +21%, Projectile Velocity +20%"
+  },
+  {
+    "name": "Empyreal Inharmony Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +120%, Energy Max +120%, Damage +22%, Rate of Fire +30%, Range +30%, Speed +18%, Thrust +55%, Resistance to Damage +21%"
+  },
+  {
+    "name": "Empyreal Rift Augmenter",
+    "tech": 23,
+    "stats": "Shield Recovery +59%, Energy Max +185%, Electric Tempering -20%, Range +60%, Tracking +60%, Docking Speed +100%, Capacity +13%, Inertia Dampening -30%, Weapons Slots +5"
+  },
+  {
+    "name": "Empyreal Schism Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +75%, Shield Recovery +50%, Energy Max +100%, Energy Charge +25%, Damage +30%, Rate of Fire +30%, Tracking +50%, Critical Hit Chance +13%"
+  },
+  {
+    "name": "Equinox Shielding Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +50%, Shield Recovery +75%, Electric Tempering +20%, Damage +50%, Rate of Fire +25%, Resistance to Damage +30%"
+  },
+  {
+    "name": "Heavenly Foresight Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +100%, Shield Recovery -25%, Energy Charge -25%, Damage +70%, Radar +500%, Resistance to Damage +14%, Critical Hit Strength +70%"
+  },
+  {
+    "name": "Luminous Brace Levee Augmenter",
+    "tech": 23,
+    "stats": "Energy Max +300%, Electric Tempering -33%, Damage +38%, Range +40%, Resistance to Damage +19%, Critical Hit Chance +14%, Critical Hit Strength +70%"
+  },
+  {
+    "name": "Luminous Intersticial Desistance Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +175%, Energy Max +80%, Electric Tempering -25%, Damage +25%, Tracking +75%, Capacity +15%, Critical Hit Chance +20%, Critical Hit Strength +100%, Weapons Slots -1"
+  },
+  {
+    "name": "Luminous Munitions Amplifier Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +44%, Shield Recovery +73%, Electric Tempering -31%, Damage +61%, Rate of Fire +73%, Capacity +10%"
+  },
+  {
+    "name": "Luminous Resplendent Fluxion Augmenter",
+    "tech": 23,
+    "stats": "Energy Max +65%, Electric Tempering -15%, Damage +65%, Rate of Fire +65%, Range +40%, Capacity +13%, Resistance to Damage +16%, Critical Hit Chance +12%, Weapons Slots +2"
+  },
+  {
+    "name": "Luminous Obliterative Integrity Augmenter",
+    "tech": 23,
+    "stats": "Damage +89%, Rate of Fire +72%, Resistance to Damage +15%, Critical Hit Chance +7%, Critical Hit Strength +70%, Weapons Slots +1"
+  },
+  {
+    "name": "Luminous Ossified Buttress Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +120%, Shield Recovery +100%, Energy Max +120%, Energy Charge +30%, Damage +46%, Thrust +30%, Turning +30%, Transference Power +20%, Weapons Slots -1"
+  },
+  {
+    "name": "Luminous Ostentatious Prestige Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +90%, Electric Tempering -10%, Damage +90%, Range +35%, Hostility +100%, Resistance to Damage +18%"
+  },
+  {
+    "name": "Luminous Vitreous Stimulative Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +70%, Shield Recovery +60%, Damage +67%, Tracking +50%, Resistance to Damage +19%, Transference Power +53%"
+  },
+  {
+    "name": "Lustrous Commination Ambit Augmenter",
+    "tech": 23,
+    "stats": "Energy Max +180%, Electric Tempering +30%, Damage +86%, Rate of Fire +75%, Range +50%, Radar +40%, Critical Hit Strength +110%, Speed -30"
+  },
+  {
+    "name": "Lustrous Mass Despoliation Augmenter",
+    "tech": 23,
+    "stats": "Damage +80%, Rate of Fire +155%, Tracking +35%, Speed +10%, Thrust +20%, Turning +40%"
+  },
+  {
+    "name": "Lustrous Preposterous Fusillade Augmenter",
+    "tech": 23,
+    "stats": "Energy Charge +70%, Electric Tempering -35%, Damage +20%, Speed +30%, Radar +60%, Hostility +30%, Critical Hit Chance +18%, Critical Hit Strength +50%"
+  },
+  {
+    "name": "Lustrous Unalloyed Promontory Augmenter",
+    "tech": 23,
+    "stats": "Damage +100%, Range +65%, Tracking +57%, Weight +200%, Resistance to Damage +37%, Critical Hit Chance +18%"
+  },
+  {
+    "name": "Glamorous Crepuscularized Potentiality Augmenter",
+    "tech": 23,
+    "stats": "Shield Recovery +40%, Energy Max +60%, Electric Tempering -10%, Damage +40%, Rate of Fire +50%, Range +46%, Resistance to Damage +28%"
+  },
+  {
+    "name": "Glamorous Verdured Potentiality Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +40%, Energy Charge +40%, Electric Tempering -14%, Damage +60%, Rate of Fire +50%, Range +47%, Radar +30%"
+  },
+  {
+    "name": "Wondrous Postulant Approbation Augmenter",
+    "tech": 23,
+    "stats": "Shield Recovery +48%, Energy Charge +54%, Damage +30%, Rate of Fire +38%, Capacity +13%, Resistance to Damage +14%"
+  },
+  {
+    "name": "Aberrant Ordnance Augmenter",
+    "tech": 23,
+    "stats": "Damage +90%, Range +60%, Tracking +120%, Critical Hit Chance +20%, Projectile Velocity +25%"
+  },
+  {
+    "name": "Aberrant Spearhead Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +90%, Energy Charge +50%, Rate of Fire +50%, Speed +30%, Hostility +120%, Resistance to Damage +21%"
+  },
+  {
+    "name": "Fallen Outrider Augmenter",
+    "tech": 23,
+    "stats": "Shield Recovery +50%, Energy Charge +40%, Speed +50%, Radar +100%, Resistance to Damage +34%"
+  },
+  {
+    "name": "Junior Operative's Accurized Conduits Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +150%, Energy Max +150%, Electric Tempering -24%, Damage +59%, Rate of Fire +20%, Thrust +33%, Visibility +50%"
+  },
+  {
+    "name": "Junior Operative's Cosmic Symmetry Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +300%, Damage +33%, Rate of Fire +66%, Speed +33%, Thrust +60%, Turning +33%, Critical Hit Chance +2%, Critical Hit Strength +66%"
+  },
+  {
+    "name": "Junior Operative's Guided Harmonizer Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +80%, Energy Charge +45%, Damage +68%, Rate of Fire +30%, Range +53%, Capacity +5%"
+  },
+  {
+    "name": "Junior Operative's Stalking Tracker Augmenter",
+    "tech": 20,
+    "stats": "Damage +76%, Rate of Fire -35%, Range +40%, Tracking +120%, Capacity +21%, Radar +50%, Visibility -55%, Critical Hit Chance +15%, Projectile Velocity -20%, Weapons Slots +1"
+  },
+  {
+    "name": "Operative's Accurized Conduits Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +150%, Energy Max +150%, Electric Tempering -30%, Damage +59%, Rate of Fire +20%, Thrust +33%, Visibility +50%"
+  },
+  {
+    "name": "Operative's Cosmic Symmetry Augmenter",
+    "tech": 23,
+    "stats": "Energy Max +300%, Damage +33%, Rate of Fire +66%, Speed +33%, Thrust +60%, Turning +33%, Critical Hit Chance +11%, Critical Hit Strength +66%"
+  },
+  {
+    "name": "Operative's Guided Harmonizer Augmenter",
+    "tech": 23,
+    "stats": "Energy Max +80%, Energy Charge +45%, Damage +68%, Rate of Fire +30%, Range +70%, Capacity +5%"
+  },
+  {
+    "name": "Operative's Stalking Tracker Augmenter",
+    "tech": 23,
+    "stats": "Damage +76%, Rate of Fire -17%, Range +40%, Tracking +120%, Capacity +21%, Radar +50%, Visibility -55%, Critical Hit Chance +15%, Projectile Velocity -20%, Weapons Slots +1"
+  },
+  {
+    "name": "Gilded Necropolis Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +55%, Shield Recovery +50%, Energy Max +100%, Electric Tempering +15%, Speed +13%, Turning -33%, Capacity +10%, Resistance to Damage +55%, Transference Power +45%, Weapons Slots -2"
+  },
+  {
+    "name": "Phased Fortification Augmenter",
+    "tech": 23,
+    "stats": "Shield Max -33%, Energy Charge +80%, Electric Tempering -33%, Speed -33%, Thrust +60%, Turning +20%, Hostility +50%, Resistance to Damage +45%, Critical Hit Chance +17%"
+  },
+  {
+    "name": "Redbeard's Modifications",
+    "tech": 23,
+    "stats": "Shield Max +60%, Energy Charge +45%, Electric Tempering -45%, Damage +70%, Tracking +38%, Weight +100%, Hostility +40%"
+  },
+  {
+    "name": "Two Tongued Augmenter",
+    "tech": 23,
+    "stats": "Electric Tempering -25%, Damage -10%, Rate of Fire +50%, Tracking +75%, Capacity +27%, Radar +100%, Critical Hit Strength -25%, Projectile Velocity +75%, Multifiring +100"
+  },
+  {
+    "name": "Augmenter Plug",
+    "tech": 0,
+    "stats": "Energy Max +60%"
+  },
+  {
+    "name": "Blue Interceptor Augmenter",
+    "tech": 0,
+    "stats": "Damage +20%, Thrust +40%, Turning +15%"
+  },
+  {
+    "name": "Enforcer Scout Augmenter",
+    "tech": 0,
+    "stats": "Shield Recovery +17%, Energy Charge +17%, Thrust +20%, Turning +20%"
+  },
+  {
+    "name": "Flylet Broodship Augmenter",
+    "tech": 0,
+    "stats": "Shield Max +20%, Energy Max +28%, Rate of Fire +15%, Range +15%, Speed +10%, Visibility +100%"
+  },
+  {
+    "name": "Oilheart's Augmenter",
+    "tech": 0,
+    "stats": "Shield Max +38%, Energy Charge +18%"
+  },
+  {
+    "name": "Volcom Modifications",
+    "tech": 0,
+    "stats": "Energy Max +50%, Rate of Fire +18%, Speed +9%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Flyboy Augmenter",
+    "tech": 1,
+    "stats": "Shield Recovery +10%, Energy Max +10%, Damage +24%"
+  },
+  {
+    "name": "Nexus Augmenter",
+    "tech": 1,
+    "stats": "Docking Speed +100%, Capacity +37%"
+  },
+  {
+    "name": "Rattie Moe Augmenter",
+    "tech": 1,
+    "stats": "Rate of Fire +30%, Range +26%, Speed +4%, Capacity +10%"
+  },
+  {
+    "name": "The Maggot Augmenter",
+    "tech": 1,
+    "stats": "Shield Max +33%, Damage +20%"
+  },
+  {
+    "name": "Cadet Sniper Badge",
+    "tech": 2,
+    "stats": "Damage +12%, Rate of Fire -17%, Range +40%, Tracking +60%"
+  },
+  {
+    "name": "Creaky's Oil Can",
+    "tech": 2,
+    "stats": "Damage +15%, Rate of Fire +15%, Speed +15%, Turning +15%, Radar +15%"
+  },
+  {
+    "name": "Cadet Augmenter",
+    "tech": 3,
+    "stats": "Shield Recovery +20%, Energy Charge +20%, Rate of Fire +16%, Resistance to Damage +3%, Weapon Hold +40%"
+  },
+  {
+    "name": "Frost Augmenter",
+    "tech": 3,
+    "stats": "Energy Max +55%, Energy Charge +35%, Visibility +30%, Weapon Hold +100%"
+  },
+  {
+    "name": "Jujo'qii Augmenter",
+    "tech": 3,
+    "stats": "Shield Max +20%, Energy Max +40%, Damage +17%, Rate of Fire +15%, Capacity +5%, Hostility +20%, Resistance to Damage +3%"
+  },
+  {
+    "name": "Lyceum Initiate Augmenter",
+    "tech": 3,
+    "stats": "Shield Recovery +20%, Energy Charge +20%, Damage +4%, Rate of Fire +20%, Turning +20%"
+  },
+  {
+    "name": "Nexus Scion Augmenter",
+    "tech": 3,
+    "stats": "Shield Recovery +65%, Speed +10%"
+  },
+  {
+    "name": "Piman's Augmenter",
+    "tech": 3,
+    "stats": "Capacity +53%"
+  },
+  {
+    "name": "Pyrite Augmenter",
+    "tech": 3,
+    "stats": "Electric Tempering -41%, Visibility +200%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Slimebottle's Augmenter",
+    "tech": 3,
+    "stats": "Shield Max +16%, Energy Charge +40%, Turning +35%"
+  },
+  {
+    "name": "Solo's Special Modifications",
+    "tech": 3,
+    "stats": "Shield Max +30%, Speed +10%, Thrust +40%, Capacity +30%"
+  },
+  {
+    "name": "Unger's Energy Augmenter",
+    "tech": 3,
+    "stats": "Energy Max +150%, Energy Charge +20%, Electric Tempering -3%, Speed +11%"
+  },
+  {
+    "name": "Zobitan Augmenter",
+    "tech": 3,
+    "stats": "Shield Max +70%, Shield Recovery +38%"
+  },
+  {
+    "name": "Rime Augmenter",
+    "tech": 4,
+    "stats": "Shield Max +20%, Damage +10%, Capacity +20%, Critical Hit Chance +7%, Transference Power +30%"
+  },
+  {
+    "name": "Tear Augmenter",
+    "tech": 4,
+    "stats": "Energy Max +140%, Damage +35%, Rate of Fire -27%"
+  },
+  {
+    "name": "Barbe Bleu's Mods Augmenter",
+    "tech": 5,
+    "stats": "Shield Max +45%, Energy Charge +30%, Rate of Fire +35%"
+  },
+  {
+    "name": "Glacial Augmenter",
+    "tech": 5,
+    "stats": "Electric Tempering -26%, Rate of Fire +20%, Visibility +30%, Resistance to Damage +15%"
+  },
+  {
+    "name": "Inferno Augmenter",
+    "tech": 5,
+    "stats": "Shield Max -33%, Shield Recovery -18%, Damage +40%, Range +33%, Tracking +33%"
+  },
+  {
+    "name": "Magmarar Augmenter",
+    "tech": 5,
+    "stats": "Energy Max +110%, Rate of Fire +40%, Tracking +60%, Speed +15%"
+  },
+  {
+    "name": "Prefect Augmenter",
+    "tech": 5,
+    "stats": "Shield Recovery +15%, Energy Charge +15%, Rate of Fire +25%, Range +20%, Tracking +20%, Speed +5%, Hostility -10%, Resistance to Damage +5%"
+  },
+  {
+    "name": "Tinted Augmenter",
+    "tech": 5,
+    "stats": "Damage +22%, Radar -67%, Visibility -76%"
+  },
+  {
+    "name": "Golden Augmenter",
+    "tech": 6,
+    "stats": "Shield Max +40%, Electric Tempering -39%, Radar +40%, Visibility +300%, Critical Hit Chance +20%"
+  },
+  {
+    "name": "Ismail Augmenter",
+    "tech": 6,
+    "stats": "Docking Speed +438%, Thrust +60%, Turning +40%, Capacity +48%"
+  },
+  {
+    "name": "Lavrite Augmenter",
+    "tech": 6,
+    "stats": "Energy Max +60%, Energy Charge +26%, Electric Tempering -10%, Rate of Fire +20%, Tracking +13%, Thrust +28%, Capacity +15%"
+  },
+  {
+    "name": "Opaque Augmenter",
+    "tech": 6,
+    "stats": "Damage +31%, Radar -67%, Visibility -76%"
+  },
+  {
+    "name": "Vulcanox Augmenter",
+    "tech": 6,
+    "stats": "Energy Max +70%, Capacity +28%, Visibility +10%, Resistance to Damage +19%"
+  },
+  {
+    "name": "Calcite Augmenter",
+    "tech": 7,
+    "stats": "Shield Max +40%, Energy Max +40%, Capacity +40%, Visibility +100%, Resistance to Damage +13%"
+  },
+  {
+    "name": "Hue Augmenter",
+    "tech": 7,
+    "stats": "Energy Max +40%, Energy Charge +35%, Visibility +100%, Resistance to Damage +20%"
+  },
+  {
+    "name": "Infernal Augmenter",
+    "tech": 7,
+    "stats": "Shield Max -43%, Shield Recovery -33%, Damage +55%, Range +50%, Tracking +50%"
+  },
+  {
+    "name": "Infernus Augmenter",
+    "tech": 7,
+    "stats": "Energy Charge +40%, Rate of Fire +50%, Range +30%"
+  },
+  {
+    "name": "Sapphire Augmenter",
+    "tech": 7,
+    "stats": "Shield Max +110%, Electric Tempering -25%, Thrust +60%"
+  },
+  {
+    "name": "Suqqa KoQuii Akk'oj",
+    "tech": 7,
+    "stats": "Damage +15%, Speed +6%, Visibility -67%, Critical Hit Chance +5%, Critical Hit Strength +40%"
+  },
+  {
+    "name": "ZetaAug",
+    "tech": 7,
+    "stats": "Speed +30%, Docking Speed +200%, Capacity +30%, Radar +130%"
+  },
+  {
+    "name": "Zombie Rat Queen's Augmenter",
+    "tech": 7,
+    "stats": "Energy Max +100%, Energy Charge +60%, Range +30%, Visibility +30%"
+  },
+  {
+    "name": "Banu Qo Akk'oj",
+    "tech": 8,
+    "stats": "Shield Max +38%, Energy Max +100%, Energy Charge +10%, Damage +16%, Rate of Fire +28%, Range +37%"
+  },
+  {
+    "name": "Goblin Augmenter",
+    "tech": 8,
+    "stats": "Damage +40%, Rate of Fire -19%, Range +65%, Turning -20%, Hostility +20%"
+  },
+  {
+    "name": "Sergeant's Enforcer Augmenter",
+    "tech": 8,
+    "stats": "Shield Max +20%, Shield Recovery +45%, Energy Charge +45%, Hostility +30%"
+  },
+  {
+    "name": "KoQuii Ukuk Akk'oj",
+    "tech": 9,
+    "stats": "Electric Tempering -9%, Damage +25%, Range +40%, Visibility -67%"
+  },
+  {
+    "name": "Rock Augmenter",
+    "tech": 9,
+    "stats": "Shield Max +40%, Damage +37%, Range +40%, Tracking +25%, Weight +20%"
+  },
+  {
+    "name": "Ruby Augmenter",
+    "tech": 9,
+    "stats": "Shield Recovery +80%, Energy Max +100%, Radar +190%"
+  },
+  {
+    "name": "Volt Augmenter",
+    "tech": 9,
+    "stats": "Energy Max +195%, Energy Charge +60%"
+  },
+  {
+    "name": "Blue Beta Augmenter",
+    "tech": 10,
+    "stats": "Energy Max +200%, Damage +25%, Radar +60%, Visibility -66%"
+  },
+  {
+    "name": "Dark Augmenter",
+    "tech": 10,
+    "stats": "Shield Recovery +10%, Energy Max +25%, Turning +30%, Capacity +10%, Visibility -75%, Resistance to Damage +5%, Critical Hit Chance +20%"
+  },
+  {
+    "name": "Solid Rock Augmenter",
+    "tech": 10,
+    "stats": "Shield Max +40%, Damage +43%, Range +45%, Tracking +30%, Weight +30%, Resistance to Damage +2%"
+  },
+  {
+    "name": "Angel Augmenter",
+    "tech": 11,
+    "stats": "Shield Recovery +50%, Energy Charge +20%, Hostility -70%, Transference Power +30%"
+  },
+  {
+    "name": "Emerald Augmenter",
+    "tech": 11,
+    "stats": "Damage +43%, Turning +105%, Capacity +20%"
+  },
+  {
+    "name": "Pirate's Mark",
+    "tech": 11,
+    "stats": "Shield Max +60%, Damage +25%, Rate of Fire +25%, Capacity +20%, Visibility -36%, Hostility +70%, Critical Hit Chance +5%"
+  },
+  {
+    "name": "Gonzales Augmenter",
+    "tech": 12,
+    "stats": "Range +44%, Tracking +60%, Speed +83%, Docking Speed +400%, Thrust -50%, Turning -50%"
+  },
+  {
+    "name": "Serenity Augmenter",
+    "tech": 12,
+    "stats": "Shield Max +115%, Shield Recovery +50%, Speed -23%, Resistance to Damage +20%"
+  },
+  {
+    "name": "Aku KoQuii Augmenter",
+    "tech": 13,
+    "stats": "Shield Max +25%, Energy Charge +60%, Capacity +6%, Visibility -67%, Resistance to Damage +5%"
+  },
+  {
+    "name": "Bellarmine Augmenter",
+    "tech": 13,
+    "stats": "Energy Max +220%, Energy Charge +70%, Range +24%, Thrust +200%"
+  },
+  {
+    "name": "Diamond Augmenter",
+    "tech": 13,
+    "stats": "Range +70%, Resistance to Damage +32%, Inertial Dampening -40%"
+  },
+  {
+    "name": "KoQuii' Vazuk Augmenter",
+    "tech": 13,
+    "stats": "Shield Max +40%, Shield Recovery +25%, Rate of Fire +85%, Visibility -67%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Parsley Augmenter",
+    "tech": 13,
+    "stats": "Energy Charge +50%, Speed +16%, Critical Hit Chance +20%, Critical Hit Strength +60%"
+  },
+  {
+    "name": "Thorn Augmenter",
+    "tech": 14,
+    "stats": "Energy Charge +45%, Damage +20%, Thrust +40%, Turning +80%, Tractor Power +40%"
+  },
+  {
+    "name": "Blue Gamma Augmenter",
+    "tech": 15,
+    "stats": "Shield Max +60%, Energy Max +100%, Damage +60%, Rate of Fire -60%, Thrust +40%, Turning +40%, Radar +100%, Visibility -66%"
+  },
+  {
+    "name": "Bouquet Augmenter",
+    "tech": 15,
+    "stats": "Energy Max +150%, Energy Charge +80%, Damage -32%, Speed +35%, Docking Speed +150%, Thrust +80%, Hostility -45%"
+  },
+  {
+    "name": "Grinch's Special Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +110%, Energy Max +120%, Damage +50%, Hostility +100%"
+  },
+  {
+    "name": "Ishi Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +20%, Shield Recovery +45%, Tracking +45%, Speed +30%, Thrust +90%, Turning +90%, Visibility -67%"
+  },
+  {
+    "name": "Qokuji Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +75%, Energy Max +40%, Damage +35%, Range +25%, Speed +7%, Visibility -67%"
+  },
+  {
+    "name": "Slumber Augmenter",
+    "tech": 16,
+    "stats": "Shield Max +90%, Energy Max +140%, Thrust -10%, Turning -33%, Capacity +40%, Critical Hit Chance +15%, Critical Hit Strength +60%"
+  },
+  {
+    "name": "Wyrm Augmenter",
+    "tech": 16,
+    "stats": "Shield Recovery +70%, Energy Max +100%, Energy Charge +30%, Damage +14%, Rate of Fire +40%, Tracking +40%"
+  },
+  {
+    "name": "Hibernation Augmenter",
+    "tech": 17,
+    "stats": "Shield Max +90%, Energy Max +140%, Thrust -30%, Turning -46%, Capacity +50%, Critical Hit Chance +20%, Critical Hit Strength +75%"
+  },
+  {
+    "name": "Arson Augmenter",
+    "tech": 18,
+    "stats": "Energy Charge +60%, Electric Tempering -19%, Rate of Fire +30%, Range +35%, Tracking +95%, Speed +18%, Hostility +20%, Critical Hit Chance +20%"
+  },
+  {
+    "name": "Bunny Augmenter",
+    "tech": 18,
+    "stats": "Shield Recovery +34%, Energy Charge +34%, Damage +34%, Thrust +34%, Turning +34%, Resistance to Damage +34%"
+  },
+  {
+    "name": "Metis Augmenter",
+    "tech": 18,
+    "stats": "Shield Max +100%, Damage +70%, Rate of Fire +25%, Turning +10%, Capacity -10%, Radar +300%"
+  },
+  {
+    "name": "One Dozen Roses Augmenter",
+    "tech": 18,
+    "stats": "Shield Max -33%, Electric Tempering -16%, Damage +90%, Tracking -26%, Speed +3%, Docking Speed -67%, Hostility +100%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Rose Augmenter",
+    "tech": 18,
+    "stats": "Shield Max -33%, Electric Tempering -10%, Damage +90%, Tracking -26%, Speed +3%, Docking Speed -67%, Hostility +100%, Resistance to Damage +7%"
+  },
+  {
+    "name": "Subnavigator's Augmenter",
+    "tech": 18,
+    "stats": "Shield Max +40%, Shield Recovery +40%, Damage +35%, Rate of Fire +25%, Resistance to Damage +25%"
+  },
+  {
+    "name": "Two Dozen Roses Augmenter",
+    "tech": 18,
+    "stats": "Shield Max -33%, Electric Tempering -22%, Damage +90%, Tracking -26%, Speed +3%, Docking Speed -67%, Hostility +100%, Resistance to Damage +12%"
+  },
+  {
+    "name": "Vesta Augmenter",
+    "tech": 18,
+    "stats": "Shield Max +60%, Shield Recovery +80%, Energy Max +100%, Damage +40%, Range +40%, Resistance to Damage +5%"
+  },
+  {
+    "name": "Calypso Augmenter",
+    "tech": 19,
+    "stats": "Docking Speed +950%, Thrust +60%, Turning +34%, Weight -46%, Capacity +108%"
+  },
+  {
+    "name": "Calypso+ Augmenter",
+    "tech": 19,
+    "stats": "Docking Speed +1000%, Thrust +66%, Turning +34%, Weight -54%, Capacity +114%"
+  },
+  {
+    "name": "Green Augmenter",
+    "tech": 19,
+    "stats": "Energy Max +240%, Damage +27%, Rate of Fire +80%, Range +50%, Radar +110%"
+  },
+  {
+    "name": "La Buse Augmenter",
+    "tech": 19,
+    "stats": "Rate of Fire +125%, Speed +35%, Capacity +20%, Hostility +120%, Critical Hit Strength +60%, Weapons Slots +3"
+  },
+  {
+    "name": "Reaver Augmenter",
+    "tech": 19,
+    "stats": "Damage +60%, Range +30%, Speed +30%, Thrust +55%, Capacity +19%, Hostility +80%, Resistance to Damage -10%, Critical Hit Chance +20%, Critical Hit Strength +40%"
+  },
+  {
+    "name": "Sup. Augmenter Plug",
+    "tech": 19,
+    "stats": "Energy Max +284%"
+  },
+  {
+    "name": "Wattage Augmenter",
+    "tech": 19,
+    "stats": "Shield Max +40%, Energy Max +20%, Energy Charge +20%, Electric Tempering -38%, Damage +40%, Range +50%, Visibility +100%"
+  },
+  {
+    "name": "Albatross Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +90%, Energy Charge +80%, Rate of Fire +80%, Range +40%, Tracking +60%, Visibility +80%"
+  },
+  {
+    "name": "Arsonist's Augmenter",
+    "tech": 20,
+    "stats": "Energy Charge +60%, Electric Tempering -33%, Tracking +60%, Speed +20%, Hostility +40%, Critical Hit Chance +15%, Critical Hit Strength +30%"
+  },
+  {
+    "name": "Astralogica Augmenter",
+    "tech": 20,
+    "stats": "Speed +58%, Capacity +60%, Visibility +200%, Hostility -40%, Resistance to Damage +20%"
+  },
+  {
+    "name": "Astranomologica Augmenter",
+    "tech": 20,
+    "stats": "Speed +44%, Capacity +66%, Visibility +240%, Hostility -52%, Resistance to Damage +30%"
+  },
+  {
+    "name": "Conclusion Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +170%, Electric Tempering -30%, Tracking +100%, Critical Hit Chance +22%, Critical Hit Strength +44%"
+  },
+  {
+    "name": "Dark Gyre Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +60%, Energy Max +80%, Damage +80%, Range +10%, Turning +40%, Capacity +20%, Hostility +40%"
+  },
+  {
+    "name": "Dark Inferno Augmenter",
+    "tech": 20,
+    "stats": "Damage +70%, Range +55%, Tracking +60%, Speed +15%, Radar +120%, Resistance to Damage +8%"
+  },
+  {
+    "name": "El Draque Augmenter",
+    "tech": 20,
+    "stats": "Energy Charge +67%, Rate of Fire +100%, Thrust +200%, Visibility +100%, Critical Hit Strength +95%, Weapons Slots +4"
+  },
+  {
+    "name": "Equalaugmenter",
+    "tech": 20,
+    "stats": "Shield Max +22%, Shield Recovery +22%, Energy Max +22%, Energy Charge +22%, Electric Tempering -20%, Range +22%, Speed +22%, Thrust +22%, Turning +22%, Visibility -20%, Resistance to Damage +22%"
+  },
+  {
+    "name": "Forgone Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +155%, Electric Tempering -30%, Tracking +85%, Critical Hit Chance +20%, Critical Hit Strength +40%"
+  },
+  {
+    "name": "Greener Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +250%, Damage +32%, Rate of Fire +88%, Range +55%, Radar +160%"
+  },
+  {
+    "name": "Mad Scientist Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +70%, Energy Charge +70%, Rate of Fire +85%, Speed +40%, Docking Speed +150%, Capacity +10%"
+  },
+  {
+    "name": "Mattock Augmenter",
+    "tech": 20,
+    "stats": "Damage +44%, Rate of Fire +66%, Tracking -25%, Thrust +110%, Turning +66%, Resistance to Damage +30%"
+  },
+  {
+    "name": "Navigator's Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +45%, Shield Recovery +45%, Damage +40%, Rate of Fire +30%, Resistance to Damage +25%"
+  },
+  {
+    "name": "Pick Augmenter",
+    "tech": 20,
+    "stats": "Damage +45%, Rate of Fire +60%, Tracking -20%, Thrust +100%, Turning +60%, Resistance to Damage +24%"
+  },
+  {
+    "name": "Poseidon, the Earthshaker",
+    "tech": 20,
+    "stats": "Shield Max +135%, Shield Recovery +60%, Energy Charge +60%, Damage +20%"
+  },
+  {
+    "name": "Qa Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +70%, Energy Charge +45%, Damage +45%, Visibility -67%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Qokujiii Qa'ik Akk'oj",
+    "tech": 20,
+    "stats": "Shield Max +50%, Energy Max +200%, Energy Charge +50%, Damage +49%, Rate of Fire +50%"
+  },
+  {
+    "name": "Sivar's Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +200%, Electric Tempering -25%, Damage +40%, Rate of Fire +80%, Speed +20%, Thrust +100%, Turning +50%, Critical Hit Chance -10%"
+  },
+  {
+    "name": "Vulture Augmenter",
+    "tech": 20,
+    "stats": "Shield Max +50%, Energy Max +80%, Damage +50%, Rate of Fire +65%, Range -20%, Speed +35%, Visibility +100%, Hostility +40%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Zombie Rat Broodmother's Augmenter",
+    "tech": 20,
+    "stats": "Energy Max +100%, Energy Charge +75%, Damage +30%, Range +40%, Tracking +40%, Visibility +100%, Resistance to Damage +14%"
+  },
+  {
+    "name": "Artemis Patrol Augmenter",
+    "tech": 21,
+    "stats": "Range +60%, Tracking +90%, Radar +800%, Visibility -75%"
+  },
+  {
+    "name": "Capital Defensive Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +70%, Shield Recovery +35%, Speed +11%, Capacity +45%, Radar +150%, Resistance to Damage +37%"
+  },
+  {
+    "name": "Capital Offensive Augmenter",
+    "tech": 21,
+    "stats": "Energy Charge +60%, Electric Tempering -20%, Damage +48%, Rate of Fire +70%, Range +30%"
+  },
+  {
+    "name": "Cerberus Augmenter",
+    "tech": 21,
+    "stats": "Range -40%, Tracking +100%, Speed -10%, Radar +400%, Visibility +100%, Hostility +40%, Critical Hit Chance -18%, Weapon Hold +50%, Multifiring +200"
+  },
+  {
+    "name": "Dark Thorn Augmenter",
+    "tech": 21,
+    "stats": "Energy Charge +80%, Damage +35%, Thrust +60%, Turning +70%, Tractor Power +65%"
+  },
+  {
+    "name": "Divine Wattage Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +40%, Energy Max +20%, Energy Charge +30%, Electric Tempering -43%, Damage +55%, Range +50%, Visibility +300%"
+  },
+  {
+    "name": "Hawk Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +70%, Electric Tempering -12%, Damage +80%, Tracking +30%, Speed +14%, Thrust +60%, Turning +30%, Radar +100%, Visibility +100%, Critical Hit Chance +10%"
+  },
+  {
+    "name": "Hermes Patrol Augmenter",
+    "tech": 21,
+    "stats": "Shield Recovery +30%, Speed +40%, Docking Speed +240%, Thrust +110%, Radar +800%, Visibility -61%"
+  },
+  {
+    "name": "Invigorating Aphrodite Augmenter",
+    "tech": 21,
+    "stats": "Energy Max +190%, Energy Charge +70%, Damage +40%, Docking Speed +300%, Thrust +60%, Turning +60%"
+  },
+  {
+    "name": "Invigorating Dionysis Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +100%, Energy Max +200%, Energy Charge +70%, Damage +24%, Docking Speed +200%, Thrust -26%, Turning -10%"
+  },
+  {
+    "name": "Kidd's Modification",
+    "tech": 21,
+    "stats": "Shield Max +30%, Shield Recovery +50%, Rate of Fire +80%, Range +40%, Turning +40%, Resistance to Damage +36%"
+  },
+  {
+    "name": "Markswoman Artemis Augmenter",
+    "tech": 21,
+    "stats": "Damage +20%, Rate of Fire +20%, Range +150%, Tracking +200%, Visibility -34%"
+  },
+  {
+    "name": "Nightfury's Anger",
+    "tech": 21,
+    "stats": "Shield Max +140%, Energy Max +100%, Electric Tempering +24%, Damage +70%, Rate of Fire +90%, Range +50%, Speed +15%, Thrust -18%, Turning -33%, Capacity -10%, Radar -26%, Visibility +200%"
+  },
+  {
+    "name": "Nightfury's Patience",
+    "tech": 21,
+    "stats": "Shield Recovery +100%, Electric Tempering +24%, Damage +40%, Rate of Fire +80%, Range +30%, Tracking +40%, Thrust -18%, Turning -33%, Capacity -10%, Visibility +200%, Resistance to Damage +30%"
+  },
+  {
+    "name": "Racing Hermes Augmenter",
+    "tech": 21,
+    "stats": "Shield Recovery +50%, Speed +60%, Docking Speed +1200%, Thrust +260%, Turning +38%, Visibility -61%"
+  },
+  {
+    "name": "Raging Aphrodite Augmenter",
+    "tech": 21,
+    "stats": "Damage +80%, Rate of Fire +80%, Docking Speed +300%, Thrust +60%, Turning +60%"
+  },
+  {
+    "name": "Raging Dionysis Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +100%, Damage +65%, Rate of Fire +80%, Docking Speed +200%, Thrust -26%, Turning -10%"
+  },
+  {
+    "name": "Tarkin's Augmenter",
+    "tech": 21,
+    "stats": "Shield Max +100%, Energy Max +40%, Energy Charge +40%, Electric Tempering -18%, Damage -18%, Rate of Fire +20%, Range +40%, Thrust +40%, Turning +40%, Visibility +100%, Hostility +160%, Resistance to Damage +20%, Critical Hit Chance +5%"
+  },
+  {
+    "name": "Chronos Augmenter",
+    "tech": 22,
+    "stats": "Energy Max +58%, Damage +58%, Capacity +58%, Tractor Power +58%"
+  },
+  {
+    "name": "Chronos+ Augmenter",
+    "tech": 22,
+    "stats": "Energy Max +62%, Damage +62%, Capacity +62%, Tractor Power +62%"
+  },
+  {
+    "name": "Cygnus Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +100%, Shield Recovery +30%, Energy Charge +40%, Damage +60%, Rate of Fire +10%, Docking Speed +100%, Thrust -18%, Turning +40%"
+  },
+  {
+    "name": "Delquadrikamdon Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +50%, Energy Charge +30%, Damage +65%, Range +25%, Resistance to Damage +30%"
+  },
+  {
+    "name": "Divine Augmenter",
+    "tech": 22,
+    "stats": "Docking Speed +1250%, Thrust +72%, Turning +40%, Weight -61%, Capacity +120%"
+  },
+  {
+    "name": "Adamantiumized Delquadrikamdon Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +70%, Energy Charge +50%, Damage +70%, Range +50%, Projectile Velocity +50%"
+  },
+  {
+    "name": "Faded Delquadrikamdon Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +45%, Energy Charge +50%, Damage +95%, Range +30%, Visibility -50%"
+  },
+  {
+    "name": "Grand Moff Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +175%, Energy Max +40%, Damage -8%, Range +50%, Thrust +150%, Hostility +200%, Resistance to Damage +40%"
+  },
+  {
+    "name": "Grand Navigator's Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +45%, Shield Recovery +45%, Damage +45%, Rate of Fire +40%, Resistance to Damage +25%"
+  },
+  {
+    "name": "Grand Navigator's Defensive Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +70%, Shield Recovery +40%, Energy Charge +45%, Capacity +40%, Resistance to Damage +32%"
+  },
+  {
+    "name": "Grand Navigator's Offensive Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +65%, Energy Max +100%, Electric Tempering -16%, Damage +58%, Rate of Fire +70%, Range +30%, Resistance to Damage +10%"
+  },
+  {
+    "name": "Lunarian Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +65%, Energy Charge +50%, Electric Tempering -12%, Damage +60%, Rate of Fire +80%"
+  },
+  {
+    "name": "Ohm Augmenter",
+    "tech": 22,
+    "stats": "Energy Max +60%, Energy Charge +60%, Electric Tempering -40%, Range -20%, Visibility +400%, Resistance to Damage +40%, Inertial Dampening -53%, Weapon Hold +50%"
+  },
+  {
+    "name": "Perilous Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +130%, Energy Charge +45%, Rate of Fire +70%, Range +40%, Resistance to Damage +27%"
+  },
+  {
+    "name": "Qa'ik Banu Akk'oj",
+    "tech": 22,
+    "stats": "Shield Max +60%, Shield Recovery +60%, Energy Charge +30%, Damage +35%, Rate of Fire +35%, Range +100%, Capacity +9%, Transference Power +10%"
+  },
+  {
+    "name": "Qa'ik Urk'qii Akk'oj",
+    "tech": 22,
+    "stats": "Shield Recovery +55%, Damage +55%, Resistance to Damage +35%, Critical Hit Chance +20%, Critical Hit Strength +60%"
+  },
+  {
+    "name": "Qa'ik Vazuk Akk'oj",
+    "tech": 22,
+    "stats": "Shield Max +150%, Electric Tempering +20%, Damage +70%, Rate of Fire +130%, Inertial Dampening -33%"
+  },
+  {
+    "name": "Rhea Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +64%, Electric Tempering -48%, Speed +64%, Turning +64%, Radar +64%"
+  },
+  {
+    "name": "Rhea+ Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +74%, Electric Tempering -48%, Speed +74%, Turning +74%, Radar +74%"
+  },
+  {
+    "name": "Selenite Augmenter",
+    "tech": 22,
+    "stats": "Shield Max +100%, Electric Tempering -38%, Rate of Fire +130%, Range +70%, Tracking +60%"
+  },
+  {
+    "name": "Badger Charisma Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +69%, Shield Recovery +69%, Electric Tempering +69%, Thrust +69%, Weight -69%, Capacity +69%, Visibility +69%, Hostility +69%, Resistance to Damage +28%, Weapons Slots -1"
+  }
+]
