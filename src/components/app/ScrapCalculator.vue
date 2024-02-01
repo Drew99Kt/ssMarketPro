@@ -89,6 +89,7 @@ export default {
             var considerModded = this.considerModded;
             const skip_modded_key = 'Skipped Modded';
             const regexp = /([0-9]+\t)?([0-9]+)\t(.+)/;
+            /* TODO, incorporate item type skips (e.g. Blueprints, Augmenters, Commodities) somehow */
 
             rawScrapValues[skip_modded_key] = 1;
 

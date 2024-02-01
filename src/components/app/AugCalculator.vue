@@ -47,6 +47,9 @@ Qa'ik Banu Akk'oj`,
     methods: {
         parseData() {
             var outputData = this.outputData = [];
+            /* TODO, incorporate Tech level somehow */
+
+
             // parse augmenter json to a friendlier format
             var converted_data = aug_values.map(function(aug_obj, idx, arr) {
                 var stats = aug_obj.stats.includes(',') ? aug_obj.stats.split(',') : [aug_obj.stats];
@@ -66,8 +69,7 @@ Qa'ik Banu Akk'oj`,
             });
 
             // converted_data + converted_input -> summed augmenter stats
-            [this.inputData.split('\n').filter(e => e.trim() !== '')]
-            .map(e => e.map(v => v.trim()))
+            [this.inputData.split('\n').map(e => e.trim()).filter(e => e !== '')]
             .forEach(function (input_augs) {
                 var acc = new Object();
                 var combine_acc_fn = function (acc, aug) {
@@ -93,7 +95,9 @@ Qa'ik Banu Akk'oj`,
                 for (var i = 0; i < keys.length; i++) {
                     var key = keys[i];
                     var value = acc[key];
-                    output_table.push({name: key, value: (value > 0 ? '+' : '') + acc[key] + '%', raw_value: key == 'Electric Tempering' ? - value : value});
+                    var value_suffix = key.includes('_offset') ? '' : '%';
+                    var raw_value = key == 'Electric Tempering' ? - value : value; /* negative is actually positive in this case */
+                    output_table.push({name: key, value: (value > 0 ? '+' : '') + value + value_suffix, raw_value: raw_value});
                 }
                 outputData = output_table;
             });
