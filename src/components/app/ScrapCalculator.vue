@@ -121,9 +121,7 @@ export default {
             outputMap.forEach(function (value, key, map) {
                 if (rawScrapValues[key] != null) {
                     outputData.push({item: key, value: (value * rawScrapValues[key])});
-                    if (key != skip_modded_key) {
-                        totalScrapValue += value * rawScrapValues[key];
-                    }
+                    totalScrapValue += value * rawScrapValues[key];
                 } else {
                     unknownData.push({item: key});
                 }

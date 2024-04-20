@@ -13,6 +13,8 @@ import { RouterView } from 'vue-router';
 // import LootSplitter from './components/app/LootSplitter.vue';
 // import ScrapCalculator from './components/app/ScrapCalculator.vue';
 // import AugCalculator from './components/app/AugCalculator.vue';
+// import AugFinder from '/components/app/AugFinder.vue'
+// import GalaxyViewer from './components/app/GalaxyViewer.vue';
 // import router  from './router';
 
 
