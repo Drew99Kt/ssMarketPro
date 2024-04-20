@@ -6,6 +6,8 @@
       <router-link to="/lootsplitter" tag="button" class="button-style">Loot Splitter</router-link>
       <router-link to="/scrapcalculator" tag="button" class="button-style">Scrap Calculator</router-link>
       <router-link to="/augcalculator" tag="button" class="button-style">Aug Calculator</router-link>
+      <router-link to="/augfinder" tag="button" class="button-style">Aug Finder</router-link>
+      <!--router-link to="/galaxyViewer" tag="button" class="button-style">Galaxy Viewer</router-link-->
     </div>
   </template>
   
