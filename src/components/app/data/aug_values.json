@@ -4207,12 +4207,12 @@
   {
     "name": "Celestial Focus Augmenter",
     "tech": 23,
-    "stats": "Shield Max +100%, Energy Charge +70%, Electrical Tempering -10%, Damage -9%, Rate of Fire +120%, Tracking +40%, Speed +5%, Capacity +10%"
+    "stats": "Shield Max +100%, Energy Charge +70%, Electric Tempering -10%, Damage -9%, Rate of Fire +120%, Tracking +40%, Speed +5%, Capacity +10%"
   },
   {
     "name": "Celestial Forge Augmenter",
     "tech": 23,
-    "stats": "Shield Max +265%, Energy Max -45%, Electrical Tempering +58%, Speed +13%, Docking Speed +100%, Thrust +50%, Turning +20%, Resistance to Damage +51%"
+    "stats": "Shield Max +265%, Energy Max -45%, Electric Tempering +58%, Speed +13%, Docking Speed +100%, Thrust +50%, Turning +20%, Resistance to Damage +51%"
   },
   {
     "name": "Celestial Nebulae Augmenter",
@@ -4282,7 +4282,7 @@
   {
     "name": "Empyreal Rift Augmenter",
     "tech": 23,
-    "stats": "Shield Recovery +59%, Energy Max +185%, Electric Tempering -20%, Range +60%, Tracking +60%, Docking Speed +100%, Capacity +13%, Inertia Dampening -30%, Weapons Slots +5"
+    "stats": "Shield Recovery +59%, Energy Max +185%, Electric Tempering -20%, Range +60%, Tracking +60%, Docking Speed +100%, Capacity +13%, Inertial Dampening -30%, Weapons Slots +5"
   },
   {
     "name": "Empyreal Schism Augmenter",

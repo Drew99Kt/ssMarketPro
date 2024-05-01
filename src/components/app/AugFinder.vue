@@ -16,7 +16,6 @@
             <option value="Energy Charge">Energy Charge</option>
             <option value="Energy Max">Energy Max</option>
             <option value="Hostility">Hostility</option>
-            <option value="Inertia Dampening">Inertia Dampening</option>
             <option value="Inertial Dampening">Inertial Dampening</option>
             <option value="Multifiring_offset">Multifiring_offset</option>
             <option value="Projectile Velocity">Projectile Velocity</option>
@@ -53,7 +52,6 @@
             <option value="Energy Charge">Energy Charge</option>
             <option value="Energy Max">Energy Max</option>
             <option value="Hostility">Hostility</option>
-            <option value="Inertia Dampening">Inertia Dampening</option>
             <option value="Inertial Dampening">Inertial Dampening</option>
             <option value="Multifiring_offset">Multifiring_offset</option>
             <option value="Projectile Velocity">Projectile Velocity</option>
@@ -90,7 +88,6 @@
             <option value="Energy Charge">Energy Charge</option>
             <option value="Energy Max">Energy Max</option>
             <option value="Hostility">Hostility</option>
-            <option value="Inertia Dampening">Inertia Dampening</option>
             <option value="Inertial Dampening">Inertial Dampening</option>
             <option value="Multifiring_offset">Multifiring_offset</option>
             <option value="Projectile Velocity">Projectile Velocity</option>
