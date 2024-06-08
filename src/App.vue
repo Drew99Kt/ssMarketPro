@@ -12,6 +12,7 @@ import { RouterView } from 'vue-router';
 // import SquadDamageDisplay from './components/app/SquadDamageDisplay.vue';
 // import LootSplitter from './components/app/LootSplitter.vue';
 // import ScrapCalculator from './components/app/ScrapCalculator.vue';
+// import AssetXMLPrettify from './components/app/AssetXMLPrettify.vue';
 // import AugCalculator from './components/app/AugCalculator.vue';
 // import AugFinder from '/components/app/AugFinder.vue'
 // import GalaxyViewer from './components/app/GalaxyViewer.vue';
