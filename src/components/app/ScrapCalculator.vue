@@ -38,7 +38,7 @@
         </table>
         <br><br>
     </div>
-    <div>
+    <!-- <div>
         <label>Scrap Database (for Debugging):</label>
         <input type="checkbox" id="checkbox" v-model="checked"/>
     </div>
@@ -57,11 +57,13 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+    </div> -->
 </div>
 </template>
 <script>
 import scrap_values from './data/scrap_values.json'
+import scrap_values2 from './data/scrap_values2.json'
+import ai_station_values from './data/ai_station_values.json'
 import numberFormatter from 'number-formatter'
 import TopNavBar from './../TopNavBar.vue';
 export default {
@@ -73,6 +75,8 @@ export default {
         return {
             inputData: ``,
             rawScrapValues: scrap_values,
+            rawScrapValues2: scrap_values2,
+            rawAIStationValues: ai_station_values,
             outputData: [],
             unknownData: [],
             checked: false,
@@ -85,6 +89,8 @@ export default {
             var outputData = []
             var outputMap = new Map();
             var rawScrapValues = this.rawScrapValues; // TODO: Push to API?
+            var rawScrapValues2 = this.rawScrapValues2; // TODO: Push to API?
+            var rawAIStationValues = this.rawAIStationValues; // TODO: Push to API?
             var unknownData = [];
             var considerModded = this.considerModded;
             const skip_modded_key = 'Skipped Modded';
@@ -119,9 +125,29 @@ export default {
             });
             // Compute summed values and unknowns
             outputMap.forEach(function (value, key, map) {
+                var credits = 0;
+                var found_credits = false;
                 if (rawScrapValues[key] != null) {
-                    outputData.push({item: key, value: (value * rawScrapValues[key])});
-                    totalScrapValue += value * rawScrapValues[key];
+                    if (credits < rawScrapValues[key]) {
+                        credits = rawScrapValues[key];
+                        found_credits = true
+                    }
+                }
+                if (rawScrapValues2[key] != null) {
+                    if (credits < rawScrapValues2[key]) {
+                        credits = rawScrapValues2[key];
+                        found_credits = true
+                    }
+                }
+                if (rawAIStationValues[key] != null) {
+                    if (credits < rawAIStationValues[key]) {
+                        credits = rawAIStationValues[key];
+                        found_credits = true
+                    }
+                }
+                if (found_credits) {
+                    outputData.push({item: key, value: (value * credits)});
+                    totalScrapValue += value * credits;
                 } else {
                     unknownData.push({item: key});
                 }
