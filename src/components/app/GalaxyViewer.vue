@@ -4,7 +4,9 @@
     <div class="container">WIP Galaxy Viewer.</div>
     <br>
     <div class="container">
-        <button @click="display_3d_force">Fetch 3D Force</button>
+        <div><button @click="display_3d_force(true)">Fetch 3D Force (Slow)</button><button @click="display_3d_force(false)">Fetch 3D Force (Fast)</button></div>
+        <br>
+        <div>Fly Mode: <input type="checkbox" v-model="flymode"></div>
         <br>
         <span> Owned: {{ owned }}</span>
         <span> Unowned: {{ unowned }}</span>
@@ -28,16 +30,20 @@ export default {
             owned: 0,
             unowned: 0,
             total: 0,
+            flymode: false,
         };
     },
     methods: {
-        display_3d_force() {
+        display_3d_force(is_slow) {
+            var _this = this;
+            _this.owned = 0;
+            _this.unowned = 0;
+            _this.total = 0;
             var graph_element = this.$refs.displaygraph;
             var graph_data = {
                     nodes: [],
                     links: [],
                 };
-            var _this = this;
             const LAYER_WILDSPACE = 3;
             fetch('https://www.starsonata.com/webapi/galaxies/v1')
             .then(r => r.json())
@@ -83,16 +89,20 @@ export default {
                 }
                 
                 console.log(graph_data);
-                const myGraph = ForceGraph3D({
-                });
+                var config = {};
+                config.controlType = _this.flymode ? 'fly' : 'trackball';
+                const myGraph = ForceGraph3D(config);
                 myGraph(graph_element)
                 .nodeAutoColorBy('owner')
                 .graphData(graph_data)
+                .d3AlphaMin(0)
+                .d3AlphaDecay(0.0228 / (is_slow ? 1.0 : 4.0))
+                .d3VelocityDecay(0.4 / (is_slow ? 1.0 : 4.0))
                 .nodeThreeObject(node => {
                     const sprite = new SpriteText(node.name);
                     sprite.material.depthWrite = false; // make sprite background transparent
                     sprite.color = node.color;
-                    sprite.textHeight = 14;
+                    sprite.textHeight = 16;
                     return sprite;
                 });
             });
