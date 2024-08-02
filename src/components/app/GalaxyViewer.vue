@@ -5,9 +5,11 @@
     <br>
     <div class="container">
         <button @click="display_3d_force">Fetch 3D Force</button>
+        <br>
         <span> Owned: {{ owned }}</span>
         <span> Unowned: {{ unowned }}</span>
         <span> Total: {{ total }}</span>
+        <br>
         <div ref="displaygraph"></div>
     </div>
 </template>
@@ -90,7 +92,7 @@ export default {
                     const sprite = new SpriteText(node.name);
                     sprite.material.depthWrite = false; // make sprite background transparent
                     sprite.color = node.color;
-                    sprite.textHeight = 8;
+                    sprite.textHeight = 14;
                     return sprite;
                 });
             });
