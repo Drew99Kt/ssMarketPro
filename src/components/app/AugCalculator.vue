@@ -6,6 +6,7 @@
     <div class="container">
         <button @click="parseData">Augmenter Sum </button>
         <textarea v-model="inputData" placeholder="Enter your augmenter combo (Exact names):"></textarea>
+        <text v-for="aug_name in success_msg" >{{ aug_name }} <br> </text>
         <div>
             <br><br>
             <table class="table">
@@ -42,11 +43,13 @@ Qa'ik Banu Akk'oj`,
             rawAugValues: aug_values,
             outputData: [],
             checked: false,
+            success_msg: [],
         };
     },
     methods: {
         parseData() {
             var outputData = this.outputData = [];
+            var success_msg = this.success_msg = [];
             /* TODO, incorporate Tech level somehow */
 
 
@@ -69,8 +72,8 @@ Qa'ik Banu Akk'oj`,
             });
 
             // converted_data + converted_input -> summed augmenter stats
-            [this.inputData.split('\n').map(e => e.trim()).filter(e => e !== '')]
-            .forEach(function (input_augs) {
+            var input_raw = this.inputData.split('\n').map(e => e.trim()).filter(e => e !== '');
+            [input_raw].forEach(function (input_augs) {
                 var acc = new Object();
                 var combine_acc_fn = function (acc, aug) {
                     aug.stats.forEach(function (stat) {
@@ -78,12 +81,26 @@ Qa'ik Banu Akk'oj`,
                     });
                     return acc;
                 };
-                input_augs.map(function(e) {
+                var input_augs_mapped = input_augs.map(function(e) {
                     return converted_data.find(function(v) {
                         return v.name == e;
                     });
                 })
-                .filter(e=> e !== undefined)
+                var error_alert_msg = "Unknown Augmenters:\n\n"
+                var do_alert = false;
+                for (let u = 0; u < input_augs_mapped.length; u++) {
+                    if (input_augs_mapped[u] == undefined) {
+                        error_alert_msg += input_raw[u] + "\n"
+                        do_alert = true;
+                    } else {
+                        success_msg.push(input_raw[u]);
+                    }
+                }
+                if (do_alert) {
+                    console.log(error_alert_msg);
+                    alert(error_alert_msg)
+                }
+                input_augs_mapped.filter(e=> e !== undefined)
                 .forEach(function (aug) {
                     acc = combine_acc_fn(acc, aug);
                 });
@@ -102,6 +119,7 @@ Qa'ik Banu Akk'oj`,
                 outputData = output_table;
             });
             this.outputData = outputData;
+            this.success_msg = success_msg;
         }
     }
 }
