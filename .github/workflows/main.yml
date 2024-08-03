@@ -1,0 +1,53 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build the project
+      run: npm run build
+
+    - name: Deploy to main branch
+      env:
+        PAT: ${{ secrets.BUILDER }}
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git checkout -b build
+        git add -f dist
+        git commit -m 'Deploy dist folder'
+        git push -u origin build --force
+        git fetch origin main
+        # Check if build branch matches main branch and exit if true
+        if git diff --quiet build origin/main; then
+          echo "No changes to deploy. Exiting."
+          exit 0
+        fi
+        git checkout main
+        git pull origin main
+        git checkout build -- dist
+        git add -f dist
+        # Check if there are changes to commit
+        if git diff-index --quiet HEAD; then
+          echo "No changes to commit. Exiting."
+          exit 0
+        fi
+        git commit -m 'Merge dist folder into main'
+        git push origin main --force

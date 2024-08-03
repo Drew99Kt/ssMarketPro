@@ -5,6 +5,7 @@
 <br>
 <div class="container">
     <button @click="parseData">Calculate Scrap Value</button>
+    <label>Skip Modded Items:<input type="checkbox" id="considerModdedBox" v-model="considerModded"/></input></label>
     <textarea v-model="inputData" placeholder="Enter your inventory"></textarea>
     <div>
         <br><br>
@@ -37,7 +38,7 @@
         </table>
         <br><br>
     </div>
-    <div>
+    <!-- <div>
         <label>Scrap Database (for Debugging):</label>
         <input type="checkbox" id="checkbox" v-model="checked"/>
     </div>
@@ -56,11 +57,13 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+    </div> -->
 </div>
 </template>
 <script>
 import scrap_values from './data/scrap_values.json'
+import scrap_values2 from './data/scrap_values2.json'
+import ai_station_values from './data/ai_station_values.json'
 import numberFormatter from 'number-formatter'
 import TopNavBar from './../TopNavBar.vue';
 export default {
@@ -70,21 +73,14 @@ export default {
     },
     data() {
         return {
-            inputData: `22\t1\tHazardous Ruthless Burst[Overclocked]
-22\t1\tCorrupted Cyborg Reach[Superconducting]
-22\t1\tCorrupted Cyborg Reach[Evil]
-22\t1\tHazardous PUT-TY Burst
-23\t1\tThe Five Piece
-22\t4\tCorrupted Conversion Ray
-22\t3\tGargantuan Gigo Laser
-22\t1\tHazardous Oomping Burst
-23\t2\tM51 Benefactor
-23\t1\tParadox Shield
-50\tTitanium`,
+            inputData: ``,
             rawScrapValues: scrap_values,
+            rawScrapValues2: scrap_values2,
+            rawAIStationValues: ai_station_values,
             outputData: [],
             unknownData: [],
             checked: false,
+            considerModded: false,
         };
     },
     methods: {
@@ -93,18 +89,29 @@ export default {
             var outputData = []
             var outputMap = new Map();
             var rawScrapValues = this.rawScrapValues; // TODO: Push to API?
+            var rawScrapValues2 = this.rawScrapValues2; // TODO: Push to API?
+            var rawAIStationValues = this.rawAIStationValues; // TODO: Push to API?
             var unknownData = [];
+            var considerModded = this.considerModded;
+            const skip_modded_key = 'Skipped Modded';
             const regexp = /([0-9]+\t)?([0-9]+)\t(.+)/;
+            /* TODO, incorporate item type skips (e.g. Blueprints, Augmenters, Commodities) somehow */
+
+            rawScrapValues[skip_modded_key] = 1;
 
             // Preprocess inventory rows
             // Strip mods, ignore tech column, handle commodities, combine mutliple rows into one.
             this.inputData.split("\n").forEach(function (rawInventoryLine) {
                 rawInventoryLine = rawInventoryLine.trim();
                 var matches = rawInventoryLine.match(regexp);
-                if (matches.length == 4) {
+                if (matches && matches.length == 4) {
                     var name = matches[3];
                     if (name.includes('[')) {
-                        name = name.substring(0, name.lastIndexOf('['));
+                        if (considerModded) {
+                            name = skip_modded_key;
+                        } else {
+                            name = name.substring(0, name.lastIndexOf('['));
+                        }
                     }
                     var count = parseInt(matches[2]);
                     if (outputMap.has(name)) {
@@ -118,9 +125,29 @@ export default {
             });
             // Compute summed values and unknowns
             outputMap.forEach(function (value, key, map) {
+                var credits = 0;
+                var found_credits = false;
                 if (rawScrapValues[key] != null) {
-                    outputData.push({item: key, value: (value * rawScrapValues[key])});
-                    totalScrapValue += value * rawScrapValues[key];
+                    if (credits < rawScrapValues[key]) {
+                        credits = rawScrapValues[key];
+                        found_credits = true
+                    }
+                }
+                if (rawScrapValues2[key] != null) {
+                    if (credits < rawScrapValues2[key]) {
+                        credits = rawScrapValues2[key];
+                        found_credits = true
+                    }
+                }
+                if (rawAIStationValues[key] != null) {
+                    if (credits < rawAIStationValues[key]) {
+                        credits = rawAIStationValues[key];
+                        found_credits = true
+                    }
+                }
+                if (found_credits) {
+                    outputData.push({item: key, value: (value * credits)});
+                    totalScrapValue += value * credits;
                 } else {
                     unknownData.push({item: key});
                 }
