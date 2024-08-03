@@ -4,7 +4,7 @@
     <div class="container">WIP Galaxy Viewer.</div>
     <br>
     <div class="container">
-        <div><button @click="display_3d_force(true)">Fetch 3D Force (Slow)</button><button @click="display_3d_force(false)">Fetch 3D Force (Fast)</button></div>
+        <div><button @click="display_3d_force()">Fetch 3D Force</button></div>
         <br>
         <div>Fly Mode: <input type="checkbox" v-model="flymode"></div>
         <br>
@@ -34,7 +34,7 @@ export default {
         };
     },
     methods: {
-        display_3d_force(is_slow) {
+        display_3d_force() {
             var _this = this;
             _this.owned = 0;
             _this.unowned = 0;
@@ -69,6 +69,9 @@ export default {
                         name: current_galaxy.name,
                         val: 4,
                         owner: current_galaxy.owningTeamID,
+                        x: current_galaxy.x * 200,
+                        y: current_galaxy.y * 200,
+                        z: 0,
                     };
                     if (node.owner !== undefined) {
                         _this.owned++;
@@ -87,8 +90,6 @@ export default {
                         })
                     });
                 }
-                
-                console.log(graph_data);
                 var config = {};
                 config.controlType = _this.flymode ? 'fly' : 'trackball';
                 const myGraph = ForceGraph3D(config);
@@ -96,8 +97,8 @@ export default {
                 .nodeAutoColorBy('owner')
                 .graphData(graph_data)
                 .d3AlphaMin(0)
-                .d3AlphaDecay(0.0228 / (is_slow ? 1.0 : 4.0))
-                .d3VelocityDecay(0.4 / (is_slow ? 1.0 : 4.0))
+                .d3AlphaDecay(0.0228)
+                .d3VelocityDecay(0.4)
                 .nodeThreeObject(node => {
                     const sprite = new SpriteText(node.name);
                     sprite.material.depthWrite = false; // make sprite background transparent
