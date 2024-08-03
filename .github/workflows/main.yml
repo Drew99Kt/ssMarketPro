@@ -44,5 +44,10 @@ jobs:
         git pull origin main
         git checkout build -- dist
         git add -f dist
+        # Check if there are changes to commit
+        if git diff-index --quiet HEAD; then
+          echo "No changes to commit. Exiting."
+          exit 0
+        fi
         git commit -m 'Merge dist folder into main'
         git push origin main --force
