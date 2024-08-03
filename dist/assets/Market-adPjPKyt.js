@@ -1,4 +1,4 @@
-import{_ as f,T as w}from"./TopNavBar-BMoN67ZG.js";import{c as o,a as k,b as r,w as c,v as x,F as i,r as d,o as u,t as T,n as y,d as O}from"./index-7zWoxdTt.js";const v={name:"Market",components:{TopNavBar:w},data(){return{textInput:`sellprice | buyprice | maxbuy | maxsell | maxmake | name
+import{_ as f,T as w}from"./TopNavBar-NJis9dcE.js";import{c as o,a as k,b as r,w as c,v as x,F as i,r as d,o as u,t as T,n as y,d as O}from"./index-CCasent4.js";const v={name:"Market",components:{TopNavBar:w},data(){return{textInput:`sellprice | buyprice | maxbuy | maxsell | maxmake | name
 500 | 200 | 200 | 100 | 0 | Workers
 100 | 88 | 10011 | 0 | 0 | Peasants
 1500 | 1250 | 2000 | 1000 | 0 | Nuclear Waste`,headers:[],rows:[],outputText:""}},mounted(){this.parseShopData(),this.updateOutputText()},watch:{textInput(){this.parseShopData(),this.updateOutputText()},rows:{deep:!0,handler(){this.updateOutputText()}}},methods:{parseShopData(){const e=this.textInput.split(`
