@@ -32,12 +32,10 @@ jobs:
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git checkout -b build
         git add dist
-        git commit -m 'Deploy dist folder'
+        git commit -m 'Deploy build'
         git push -u origin build --force
         git fetch origin main
         git checkout main
         git pull origin main
-        git checkout build -- dist
-        git add dist
-        git commit -m 'Merge dist folder into main'
-        git push origin main --force
+        git merge build --allow-unrelated-histories -X theirs
+        git push origin main --force 
