@@ -35,7 +35,6 @@ jobs:
         git commit -m 'Deploy build'
         git push -u origin build
         git checkout main
-        git pull origin main
+        git pull main
         git merge build
-        git push origin main
-        
+        git push main
