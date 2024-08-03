@@ -34,7 +34,8 @@ jobs:
         git add .
         git commit -m 'Deploy build'
         git push -u origin build --force
+        git fetch origin main
         git checkout main
-        git pull main
+        git pull origin main
         git merge build
-        git push main --force
+        git push origin main --force
