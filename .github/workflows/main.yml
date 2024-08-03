@@ -37,4 +37,4 @@ jobs:
         git checkout main
         git pull main
         git merge build
-        git push main
+        git push main --force
