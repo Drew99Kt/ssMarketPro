@@ -1,0 +1,203 @@
+<template>
+<TopNavBar />
+<div class="wip">WIP</div>
+<div class="container">Currently this will calculate total scrap value of a pasted inventory using a partial (and potentially outdated) scrap database.</div>
+<br>
+<div class="container">
+    <button @click="parseData">Calculate Scrap Value</button>
+    <label>Skip Modded Items:<input type="checkbox" id="considerModdedBox" v-model="considerModded"/></input></label>
+    <textarea v-model="inputData" placeholder="Enter your inventory"></textarea>
+    <div>
+        <br><br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="output in outputData" :key="output.item">
+                    <td>{{output.item}}</td>
+                    <td>{{output.value}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Unknown Item</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="output in unknownData" :key="output.item">
+                    <td>{{output.item}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+    </div>
+    <!-- <div>
+        <label>Scrap Database (for Debugging):</label>
+        <input type="checkbox" id="checkbox" v-model="checked"/>
+    </div>
+    <div v-if="checked">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(value, key) in rawScrapValues">
+                    <td>{{key}}</td>
+                    <td>{{value}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> -->
+</div>
+</template>
+<script>
+import scrap_values from './data/scrap_values.json'
+import scrap_values2 from './data/scrap_values2.json'
+import ai_station_values from './data/ai_station_values.json'
+import numberFormatter from 'number-formatter'
+import TopNavBar from './../TopNavBar.vue';
+export default {
+    name: 'ScrapCalculator',
+    components: {
+        TopNavBar,
+    },
+    data() {
+        return {
+            inputData: ``,
+            rawScrapValues: scrap_values,
+            rawScrapValues2: scrap_values2,
+            rawAIStationValues: ai_station_values,
+            outputData: [],
+            unknownData: [],
+            checked: false,
+            considerModded: false,
+        };
+    },
+    methods: {
+        parseData() {
+            var totalScrapValue = 0;
+            var outputData = []
+            var outputMap = new Map();
+            var rawScrapValues = this.rawScrapValues; // TODO: Push to API?
+            var rawScrapValues2 = this.rawScrapValues2; // TODO: Push to API?
+            var rawAIStationValues = this.rawAIStationValues; // TODO: Push to API?
+            var unknownData = [];
+            var considerModded = this.considerModded;
+            const skip_modded_key = 'Skipped Modded';
+            const regexp = /([0-9]+\t)?([0-9]+)\t(.+)/;
+            /* TODO, incorporate item type skips (e.g. Blueprints, Augmenters, Commodities) somehow */
+
+            rawScrapValues[skip_modded_key] = 1;
+
+            // Preprocess inventory rows
+            // Strip mods, ignore tech column, handle commodities, combine mutliple rows into one.
+            this.inputData.split("\n").forEach(function (rawInventoryLine) {
+                rawInventoryLine = rawInventoryLine.trim();
+                var matches = rawInventoryLine.match(regexp);
+                if (matches && matches.length == 4) {
+                    var name = matches[3];
+                    if (name.includes('[')) {
+                        if (considerModded) {
+                            name = skip_modded_key;
+                        } else {
+                            name = name.substring(0, name.lastIndexOf('['));
+                        }
+                    }
+                    var count = parseInt(matches[2]);
+                    if (outputMap.has(name)) {
+                        outputMap.set(name, outputMap.get(name) + count);
+                    } else {
+                        outputMap.set(name, count);
+                    }
+                } else {
+                    console.log("Invalid input row: ", rawInventoryLine);
+                }
+            });
+            // Compute summed values and unknowns
+            outputMap.forEach(function (value, key, map) {
+                var credits = 0;
+                var found_credits = false;
+                if (rawScrapValues[key] != null) {
+                    if (credits < rawScrapValues[key]) {
+                        credits = rawScrapValues[key];
+                        found_credits = true
+                    }
+                }
+                if (rawScrapValues2[key] != null) {
+                    if (credits < rawScrapValues2[key]) {
+                        credits = rawScrapValues2[key];
+                        found_credits = true
+                    }
+                }
+                if (rawAIStationValues[key] != null) {
+                    if (credits < rawAIStationValues[key]) {
+                        credits = rawAIStationValues[key];
+                        found_credits = true
+                    }
+                }
+                if (found_credits) {
+                    outputData.push({item: key, value: (value * credits)});
+                    totalScrapValue += value * credits;
+                } else {
+                    unknownData.push({item: key});
+                }
+            });
+            outputData.unshift({item: "Total Known Scrap Value", value: totalScrapValue});
+            outputData.sort(function(a, b) {
+                // Descending sort
+                if (a.value < b.value) {
+                    return 1;
+                } else if (a.value > b.value) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            });
+            // Final polishing pass to add commas
+            outputData.forEach(function(val, idx, arr) {
+                arr[idx].value = numberFormatter( "#,##0.", val.value);
+            });
+            this.outputData = outputData;
+            this.totalScrapValue = totalScrapValue;
+            this.unknownData = unknownData;
+        }
+    }
+}
+</script>
+<style>
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+th, td {
+  padding: 8px;
+  border: 1px solid black;
+}
+table td:nth-child(1) { text-align: left; }
+table td:nth-child(2) { text-align: right; }
+</style>
+
