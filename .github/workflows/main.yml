@@ -25,16 +25,16 @@ jobs:
       run: npm run build
 
     - name: Deploy to main branch
+      env:
+        PAT: ${{ secrets.BUILDER}}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git checkout -b build
         git add .
         git commit -m 'Deploy build'
-        git push origin build
+        git push -u origin build
         git checkout main
         git pull origin main
         git merge build
         git push origin main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
