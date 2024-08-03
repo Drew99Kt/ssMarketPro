@@ -31,7 +31,7 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git checkout -b build
-        git add .
+        git add dist
         git commit -m 'Deploy build'
         git push -u origin build --force
         git fetch origin main
