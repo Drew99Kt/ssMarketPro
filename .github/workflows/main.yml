@@ -33,7 +33,7 @@ jobs:
         git checkout -b build
         git add .
         git commit -m 'Deploy build'
-        git push -u origin build
+        git push -u origin build --force
         git checkout main
         git pull main
         git merge build
