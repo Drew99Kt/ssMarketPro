@@ -37,5 +37,5 @@ jobs:
         git fetch origin main
         git checkout main
         git pull origin main
-        git merge build --force
-        git push origin main
+        git merge build 
+        git push origin main --force
