@@ -1,4 +1,4 @@
-import{_ as c,T as d}from"./TopNavBar-NJis9dcE.js";import{c as h,a as m,b as r,w as i,v as p,F as f,o as x,d as T}from"./index-CCasent4.js";const C={name:"TechStripper",components:{TopNavBar:d},data(){return{textInput:`1 Hanukkah Menorah
+import{_ as c,T as d}from"./TopNavBar-qBwt0ZKV.js";import{c as h,a as m,b as r,w as i,v as p,F as f,o as x,d as T}from"./index-7Vizkf1Q.js";const C={name:"TechStripper",components:{TopNavBar:d},data(){return{textInput:`1 Hanukkah Menorah
     4 Perilium
     1 Shrinkonium
     13 Ace Pest Control Crate
