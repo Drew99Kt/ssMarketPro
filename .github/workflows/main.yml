@@ -35,6 +35,11 @@ jobs:
         git commit -m 'Deploy dist folder'
         git push -u origin build --force
         git fetch origin main
+        # Check if build branch matches main branch and exit if true
+        if git diff --quiet build origin/main; then
+          echo "No changes to deploy. Exiting."
+          exit 0
+        fi
         git checkout main
         git pull origin main
         git checkout build -- dist
