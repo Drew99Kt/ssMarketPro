@@ -8,11 +8,11 @@
         <br>
         <div>Fly Mode: <input type="checkbox" v-model="flymode"></div>
         <br>
+        <details>
         <span> Owned: {{ owned }}</span>
         <span> Unowned: {{ unowned }}</span>
         <span> Total: {{ total }}</span>
         <br>
-        <details>
         <summary>Team Ownership Breakdown</summary>
         <table class="table">
             <thead>
@@ -53,9 +53,6 @@ export default {
     },
     methods: {
         display_3d_force() {
-            var outputData = [];
-            var resolved_maps;
-            var resolved_teams;
             const UNOWNED_TEAM = 'Unowned';
             var _this = this;
             _this.owned = 0;
