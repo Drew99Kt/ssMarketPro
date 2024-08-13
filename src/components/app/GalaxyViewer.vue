@@ -12,6 +12,23 @@
         <span> Unowned: {{ unowned }}</span>
         <span> Total: {{ total }}</span>
         <br>
+        <details>
+        <summary>Team Ownership Breakdown</summary>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Team Name</th>
+                    <th>Galaxies</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="output in outputData" :key="output.item">
+                    <td>{{output.name}}</td>
+                    <td>{{output.value}}</td>
+                </tr>
+            </tbody>
+        </table>
+        </details>
         <div ref="displaygraph"></div>
     </div>
 </template>
@@ -31,10 +48,15 @@ export default {
             unowned: 0,
             total: 0,
             flymode: false,
+            outputData: [],
         };
     },
     methods: {
         display_3d_force() {
+            var outputData = [];
+            var resolved_maps;
+            var resolved_teams;
+            const UNOWNED_TEAM = 'Unowned';
             var _this = this;
             _this.owned = 0;
             _this.unowned = 0;
@@ -45,11 +67,16 @@ export default {
                     links: [],
                 };
             const LAYER_WILDSPACE = 3;
-            fetch('https://www.starsonata.com/webapi/galaxies/v1')
-            .then(r => r.json())
-            .then(json => {
-                this.api = json.api;
-                this.galaxies = json.galaxies;
+            Promise.all([
+                fetch('https://www.starsonata.com/webapi/galaxies/v1').then(r=> r.json()),
+                fetch('https://www.starsonata.com/webapi/teams/v1').then(r=> r.json())
+            ])
+            .then(resolved_api => {
+                var json_maps = resolved_api[0];
+                var json_teams = resolved_api[1];
+                var team_count_map = new Map();
+                this.api = json_maps.api;
+                this.galaxies = json_maps.galaxies;
                 var keys = Object.keys(this.galaxies);
                 var nodes_filter = new Set();
                 for (var i = 0; i < keys.length; i++) {
@@ -58,6 +85,13 @@ export default {
                         continue;
                     }
                     nodes_filter.add(current_galaxy.ID);
+                }
+                function increment_team_count(map, key) {
+                    if (map.has(key)) {
+                        map.set(key, map.get(key) + 1);
+                    } else {
+                        map.set(key, 1);
+                    }
                 }
                 for (i = 0; i < keys.length; i++) {
                     var current_galaxy = this.galaxies[keys[i]];
@@ -78,6 +112,7 @@ export default {
                     } else {
                         _this.unowned++;
                     }
+                    increment_team_count(team_count_map, node.owner !== undefined ? node.owner: UNOWNED_TEAM);
                     _this.total++;
                     graph_data.nodes.push(node)
                     current_galaxy.links.forEach(function(link) {
@@ -90,6 +125,16 @@ export default {
                         })
                     });
                 }
+                var team_count_list = Array.from(team_count_map, ([name, value]) => ({ name, value })).map(function(e) {
+                    var mapped_name = json_teams['teams'][e.name];
+                    if (mapped_name != undefined) {
+                        e.name = mapped_name['name'];
+                    }
+                    return e;
+                });
+                team_count_list.sort(function(a, b){return b.value-a.value})
+                this.outputData = team_count_list;
+
                 var config = {};
                 config.controlType = _this.flymode ? 'fly' : 'trackball';
                 const myGraph = ForceGraph3D(config);
