@@ -1,7 +1,6 @@
 <template>
     <TopNavBar />
-    <div class="wip">WIP</div>
-    <div class="container">WIP Galaxy Viewer.</div>
+    <div class="container">Galaxy Viewer</div>
     <br>
     <div class="container">
         <div><button @click="display_3d_force()">Fetch 3D Force</button></div>
@@ -9,11 +8,11 @@
         <div>Fly Mode: <input type="checkbox" v-model="flymode"></div>
         <br>
         <details>
-        <span> Owned: {{ owned }}</span>
+        <!-- <span> Owned: {{ owned }}</span>
         <span> Unowned: {{ unowned }}</span>
         <span> Total: {{ total }}</span>
-        <br>
-        <summary>Team Ownership Breakdown</summary>
+        <br> -->
+        <summary>Ownership Breakdown</summary>
         <table class="table">
             <thead>
                 <tr>
@@ -29,6 +28,7 @@
             </tbody>
         </table>
         </details>
+        <br>
         <div ref="displaygraph"></div>
     </div>
 </template>
@@ -36,7 +36,8 @@
 import App from '../../App.vue';
 import TopNavBar from './../TopNavBar.vue';
 import ForceGraph3D from '3d-force-graph';
-import SpriteText from 'three-spritetext';
+//import SpriteText from 'three-spritetext';
+import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
 
 export default {
     components: {
@@ -54,6 +55,8 @@ export default {
     methods: {
         display_3d_force() {
             const UNOWNED_TEAM = 'Unowned';
+            const OWNED_TEAM = 'Owned';
+            const TOTAL_TEAM = 'Total';
             var _this = this;
             _this.owned = 0;
             _this.unowned = 0;
@@ -95,13 +98,14 @@ export default {
                     if (!nodes_filter.has(current_galaxy.ID)) {
                         continue;
                     }
+                    const SCALE_FACTOR = 300;
                     var node = {
                         id: current_galaxy.ID,
                         name: current_galaxy.name,
                         val: 4,
                         owner: current_galaxy.owningTeamID,
-                        x: current_galaxy.x * 200,
-                        y: current_galaxy.y * 200,
+                        x: current_galaxy.x * SCALE_FACTOR,
+                        y: current_galaxy.y * SCALE_FACTOR,
                         z: 0,
                     };
                     if (node.owner !== undefined) {
@@ -109,7 +113,13 @@ export default {
                     } else {
                         _this.unowned++;
                     }
-                    increment_team_count(team_count_map, node.owner !== undefined ? node.owner: UNOWNED_TEAM);
+                    if (node.owner != undefined) {
+                        increment_team_count(team_count_map, node.owner);
+                        increment_team_count(team_count_map, OWNED_TEAM);
+                    } else {
+                        increment_team_count(team_count_map, UNOWNED_TEAM);
+                    }
+                    increment_team_count(team_count_map, TOTAL_TEAM);
                     _this.total++;
                     graph_data.nodes.push(node)
                     current_galaxy.links.forEach(function(link) {
@@ -134,20 +144,35 @@ export default {
 
                 var config = {};
                 config.controlType = _this.flymode ? 'fly' : 'trackball';
+                config.extraRenderers = [new CSS2DRenderer()];
                 const myGraph = ForceGraph3D(config);
                 myGraph(graph_element)
                 .nodeAutoColorBy('owner')
                 .graphData(graph_data)
                 .d3AlphaMin(0)
-                .d3AlphaDecay(0.0228)
-                .d3VelocityDecay(0.4)
+                .d3AlphaDecay(0.0228*2)
+                .d3VelocityDecay(0.4*2)
                 .nodeThreeObject(node => {
-                    const sprite = new SpriteText(node.name);
-                    sprite.material.depthWrite = false; // make sprite background transparent
-                    sprite.color = node.color;
-                    sprite.textHeight = 16;
-                    return sprite;
-                });
+                    // const sprite = new SpriteText(node.name);
+                    // sprite.material.depthWrite = false; // make sprite background transparent
+                    // sprite.color = node.color;
+                    // sprite.textHeight = 16;
+                    // return sprite;
+                    const nodeEl = document.createElement('div');
+                    nodeEl.textContent = node.name;
+                    nodeEl.style.color = node.color;
+                    nodeEl.className = 'node-label';
+                    const wrapper = new CSS2DObject(nodeEl);
+                    wrapper.center.set(0, 0);
+                    return wrapper;
+                })
+                .nodeThreeObjectExtend(true);
+
+                const ANIMATION_ZOOM_DELAY_MS = 1000;
+                const ANIMATION_ZOOM_INITIAL_DELAY_MS = 500;
+                setTimeout(function() {
+                    myGraph.zoomToFit(ANIMATION_ZOOM_DELAY_MS);
+                }, ANIMATION_ZOOM_INITIAL_DELAY_MS);
             });
 
         },
@@ -175,5 +200,11 @@ export default {
     align-items: center;
     color: red;
 }
-
+.node-label {
+    font-size: 16px;
+    padding: 1px 1px;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,0.5);
+    user-select: none;
+}
 </style>
