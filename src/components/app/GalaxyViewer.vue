@@ -105,7 +105,7 @@ export default {
                         val: 4,
                         owner: current_galaxy.owningTeamID,
                         x: current_galaxy.x * SCALE_FACTOR,
-                        y: current_galaxy.y * SCALE_FACTOR,
+                        y: -1.0 * current_galaxy.y * SCALE_FACTOR,
                         z: 0,
                     };
                     if (node.owner !== undefined) {
