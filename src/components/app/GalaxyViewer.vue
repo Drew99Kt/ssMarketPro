@@ -18,12 +18,18 @@
                 <tr>
                     <th>Team Name</th>
                     <th>Galaxies</th>
+                    <th>%</th>
+                    <th>Stations</th>
+                    <th>Stations per</th>
                 </tr>
             </thead>
             <tbody>
                 <tr v-for="output in outputData" :key="output.item">
                     <td>{{output.name}}</td>
                     <td>{{output.value}}</td>
+                    <td>{{output.value_fraction}}</td>
+                    <td>{{output.stations}}</td>
+                    <td>{{output.stations_per}}</td>
                 </tr>
             </tbody>
         </table>
@@ -75,6 +81,7 @@ export default {
                 var json_maps = resolved_api[0];
                 var json_teams = resolved_api[1];
                 var team_count_map = new Map();
+                var team_userbases_count_map = new Map();
                 this.api = json_maps.api;
                 this.galaxies = json_maps.galaxies;
                 var keys = Object.keys(this.galaxies);
@@ -86,11 +93,11 @@ export default {
                     }
                     nodes_filter.add(current_galaxy.ID);
                 }
-                function increment_team_count(map, key) {
+                function increment_team_count(map, key, value) {
                     if (map.has(key)) {
-                        map.set(key, map.get(key) + 1);
+                        map.set(key, map.get(key) + value);
                     } else {
-                        map.set(key, 1);
+                        map.set(key, value);
                     }
                 }
                 for (i = 0; i < keys.length; i++) {
@@ -104,6 +111,7 @@ export default {
                         name: current_galaxy.name,
                         val: 4,
                         owner: current_galaxy.owningTeamID,
+                        userbases: current_galaxy.userbases,
                         x: current_galaxy.x * SCALE_FACTOR,
                         y: -1.0 * current_galaxy.y * SCALE_FACTOR,
                         z: 0,
@@ -113,13 +121,18 @@ export default {
                     } else {
                         _this.unowned++;
                     }
+                    var userbases = node.userbases !== undefined ? node.userbases : 0;
                     if (node.owner != undefined) {
-                        increment_team_count(team_count_map, node.owner);
-                        increment_team_count(team_count_map, OWNED_TEAM);
+                        increment_team_count(team_count_map, node.owner, 1);
+                        increment_team_count(team_userbases_count_map, node.owner, userbases);
+                        increment_team_count(team_count_map, OWNED_TEAM, 1);
+                        increment_team_count(team_userbases_count_map, OWNED_TEAM, userbases);
                     } else {
-                        increment_team_count(team_count_map, UNOWNED_TEAM);
+                        increment_team_count(team_count_map, UNOWNED_TEAM, 1);
+                        increment_team_count(team_userbases_count_map, UNOWNED_TEAM, userbases);
                     }
-                    increment_team_count(team_count_map, TOTAL_TEAM);
+                    increment_team_count(team_count_map, TOTAL_TEAM, 1);
+                    increment_team_count(team_userbases_count_map, TOTAL_TEAM, userbases);
                     _this.total++;
                     graph_data.nodes.push(node)
                     current_galaxy.links.forEach(function(link) {
@@ -132,7 +145,11 @@ export default {
                         })
                     });
                 }
+                console.log(team_userbases_count_map);
                 var team_count_list = Array.from(team_count_map, ([name, value]) => ({ name, value })).map(function(e) {
+                    e.stations = team_userbases_count_map.get(e.name);
+                    e.value_fraction = Math.round(e.value / _this.total * 100);
+                    e.stations_per = Math.round(e.stations / e.value * 100) / 100;
                     var mapped_name = json_teams['teams'][e.name];
                     if (mapped_name != undefined) {
                         e.name = mapped_name['name'];
@@ -206,5 +223,19 @@ export default {
     border-radius: 2px;
     background-color: rgba(0,0,0,0.5);
     user-select: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
 }
 </style>
