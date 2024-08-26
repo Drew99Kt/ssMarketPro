@@ -58,6 +58,8 @@ export default {
 
             if (this.inputDestination.includes('@')) {
                 inputDestination = this.inputDestination.substring(this.inputDestination.lastIndexOf('[') + 1, this.inputDestination.indexOf(']'));
+            } else {
+                inputDestination = this.inputDestination;
             }
 
             if (inputDestination == '') {
@@ -118,6 +120,10 @@ export default {
                     map.set(key, value);
                     to_visit.push(key);
                 });
+
+                if (inputID == 0) {
+                    return;
+                }
 
                 // pathfinding
                 // Based on https://patrickkarsh.medium.com/dijkstras-shortest-path-algorithm-in-javascript-1621556a3a15
