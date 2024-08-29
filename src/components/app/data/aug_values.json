@@ -4242,12 +4242,12 @@
   {
     "name": "Crescent Augmenter",
     "tech": 23,
-    "stats": "Energy Charge +22%, Damage +99%, Range +22%, Tracking -50%, Turning +22%, Capacity +22%, Visibility +122%, Hostility +100%, Resistance to Damage -11%, Critical Hit Strength +99%"
+    "stats": "Energy Charge +22%, Damage +95%, Range +22%, Tracking -18%, Turning +22%, Capacity +22%, Visibility +122%, Hostility +100%, Resistance to Damage -15%, Critical Hit Strength +99%"
   },
   {
     "name": "Eclipse Augmenter",
     "tech": 23,
-    "stats": "Shield Max -33%, Energy Max -25%, Electric Tempering -30%, Damage +125%, Capacity -10%, Hostility +50%, Resistance to Damage +20%, Weapons Slots -2"
+    "stats": "Shield Max -15%, Electric Tempering -30%, Damage +112%, Capacity -5%, Hostility +50%, Resistance to Damage +20%, Weapons Slots -1"
   },
   {
     "name": "Empyreal Analemma Augmenter",
@@ -5188,5 +5188,15 @@
     "name": "Badger Charisma Augmenter",
     "tech": 23,
     "stats": "Shield Max +69%, Shield Recovery +69%, Electric Tempering +69%, Thrust +69%, Weight -69%, Capacity +69%, Visibility +69%, Hostility +69%, Resistance to Damage +28%, Weapons Slots -1"
+  },
+  {
+    "name": "Total Eclipse Illunis Augmenter",
+    "tech": 23,
+    "stats": "Shield Max +50%, Shield Recovery +25%, Energy Max +100%, Electric Tempering -30%, Damage +85%, Resistance to Damage -14%, Critical Hit Chance +10%, Critical Hit Strength +135%, Weapon Slots -3"
+  },
+  {
+    "name": "Redbeard's Modifications",
+    "tech": 23,
+    "stats": "Shield Max +60%, Energy Charge +45%, Electric Tempering -45%, Damage +70%, Tracking +38%, Weight +100%, Hostility +40%"
   }
 ]
