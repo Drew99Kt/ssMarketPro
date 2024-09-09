@@ -5198,5 +5198,15 @@
     "name": "Redbeard's Modifications",
     "tech": 23,
     "stats": "Shield Max +60%, Energy Charge +45%, Electric Tempering -45%, Damage +70%, Tracking +38%, Weight +100%, Hostility +40%"
+  },
+  {
+    "name":"Zebucaugmenter",
+    "tech": 21,
+    "stats":"Electric Tempering +30%, Damage +135%, Rate of Fire -25%, Tracking +95%, Docking Speed +60%, Turning +40%, Weapons Slots +1"
+  },
+  {
+    "name":"Empyreal Rage Augmenter",
+    "tech": 23,
+    "stats":"Electric Tempering -15%, Damage +60%, Rate of Fire +185%, Speed +13%, Hostility +25%, Weapons Slots -1"
   }
 ]
