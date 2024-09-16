@@ -18,9 +18,9 @@
                 <tr>
                     <th>Team Name</th>
                     <th>Galaxies</th>
-                    <th>%</th>
+                    <th>% Galaxies</th>
                     <th>Stations</th>
-                    <th>Stations per</th>
+                    <th>Stations/Galaxy</th>
                 </tr>
             </thead>
             <tbody>
