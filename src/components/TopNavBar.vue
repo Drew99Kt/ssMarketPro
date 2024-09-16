@@ -9,7 +9,8 @@
       <router-link to="/augcalculator" tag="button" class="button-style">Aug Calculator</router-link>
       <router-link to="/augfinder" tag="button" class="button-style">Aug Finder</router-link>
       <router-link to="/galaxyViewer" tag="button" class="button-style">Galaxy Viewer</router-link>
-      <router-link to="/warpNavigator" tag="button" class="button-style">Warp Navigator</router-link>
+      <router-link to="/warpNavigator" tag="button" class="button-style">Warp Nav</router-link>
+      <router-link to="/buildhelper" tag="button" class="button-style">Build Helper</router-link>
     </div>
   </template>
   

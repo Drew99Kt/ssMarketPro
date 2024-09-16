@@ -16,6 +16,7 @@ const routes = [
   {path: '/augFinder',name: 'augFinder',component:()=> import('./components/app/AugFinder.vue')},
   {path: '/galaxyViewer', name: 'galaxyViewer',component:()=> import('./components/app/GalaxyViewer.vue')},
   {path: '/warpNavigator', name: 'warpNavigator',component:()=> import('./components/app/WarpNavigator.vue')},
+  {path: '/buildHelper', name: 'buildHelper',component:()=> import('./components/app/BuildHelper.vue')},
 
 
   // Add more routes if needed
