@@ -6,8 +6,9 @@
     <br>
     <div class="container">
         <button @click="parseData">Build Helper </button>
+        <div>Round up blueprints: <input type="checkbox" v-model="bp_rounding"></div>
         <textarea v-model="inputData" placeholder="Enter your desired build:"></textarea>
-        <text v-for="build_goal in success_msg" >{{ build_goal }} <br> </text>
+        <text v-for="build_goal in builds" >{{ build_goal }} <br> </text>
         <div>
             <br><br>
             <table class="table">
@@ -40,13 +41,15 @@ export default {
             inputData: `5 Combined Aspect of the Rhino`,
             blueprints: blueprints,
             mats: [],
-            success_msg: [],
+            builds: [],
+            bp_rounding: false,
         };
     },
     methods: {
         parseData() {
+            var _that = this;
             this.mats = [];
-            var success_msg = this.success_msg = [];
+            var builds = this.builds = [];
             var blueprints = this.blueprints;
 
             function parse_input(input) {
@@ -60,10 +63,15 @@ export default {
                     var count = Number(e.substring(0, idx_first_space));
                     var name = e.substring(idx_first_space + 1).trim();
 
-                    goals.push({
-                        name: name,
-                        count: count,
-                    });
+                    var found_goal = goals.filter(e => e.name == name);
+                    if (found_goal.length >= 1) {
+                        found_goal[0].count += count;
+                    } else {
+                        goals.push({
+                            name: name,
+                            count: count,
+                        });
+                    }
                 });
 
                 return goals;
@@ -72,13 +80,14 @@ export default {
 
             function resolve_mats(goals, mats) {
                 var mats = {};
+                var bps = {};
 
                 goals.forEach(e => {
                     var multiplier = e.count;
                     var name = e.name;
 
                     var matched_blueprints = blueprints.filter(bp => {
-                        return bp.name.startsWith(name) && bp.name[name.length] == ' ';
+                        return bp.name.toLowerCase().startsWith(name) && bp.name[name.length] == ' ';
                     })
 
                     if (matched_blueprints.length == 0) {
@@ -86,10 +95,25 @@ export default {
                         return;
                     } else if (matched_blueprints.length > 1) {
                         console.log('Multiple matches, choosing first ' + name);
-                    } else {
-                        //TODO combine entries and also handle how many blueprints we actually need properly.
-                        success_msg.push(multiplier + ' ' + matched_blueprints[0].name);
                     }
+                    var blueprint_name = matched_blueprints[0].name;
+                    var blueprint_qty = 1;
+                    if (matched_blueprints[0].max_uses != '') {
+                        blueprint_qty = e.count / Number(matched_blueprints[0].max_uses);
+                        if (_that.bp_rounding) {
+                            blueprint_qty = Math.ceil(blueprint_qty);
+                        } else {
+                            blueprint_qty = Math.ceil(blueprint_qty * 100) / 100;
+                        }
+                        if (blueprint_name in bps) {
+                            bps[blueprint_name] += blueprint_qty;
+                        } else {
+                            bps[blueprint_name] = blueprint_qty;
+                        }
+                    } else {
+                        bps[blueprint_name] = blueprint_qty;
+                    }
+                    builds.push(blueprint_qty + ' ' + blueprint_name);
                     matched_blueprints[0].initial.forEach(mat => {
                         if (mat.name in mats) {
                             mats[mat.name] += mat.qty * multiplier;
@@ -106,11 +130,10 @@ export default {
                     });
                 })
 
-                console.log(mats);
                 return mats;
             }
 
-            var goals = parse_input(this.inputData);
+            var goals = parse_input(this.inputData.toLowerCase());
             this.mats = resolve_mats(goals);
             
         }
