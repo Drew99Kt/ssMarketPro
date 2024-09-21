@@ -55,7 +55,7 @@
     "output": [
       {
         "name": "Nanite",
-        "qty": "1"
+        "qty": "1000"
       }
     ],
     "initial": [
@@ -24375,7 +24375,7 @@
     "output": [
       {
         "name": "Lustrous Corporeal Projection Mechanism",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -24449,7 +24449,7 @@
     "output": [
       {
         "name": "Lustrous Deification Inversion Converter",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -24721,7 +24721,7 @@
     "output": [
       {
         "name": "Lustrous Gyroscopic Borer Platform",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -24861,7 +24861,7 @@
     "output": [
       {
         "name": "Lustrous Cybernetic Nullifier Shrike",
-        "qty": "1"
+        "qty": "4"
       }
     ],
     "initial": [
@@ -25753,7 +25753,7 @@
     "output": [
       {
         "name": "Luminous Cybernetic Nullifier Magpie",
-        "qty": "1"
+        "qty": "4"
       }
     ],
     "initial": [
@@ -25819,7 +25819,7 @@
     "output": [
       {
         "name": "Luminous Coadjutant Distribution Platform",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -25885,7 +25885,7 @@
     "output": [
       {
         "name": "Luminous Autonomous Condottiere Controlbot",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -25955,7 +25955,7 @@
     "output": [
       {
         "name": "Luminous Vexating Potentiation Analyzer",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -26025,7 +26025,7 @@
     "output": [
       {
         "name": "Luminous Entangled Divestment Shunt",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -26087,7 +26087,7 @@
     "output": [
       {
         "name": "Luminous Deification Inversion Converter",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -26537,7 +26537,7 @@
     "output": [
       {
         "name": "Luminous Transmographic Nullification Platform",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -26607,7 +26607,7 @@
     "output": [
       {
         "name": "Luminous Iterative Excavation Platform",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -28003,7 +28003,7 @@
     "output": [
       {
         "name": "Experimental Metal Fusion Drill",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28037,7 +28037,7 @@
     "output": [
       {
         "name": "Prototype Metal Fusion Drill",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28071,7 +28071,7 @@
     "output": [
       {
         "name": "Metal Fusion Drill",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28105,7 +28105,7 @@
     "output": [
       {
         "name": "Subterranean Metal Fusion Drill",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28151,7 +28151,7 @@
     "output": [
       {
         "name": "Planetary Core Metal Fusion Drill",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28197,7 +28197,7 @@
     "output": [
       {
         "name": "Experimental Silicon Fusion Extractor",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28231,7 +28231,7 @@
     "output": [
       {
         "name": "Prototype Silicon Fusion Extractor",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28265,7 +28265,7 @@
     "output": [
       {
         "name": "Silicon Fusion Extractor",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28299,7 +28299,7 @@
     "output": [
       {
         "name": "Subterranean Silicon Fusion Extractor",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28345,7 +28345,7 @@
     "output": [
       {
         "name": "Planetary Core Silicon Fusion Extractor",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28391,7 +28391,7 @@
     "output": [
       {
         "name": "Experimental Nuclear Fusion Collector",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28425,7 +28425,7 @@
     "output": [
       {
         "name": "Prototype Nuclear Fusion Collector",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28459,7 +28459,7 @@
     "output": [
       {
         "name": "Nuclear Fusion Collector",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28493,7 +28493,7 @@
     "output": [
       {
         "name": "Subterranean Nuclear Fusion Collector",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28535,7 +28535,7 @@
     "output": [
       {
         "name": "Planetary Core Nuclear Fusion Collector",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28577,7 +28577,7 @@
     "output": [
       {
         "name": "Experimental Fusion Harvester",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28615,7 +28615,7 @@
     "output": [
       {
         "name": "Prototype Fusion Harvester",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28653,7 +28653,7 @@
     "output": [
       {
         "name": "Fusion Harvester",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28691,7 +28691,7 @@
     "output": [
       {
         "name": "Subterranean Fusion Harvester",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28737,7 +28737,7 @@
     "output": [
       {
         "name": "Sky Farm Fusion Harvester",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28783,7 +28783,7 @@
     "output": [
       {
         "name": "Experimental Fusion Tree Cutter",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28821,7 +28821,7 @@
     "output": [
       {
         "name": "Prototype Fusion Tree Cutter",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28859,7 +28859,7 @@
     "output": [
       {
         "name": "Fusion Tree Cutter",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28897,7 +28897,7 @@
     "output": [
       {
         "name": "Subterranean Fusion Tree Cutter",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -28943,7 +28943,7 @@
     "output": [
       {
         "name": "Planetary Core Fusion Tree Cutter",
-        "qty": "1"
+        "qty": "10"
       }
     ],
     "initial": [
@@ -29461,7 +29461,7 @@
     "output": [
       {
         "name": "Tempered Steel Foundry",
-        "qty": "1"
+        "qty": "500"
       }
     ],
     "initial": [
@@ -29494,7 +29494,7 @@
     "output": [
       {
         "name": "Quasar Bottling Plant",
-        "qty": "1"
+        "qty": "100"
       }
     ],
     "initial": [
@@ -29527,7 +29527,7 @@
     "output": [
       {
         "name": "Prescient Machine Learning Institute",
-        "qty": "1"
+        "qty": "750"
       }
     ],
     "initial": [
@@ -29560,7 +29560,7 @@
     "output": [
       {
         "name": "Hazardous Space Still",
-        "qty": "1"
+        "qty": "350"
       }
     ],
     "initial": [
@@ -29593,7 +29593,7 @@
     "output": [
       {
         "name": "Figurine Assembly Line",
-        "qty": "1"
+        "qty": "350"
       }
     ],
     "initial": [
@@ -31462,7 +31462,7 @@
     "output": [
       {
         "name": "Tardis Station Extension",
-        "qty": "1"
+        "qty": "5"
       }
     ],
     "initial": [
@@ -47186,7 +47186,7 @@
       },
       {
         "name": "Complicated Factory Parts",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -49759,7 +49759,7 @@
     "output": [
       {
         "name": "Passable Pillbox",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -49821,7 +49821,7 @@
     "output": [
       {
         "name": "Proper Pillbox",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -50115,7 +50115,7 @@
     "output": [
       {
         "name": "Lipo Drone",
-        "qty": "1"
+        "qty": "4"
       }
     ],
     "initial": [
@@ -50157,7 +50157,7 @@
     "output": [
       {
         "name": "Soul Magic",
-        "qty": "1"
+        "qty": "5"
       }
     ],
     "initial": [
@@ -50405,7 +50405,7 @@
     "output": [
       {
         "name": "DWO Drone",
-        "qty": "1"
+        "qty": "4"
       }
     ],
     "initial": [
@@ -50447,7 +50447,7 @@
     "output": [
       {
         "name": "Siege Drone",
-        "qty": "1"
+        "qty": "4"
       }
     ],
     "initial": [
@@ -50489,7 +50489,7 @@
     "output": [
       {
         "name": "Love Cylinder Drone",
-        "qty": "1"
+        "qty": "4"
       }
     ],
     "initial": [
@@ -50835,7 +50835,7 @@
     "output": [
       {
         "name": "Venusian Drone",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -50885,7 +50885,7 @@
     "output": [
       {
         "name": "Mercurian Drone",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -50935,7 +50935,7 @@
     "output": [
       {
         "name": "Solarian Drone",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -50985,7 +50985,7 @@
     "output": [
       {
         "name": "Privateer Drone",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -55235,7 +55235,7 @@
     "output": [
       {
         "name": "Mad Kidd Drone",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -55297,7 +55297,7 @@
     "output": [
       {
         "name": "Mad Kidd+ Drone",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -55363,7 +55363,7 @@
     "output": [
       {
         "name": "Hybrid Kidd Drone",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -55437,7 +55437,7 @@
     "output": [
       {
         "name": "Honey Badger Drone",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -55511,7 +55511,7 @@
     "output": [
       {
         "name": "Heavy Kidd Drone",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -55561,7 +55561,7 @@
     "output": [
       {
         "name": "Captain Bling Drone",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -55611,7 +55611,7 @@
     "output": [
       {
         "name": "Armada Kidd Drone",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -55681,7 +55681,7 @@
     "output": [
       {
         "name": "Perseus Auto Mining Drone",
-        "qty": "1"
+        "qty": "4"
       }
     ],
     "initial": [
@@ -55743,7 +55743,7 @@
     "output": [
       {
         "name": "Taurus Auto Mining Drone",
-        "qty": "1"
+        "qty": "4"
       }
     ],
     "initial": [
@@ -55805,7 +55805,7 @@
     "output": [
       {
         "name": "Lynx Auto Mining Drone",
-        "qty": "1"
+        "qty": "4"
       }
     ],
     "initial": [
@@ -68105,7 +68105,7 @@
     "output": [
       {
         "name": "Radish Torch",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -114073,7 +114073,7 @@
       },
       {
         "name": "Hephaestus Research Module",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -114151,7 +114151,7 @@
       },
       {
         "name": "Hephaestus Research Module",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -116313,7 +116313,7 @@
       },
       {
         "name": "Poseidon Research Module",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -116391,7 +116391,7 @@
       },
       {
         "name": "Poseidon Research Module",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -118581,7 +118581,7 @@
       },
       {
         "name": "Ares Research Module",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -120639,7 +120639,7 @@
       },
       {
         "name": "Zeus Research Module",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -120717,7 +120717,7 @@
       },
       {
         "name": "Zeus Research Module",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
@@ -122803,7 +122803,7 @@
       },
       {
         "name": "Hermes Research Module",
-        "qty": "1"
+        "qty": "2"
       }
     ],
     "initial": [
@@ -122885,7 +122885,7 @@
       },
       {
         "name": "Hermes Research Module",
-        "qty": "1"
+        "qty": "3"
       }
     ],
     "initial": [
