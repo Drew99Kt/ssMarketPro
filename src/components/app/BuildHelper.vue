@@ -25,7 +25,6 @@
                     </tr>
                 </tbody>
             </table>
-            <br><br>
         </div>
     </div>
 </template>
@@ -79,6 +78,8 @@ export default {
             }
 
             function resolve_mats(goals, mats) {
+                var produced = [];
+                var blueprints_consumed = [];
                 var mats = {};
                 var bps = {};
 
@@ -98,8 +99,26 @@ export default {
                     }
                     var blueprint_name = matched_blueprints[0].name;
                     var blueprint_qty = 1;
+
+                    // Handle multiple outputted product qty
+                    var matched_products = matched_blueprints[0]['output'].filter(product => {
+                        return product.name.toLowerCase() == name;
+                    });
+                    if (matched_products.length != 1) {
+                        console.log('Unable to find product in blueprint output');
+                        return;
+                    }
+                    var blueprint_produced_qty = matched_products[0].qty;
+
+                    //Round up goal to next blueprint produced quantity
+                    multiplier = Math.ceil(multiplier / blueprint_produced_qty) * blueprint_produced_qty;
+
+                    // Note how many products produced to need to the user
+                    produced.push(multiplier + ' ' + matched_products[0].name);
+
+                    // Handle max_uses
                     if (matched_blueprints[0].max_uses != '') {
-                        blueprint_qty = e.count / Number(matched_blueprints[0].max_uses);
+                        blueprint_qty = multiplier / Number(matched_blueprints[0].max_uses);
                         if (_that.bp_rounding) {
                             blueprint_qty = Math.ceil(blueprint_qty);
                         } else {
@@ -113,7 +132,11 @@ export default {
                     } else {
                         bps[blueprint_name] = blueprint_qty;
                     }
-                    builds.push(blueprint_qty + ' ' + blueprint_name);
+
+                    // Note how many blueprints we need to the user
+                    blueprints_consumed.push(blueprint_qty + ' ' + blueprint_name);
+
+                    // We have the blueprints, do the required material aggregation
                     matched_blueprints[0].initial.forEach(mat => {
                         if (mat.name in mats) {
                             mats[mat.name] += mat.qty * multiplier;
@@ -129,6 +152,15 @@ export default {
                         }
                     });
                 })
+
+                builds.push('Products:');
+                builds.push('');
+                produced.forEach(e => builds.push(e));
+                builds.push('');
+                builds.push('Blueprints:');
+                builds.push('');
+                blueprints_consumed.forEach(e => builds.push(e));
+                builds.push('');
 
                 return mats;
             }
