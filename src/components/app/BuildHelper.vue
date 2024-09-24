@@ -183,7 +183,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: grey;
+    /* color: grey; */
 }
 
 textarea {
@@ -196,6 +196,6 @@ textarea {
 table td:nth-child(1) { text-align: left; }
 table td:nth-child(2) { text-align: right; }
 table tr:nth-child(odd) td{
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
 }
 </style>

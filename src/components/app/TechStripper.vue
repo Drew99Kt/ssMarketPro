@@ -111,7 +111,7 @@
   }
   
   .greyed-row {
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
   }
   
   .output {
@@ -128,6 +128,6 @@
   .sticky-header {
     position: sticky;
     top: 0;
-    background-color: white;
+    /* background-color: white; */
   }
     </style>

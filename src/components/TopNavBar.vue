@@ -44,4 +44,9 @@
     outline: none;
     box-shadow: 0 0 0 3px rgba(179, 185, 192, 0.5);
   }
+
+:root {
+  color-scheme: light dark;
+}
+
   </style>

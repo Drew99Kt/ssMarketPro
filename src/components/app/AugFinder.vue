@@ -329,6 +329,6 @@ textarea {
 table td:nth-child(1) { text-align: left; }
 table td:nth-child(2) { text-align: left; }
 table tr:nth-child(odd) td{
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
 }
 </style>
