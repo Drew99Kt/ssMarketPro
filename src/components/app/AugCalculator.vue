@@ -113,7 +113,7 @@ Qa'ik Banu Akk'oj`,
                     var key = keys[i];
                     var value = acc[key];
                     var value_suffix = key.includes('_offset') ? '' : '%';
-                    var raw_value = key == 'Electric Tempering' ? - value : value; /* negative is actually positive in this case */
+                    var raw_value = (key == 'Electric Tempering' || key == 'Weight') ? - value : value; /* negative is actually positive in this case */
                     output_table.push({name: key, value: (value > 0 ? '+' : '') + value + value_suffix, raw_value: raw_value});
                 }
                 outputData = output_table;
