@@ -19,7 +19,7 @@
                 <tbody>
                     <tr v-for="stat in outputData">
                         <td>{{stat.name}}</td>
-                        <td :style="{color: stat.raw_value > 0 ? 'green' : stat.raw_value < 0 ? 'red' : 'grey'}">{{stat.value}}</td>
+                        <td :style="{color: stat.color}">{{stat.value}}</td>
                     </tr>
                 </tbody>
             </table>
@@ -113,8 +113,15 @@ Qa'ik Banu Akk'oj`,
                     var key = keys[i];
                     var value = acc[key];
                     var value_suffix = key.includes('_offset') ? '' : '%';
-                    var raw_value = key == 'Electric Tempering' ? - value : value; /* negative is actually positive in this case */
-                    output_table.push({name: key, value: (value > 0 ? '+' : '') + value + value_suffix, raw_value: raw_value});
+                    var color = 'white';
+                    if (key == 'Electric Tempering' || key == 'Weight') {
+                        color = (value > 0) ? 'red' : 'green';
+                    } else if (key == 'Hostility' || key == 'Inertial Dampening' || key == 'Visibility') {
+                        color = 'yellow'
+                    } else {
+                        color = (value > 0) ? 'green' : 'red';
+                    }
+                    output_table.push({name: key, value: (value > 0 ? '+' : '') + value + value_suffix, color: color});
                 }
                 outputData = output_table;
             });
