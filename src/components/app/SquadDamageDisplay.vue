@@ -1,5 +1,6 @@
 <template>
     <TopNavBar />
+    <div class="attribution">credits to grand.plat </div>
     <div class="container">
         <textarea v-model="inputData" placeholder="Enter data" @input="processData"></textarea>
       
@@ -177,9 +178,19 @@ th, td {
   border: 1px solid black;
 }
 
-  .container {
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attribution {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  </style>
+    color: red;
+    font-size: small;
+    /* color: grey; */
+}
+
+</style>

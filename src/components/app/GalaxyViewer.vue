@@ -1,5 +1,6 @@
 <template>
     <TopNavBar />
+    <div class="attribution">credits to Yuugh</div>
     <div class="container">Galaxy Viewer</div>
     <br>
     <div class="container">
@@ -237,5 +238,14 @@ th, td {
 
 tr:nth-child(odd) {
   /* background-color: #f2f2f2; */
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-size: small;
+    /* color: grey; */
 }
 </style>

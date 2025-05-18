@@ -1,6 +1,6 @@
 <template>
     <TopNavBar />
-    <div class="wip">credits to DragonGod004 & enk</div>
+    <div class="attribution">credits to Yuugh & DragonGod004 & enk</div>
     <br>
     <div class="container">WIP Build Helper (Exact Name).</div>
     <br>
@@ -179,13 +179,6 @@ export default {
     align-items: center;
 }
 
-.wip {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* color: grey; */
-}
-
 textarea {
   width: 100%;
   height: 200px;
@@ -197,5 +190,14 @@ table td:nth-child(1) { text-align: left; }
 table td:nth-child(2) { text-align: right; }
 table tr:nth-child(odd) td{
     /* background-color: rgb(245, 245, 245); */
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-size: small;
+    /* color: grey; */
 }
 </style>

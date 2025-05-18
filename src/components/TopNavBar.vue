@@ -1,4 +1,9 @@
 <template>
+    <div id="banner">
+        <div id="banner-content">
+            SSMarketPro is being rewritten <a href="https://www.sonatabrain.com">here</a>. Stay tuned! - Yuugh
+        </div>
+    </div>
     <div>
       <router-link to="/market" tag="button" class="button-style">Market Tool</router-link>
       <router-link to="/techstripper" tag="button" class="button-style">TechStripper Tool</router-link>
@@ -49,4 +54,18 @@
   color-scheme: light dark;
 }
 
+div#banner {
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  /*background-color: #DDEEEE; */
+  width: 100%;
+}
+div#banner-content {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #000;
+  font-size: small;
+}
   </style>

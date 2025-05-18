@@ -1,5 +1,6 @@
 <template>
     <TopNavBar />
+    <div class="attribution">credits to grand.plat</div>
     <div class="wip">WIP</div>
     <div class="container">Currently this will only split the items randomly</div>
     <br>
@@ -127,4 +128,14 @@
     margin-top: 10px;
     width: 75%;
   }
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-size: small;
+    /* color: grey; */
+}
+
   </style>
