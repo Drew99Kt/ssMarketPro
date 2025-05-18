@@ -1,6 +1,6 @@
 <template>
 <TopNavBar />
-<div class="wip">WIP</div>
+<div class="attribution">credits to Yuugh & DragonGod004 </div>
 <div class="container">Currently this will calculate total scrap value of a pasted inventory using a partial (and potentially outdated) scrap database.</div>
 <br>
 <div class="container">
@@ -199,5 +199,15 @@ th, td {
 }
 table td:nth-child(1) { text-align: left; }
 table td:nth-child(2) { text-align: right; }
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-size: small;
+    /* color: grey; */
+}
+
 </style>
 

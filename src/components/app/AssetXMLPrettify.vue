@@ -1,6 +1,6 @@
 <template>
     <TopNavBar />
-    <div class="wip">WIP</div>
+    <div class="attribution">credits to Yuugh</div>
     <div class="container">WIP Asset XML Prettify utility.</div>
     <br>
     <div class="container">
@@ -257,4 +257,14 @@ table td:nth-child(3) { text-align: right; }
     align-items: center;
     margin-top: 10px;
     width: 75%;
-}</style>
+}
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-size: small;
+    /* color: grey; */
+}
+
+</style>

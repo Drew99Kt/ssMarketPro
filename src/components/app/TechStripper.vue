@@ -1,5 +1,6 @@
 <template>
   <TopNavBar />
+  <div class="attribution">credits to grand.plat</div>
     <div class="container">
       <textarea v-model="textInput" placeholder="Paste items here"></textarea>
 
@@ -130,4 +131,14 @@
     top: 0;
     /* background-color: white; */
   }
-    </style>
+
+.attribution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: red;
+  font-size: small;
+  /* color: grey; */
+}
+
+</style>

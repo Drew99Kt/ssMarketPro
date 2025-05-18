@@ -1,6 +1,6 @@
 <template>
     <TopNavBar />
-    <div class="wip">WIP</div>
+    <div class="attribution">credits to Yuugh</div>
     <div class="container">WIP Warp Navigator.</div>
     <br>
     <div class="container">
@@ -191,5 +191,14 @@ export default {
   height: 50px;
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-size: small;
+    /* color: grey; */
 }
 </style>

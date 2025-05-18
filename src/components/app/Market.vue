@@ -1,5 +1,6 @@
 <template>
   <TopNavBar />
+  <div class="attribution">credits to grand.plat</div>
   <div class="container">
     <textarea v-model="textInput" placeholder="Enter text separated by |"></textarea>
     <button @click="resetNumbers">Reset Numbers</button>
@@ -142,4 +143,14 @@ th, td {
   top: 0;
   /* background-color: white; */
 }
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-size: small;
+    /* color: grey; */
+}
+
   </style>

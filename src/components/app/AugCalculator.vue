@@ -1,6 +1,6 @@
 <template>
     <TopNavBar />
-    <div class="wip">WIP</div>
+    <div class="attribution">credits to Yuugh</div>
     <div class="container">WIP Augmenter Calculator (Exact name).</div>
     <br>
     <div class="container">
@@ -138,13 +138,6 @@ Qa'ik Banu Akk'oj`,
     align-items: center;
 }
 
-.wip {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: red;
-}
-
 textarea {
   width: 100%;
   height: 200px;
@@ -157,4 +150,14 @@ table td:nth-child(2) { text-align: right; }
 table tr:nth-child(odd) td{
     /* background-color: rgb(245, 245, 245); */
 }
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-size: small;
+    /* color: grey; */
+}
+
 </style>

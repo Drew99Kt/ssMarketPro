@@ -1,6 +1,6 @@
 <template>
     <TopNavBar />
-    <div class="wip">WIP</div>
+    <div class="attribution">credits to Yuugh</div>
     <div class="container">WIP Augmenter Finder.</div>
     <br>
     <div class="container">
@@ -331,4 +331,14 @@ table td:nth-child(2) { text-align: left; }
 table tr:nth-child(odd) td{
     /* background-color: rgb(245, 245, 245); */
 }
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-size: small;
+    /* color: grey; */
+}
+
 </style>
