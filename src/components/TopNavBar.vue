@@ -1,21 +1,21 @@
 <template>
-    <!-- <div id="banner">
+    <div id="banner">
         <div id="banner-content">
             SSMarketPro is being rewritten <a href="https://www.sonatabrain.com">here</a>. Stay tuned! - Yuugh
         </div>
-    </div> -->
+    </div>
     <div>
       <router-link to="/market" tag="button" class="button-style">Market Tool</router-link>
       <router-link to="/techstripper" tag="button" class="button-style">TechStripper Tool</router-link>
       <router-link to="/squaddamagedisplay" tag="button" class="button-style">Squad Damage Display</router-link>
       <router-link to="/lootsplitter" tag="button" class="button-style">Loot Splitter</router-link>
-      <!-- <router-link to="/scrapcalculator" tag="button" class="button-style">Scrap Calculator</router-link>
+      <router-link to="/scrapcalculator" tag="button" class="button-style">Scrap Calculator</router-link>
       <router-link to="/assetXMLPrettify" tag="button" class="button-style">Asset XML Prettify</router-link>
       <router-link to="/augcalculator" tag="button" class="button-style">Aug Calculator</router-link>
       <router-link to="/augfinder" tag="button" class="button-style">Aug Finder</router-link>
       <router-link to="/galaxyViewer" tag="button" class="button-style">Galaxy Viewer</router-link>
       <router-link to="/warpNavigator" tag="button" class="button-style">Warp Nav</router-link>
-      <router-link to="/buildhelper" tag="button" class="button-style">Build Helper</router-link> -->
+      <router-link to="/buildhelper" tag="button" class="button-style">Build Helper</router-link>
     </div>
   </template>
   
