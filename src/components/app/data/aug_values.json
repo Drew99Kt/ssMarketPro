@@ -5208,5 +5208,25 @@
     "name":"Empyreal Rage Augmenter",
     "tech": 23,
     "stats":"Electric Tempering -15%, Damage +60%, Rate of Fire +185%, Speed +13%, Hostility +25%, Weapons Slots -1"
+  },
+  {
+    "name":"Scarra's Modifications",
+    "tech": 23,
+    "stats":"Shield Max +100%, Energy Charge +57.5%, Electric Tempering +24%, Damage +27.5%, Rate of Fire +122.5%, Capacity +17.5%, Resistance to Damage -5%, Critical Hit Chance +20%, Transference Power +20%"
+  },
+  {
+    "name":"Carmine's Modifications",
+    "tech": 23,
+    "stats":"Shield Max +50%, Energy Max +110%, Damage +43%, Rate of Fire +72%, Range +30%, Critical Hit Chance -10%, Critical Hit Strength +200%, Weapons Slots -1"
+  },
+  {
+    "name":"Angre's Modifications",
+    "tech": 23,
+    "stats":"Shield Max +62%, Electric Tempering +18%, Damage +78%, Resistance to Damage +23%, Critical Hit Chance +18%, Critical Hit Strength +78%, Weapons Slots +2"
+  },
+  {
+    "name":"Cybernetic Gonzales Augmenter",
+    "tech": 23,
+    "stats":"Shield Max +115%, Electric Tempering -20%, Damage +20%, Range +40%, Tracking +60%, Speed +30%, Thrust -32.5%, Turning -32.5%, Critical Hit Chance +10%, Critical Hit Strength +88%"
   }
 ]
